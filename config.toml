@@ -1,0 +1,28 @@
+baseURL = "http://samfeldstein.com/"
+languageCode = "en-us"
+title = "Sam Feldstein"
+theme = "mainroad"
+
+[Params]
+description = "Sam Feldstein's personal website. Sam writes fantasy, horror, and science fiction stories."
+post_meta = ["date"]
+customCSS = ["css/custom.css"]
+pager = true
+
+[Params.style.vars]
+fontFamilyPrimary = "'Courier New', 'serif'"
+fontFamilySecondary = "'Fira Code', 'monospace'"
+
+[Params.sidebar]
+  home = "right"
+  list = "right"  # Configure layout for list pages
+  single = true # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "taglist", "social"]
+
+  [Params.widgets.social]
+  cached = false # activate cache if true
+  instagram = "seldstein"
+  email = "samfeldstein@proton.me"
+
+
