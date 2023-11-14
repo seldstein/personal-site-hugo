@@ -9,11 +9,9 @@ pager: false
 sidebar: false
 ---
 
-## Digital Notebook
+## Notebook
 
-It's a digital notebook.
-
----
+My [digital workspace](https://publish.obsidian.md/sam-feldstein/), where I keep notes, project documents, and other adversaria.
 
 ## Like Father Like Son Like Movies
 
