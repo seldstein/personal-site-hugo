@@ -1,5 +1,7 @@
 ---
 title: "Cinderella in Reverse: 'Roman Holiday'"
+description: Rather than putting the glass slipper on, Ann kicks it off.
+lead: Rather than putting the glass slipper on, Ann kicks it off.
 date: 2023-01-24T00:46:44-06:00
 draft: false
 tags:
