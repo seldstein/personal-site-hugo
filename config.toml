@@ -13,6 +13,11 @@ pager = true
 fontFamilyPrimary = "'Courier New', 'serif'"
 fontFamilySecondary = "'Fira Code', 'monospace'"
 
+[Params.logo]
+  # image = "img/placeholder.png" # Logo image. Path relative to "static"
+  # title = "Mainroad" # Logo title, otherwise will use site title
+  subtitle = "Just another writer"
+
 [Params.sidebar]
   home = "right"
   list = "right"  # Configure layout for list pages
