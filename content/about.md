@@ -1,6 +1,6 @@
 ---
 title: "About"
-draft: false
+draft: true
 menu:
   - main
   - side
@@ -9,6 +9,4 @@ pager: false
 sidebar: false
 ---
 
-Hi, I’m **Sam Feldstein** and I write stories.  The Notebook link in the navbar will take you to my digital workspace, where I keep my project documents and other adversaria. The best way to keep up with my work is to subscribe to my newsletter. If you'd like to get in touch, you can email me at samfeldstein@proton.me.
-
----
+Hi, I’m **Sam Feldstein** and I write stories. I'm fond of books, movies, and blogs. The best way to keep up with my work is to subscribe to my [newsletter](https://samfeldstein.substack.com/). If you'd like to get in touch, you can email me at [samfeldstein@proton.me](mailto:samfeldstein@proton.me).
