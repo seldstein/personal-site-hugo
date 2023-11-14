@@ -1,6 +1,5 @@
 ---
-title: "Published Work"
-date: 2023-11-12T23:51:09-06:00
+title: "Published Writing"
 draft: false
 menu:
   - main

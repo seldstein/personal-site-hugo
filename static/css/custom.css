@@ -4,6 +4,7 @@ html {
 
 h1, .main__title {
     font-size: 2.25rem;
+    border-bottom: 1px solid #ebebeb;
 }
 
 p.list__lead.post__lead {
