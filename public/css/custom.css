@@ -1,0 +1,41 @@
+html {
+    font-size: 20px;
+}
+
+h1, .main__title {
+    font-size: 2.25rem;
+    border-bottom: 1px solid #ebebeb;
+}
+
+p.list__lead.post__lead {
+    font-size: 1rem;
+}
+
+article.list__item.post {
+    padding: 0;
+}
+
+.logo__tagline {
+    font-style: italic;
+}
+
+.menu__link {
+    padding: .4rem .8rem;
+}
+
+div.wrapper a:hover {
+    text-decoration: underline;
+}
+
+div.primary a:hover {
+    background-color: #e0e0e0;
+}
+
+div.wrapper .btn:hover {
+    text-decoration: none;
+}
+
+.menu__item,
+.btn {
+	transition: background-color;
+}
