@@ -1,6 +1,6 @@
 ---
 title: "Other Stuff"
-draft: true
+draft: false
 menu:
   - main
   - side
