@@ -6,6 +6,7 @@ menu:
   - side
   - footer
 weight: 1
+sidebar: false
 pager: false
 ---
 

@@ -27,9 +27,13 @@ fontFamilySecondary = "'Fira Code', 'monospace'"
 
   [Params.widgets.social]
   cached = true
-  instagram = "seldstein"
   newsletter = "samfeldstein"
+  instagram = "seldstein"
   email = "samfeldstein@proton.me"
+
+  [[Params.widgets.social.custom]]
+  title = "Notebook"
+  url = "https://publish.obsidian.md/sam-feldstein/homepage"
 
   [Params.widgets.search]
   cached = true
