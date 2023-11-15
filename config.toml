@@ -26,8 +26,18 @@ fontFamilySecondary = "'Fira Code', 'monospace'"
   widgets = ["search", "recent", "taglist", "social"]
 
   [Params.widgets.social]
-  cached = false # activate cache if true
+  cached = true
   instagram = "seldstein"
+  newsletter = "samfeldstein"
   email = "samfeldstein@proton.me"
+
+  [Params.widgets.search]
+  cached = true
+
+[Params.widgets.recent]
+  cached = true
+
+[Params.widgets.taglist]
+  cached = true
 
 
