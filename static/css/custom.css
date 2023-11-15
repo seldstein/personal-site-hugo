@@ -25,12 +25,14 @@ article.list__item.post {
 
 div.wrapper a:hover {
     text-decoration: underline;
+}
+
+div.primary a:hover {
     background-color: #e0e0e0;
 }
 
 div.wrapper .btn:hover {
     text-decoration: none;
-    background-color: #e22d30;
 }
 
 .menu__item,
