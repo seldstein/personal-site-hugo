@@ -25,5 +25,5 @@ article.list__item.post {
 
 .menu__item,
 .btn {
-	transition: background-color ease-out;
+	transition: background-color;
 }
