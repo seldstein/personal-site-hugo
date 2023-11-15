@@ -14,3 +14,7 @@ p.list__lead.post__lead {
 article.list__item.post {
     padding: 0;
 }
+
+.logo__tagline {
+    font-style: italic;
+}

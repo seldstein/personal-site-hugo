@@ -16,7 +16,7 @@ fontFamilySecondary = "'Fira Code', 'monospace'"
 [Params.logo]
   # image = "img/placeholder.png" # Logo image. Path relative to "static"
   # title = "Mainroad" # Logo title, otherwise will use site title
-  subtitle = "Just another writer"
+  subtitle = "The teeth? We don't know. Signs from HaShem? Don't know. Helping others? Couldn't hurt."
 
 [Params.sidebar]
   home = "right"
@@ -28,8 +28,12 @@ fontFamilySecondary = "'Fira Code', 'monospace'"
   [Params.widgets.social]
   cached = true
   newsletter = "samfeldstein"
-  instagram = "seldstein"
   email = "samfeldstein@proton.me"
+  instagram = "seldstein"
+
+  [[Params.widgets.social.custom]]
+  title= "Letterboxd"
+  url = "https://letterboxd.com/HoogoSteeglitz/"
 
   [[Params.widgets.social.custom]]
   title = "Notebook"
