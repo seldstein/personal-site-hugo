@@ -23,6 +23,16 @@ article.list__item.post {
     padding: .4rem .8rem;
 }
 
+div.wrapper a:hover {
+    text-decoration: underline;
+    background-color: #e0e0e0;
+}
+
+div.wrapper .btn:hover {
+    text-decoration: none;
+    background-color: #e22d30;
+}
+
 .menu__item,
 .btn {
 	transition: background-color;
