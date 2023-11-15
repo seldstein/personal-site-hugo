@@ -5,7 +5,7 @@ theme = "mainroad"
 
 [Params]
 description = "Sam Feldstein's personal website. Sam writes fantasy, horror, and science fiction stories."
-post_meta = ["date"]
+post_meta = ["date", "categories"]
 customCSS = ["css/custom.css"]
 pager = true
 
@@ -23,7 +23,7 @@ fontFamilySecondary = "'Fira Code', 'monospace'"
   list = "right"  # Configure layout for list pages
   single = true # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["recent", "taglist", "social"]
+  widgets = ["recent", "categories", "taglist", "social"]
 
   [Params.widgets.social]
   cached = true
