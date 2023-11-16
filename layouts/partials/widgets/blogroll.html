@@ -4,9 +4,81 @@
 	<div class="widget-blogroll__content widget__content">
         {{- with .Site.Params.widgets.blogroll.waitbutwhy }}
 		<div class="widget-blogroll__item widget__item">
-			<a class="widget-blogroll__link widget__link" title="Wait But Why" href="https://{{ . }}.com/">
+			<a class="widget-blogroll__link widget__link" title="Wait But Why" href="https://{{ . }}.com">
 				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
-				<span>Wait But Why</span>
+				<span>Tim Urban</span>
+			</a>
+		</div>
+		{{- end }}
+        {{- with .Site.Params.widgets.blogroll.paulgraham }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Paul Graham" href="https://{{ . }}.com">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Paul Graham</span>
+			</a>
+		</div>
+		{{- end }}
+        {{- with .Site.Params.widgets.blogroll.gwern }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Gwern" href="https://{{ . }}.net">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Gwern</span>
+			</a>
+		</div>
+		{{- end }}
+        {{- with .Site.Params.widgets.blogroll.scottaaronson }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Scott Aaronson" href="https://{{ . }}.blog">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Scott Aaronson</span>
+			</a>
+		</div>
+		{{- end }}
+        {{- with .Site.Params.widgets.blogroll.freddiedeboer }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Freddie deBoer" href="https://{{ . }}.substack.com">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Freddie deBoer</span>
+			</a>
+		</div>
+		{{- end }}
+        {{- with .Site.Params.widgets.blogroll.scottalexander }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Scott Alexander" href="https://{{ . }}.substack.com">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Scott Alexander</span>
+			</a>
+		</div>
+		{{- end }}
+        {{- with .Site.Params.widgets.blogroll.henrikkarlsson }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Henrik Karlsson" href="https://www.{{ . }}.xyz">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Henrik Karlsson</span>
+			</a>
+		</div>
+		{{- end }}
+        {{- with .Site.Params.widgets.blogroll.matthewyglesias }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Matthew Yglesias" href="https://www.{{ . }}.com">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Matthew Yglesias</span>
+			</a>
+		</div>
+		{{- end }}
+        {{- with .Site.Params.widgets.blogroll.corydoctorow }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Cory Doctorow" href="https://{{ . }}.net">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Cory Doctorow</span>
+			</a>
+		</div>
+		{{- end }}
+		{{- with .Site.Params.widgets.blogroll.davidperell }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="David Perell" href="https://{{ . }}.com">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>David Perell</span>
 			</a>
 		</div>
 		{{- end }}

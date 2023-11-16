@@ -51,3 +51,12 @@ cached = true
 [Params.widgets.blogroll]
 cached = true
 waitbutwhy = "waitbutwhy"
+paulgraham = "paulgraham"
+gwern = "gwern"
+scottaaronson = "scottaaronson"
+freddiedeboer = "freddiedeboer"
+scottalexander = "astralcodexten"
+henrikkarlsson = "henrikkarlsson"
+matthewyglesias = "slowboring"
+corydoctorow = "pluralistic"
+davidperell = "perell"
