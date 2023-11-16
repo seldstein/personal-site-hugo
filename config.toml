@@ -24,7 +24,7 @@ fontFamilySecondary = "'Fira Code', 'Inconsolata', 'monospace'"
   list = "right"  # Configure layout for list pages
   single = true # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["social", "recent", "categories", "taglist"]
+  widgets = ["social", "recent", "categories", "taglist", "blogroll"]
   
   [Params.widgets.social]
   cached = true
@@ -47,3 +47,7 @@ fontFamilySecondary = "'Fira Code', 'Inconsolata', 'monospace'"
 
 [Params.widgets.categories]
   cached = true
+
+[[Params.widgets.blogroll.custom]]
+  title = "Notebook"
+  url = "https://publish.obsidian.md/sam-feldstein/homepage"
