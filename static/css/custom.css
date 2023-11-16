@@ -2,8 +2,8 @@ html {
     font-size: 20px;
 }
 
-h1, .main__title {
-    font-size: rem;
+.list__title {
+    font-size: 1.5rem;
 }
 
 article.list__item.post {
