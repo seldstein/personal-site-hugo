@@ -2,8 +2,16 @@ html {
     font-size: 20px;
 }
 
-.list__title {
+.logo__title {
+    font-size: 3.5rem;
+}
+
+h2.list__title {
     font-size: 1.5rem;
+}
+
+.post__title {
+    font-size: 2rem;
 }
 
 article.list__item.post {
