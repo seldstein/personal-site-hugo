@@ -34,6 +34,7 @@ newsletter = "samfeldstein"
 instagram = "seldstein"
 
 [[Params.widgets.social.custom]]
+cached = true
 title = "Notebook"
 url = "https://publish.obsidian.md/sam-feldstein/homepage"
 
