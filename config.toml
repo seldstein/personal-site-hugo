@@ -12,7 +12,7 @@ googleFontsLink = "https://fonts.googleapis.com/css2?family=Inconsolata:wght@200
 
 [Params.style.vars]
 fontFamilyPrimary = "'Inconsolata', 'monospace'"
-fontFamilySecondary = "'Fira Code', 'monospace'"
+fontFamilySecondary = "'Fira Code', 'Inconsolata', 'monospace'"
 
 [Params.logo]
   # image = "img/placeholder.png" # Logo image. Path relative to "static"
