@@ -1,14 +1,5 @@
-html {
-    font-size: 20px;
-}
-
 h1, .main__title {
-    font-size: 2.25rem;
-    border-bottom: 1px solid #ebebeb;
-}
-
-body {
-    font-size: 1rem;
+    font-size: rem;
 }
 
 article.list__item.post {
@@ -43,4 +34,8 @@ div.wrapper .btn:hover {
 
 .tags {
     font-size: 12px;
+}
+
+.meta {
+    border-top: 0;
 }
