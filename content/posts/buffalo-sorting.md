@@ -2,10 +2,13 @@
 title: Buffalo Sorting and My First Gambling Foray
 description: Oh, that's why gambling is addictive.
 lead: Oh, that's why gambling is addictive.
-categories:
-  - "Blog Posts"
 date: 2023-11-12T22:57:28-06:00
 draft: false
+tags:
+    - "Travel"
+    - "Gambling"
+categories:
+    - "Travel"
 ---
 
 Early October I went to South Dakota for the first time since I was a kid. I have a friend from college whose parents own a cabin in the Black Hills which she and her boyfriend (also a college friend) go to a few times a year, and I’d been talking about going with them for some time. I landed in Sioux Falls. My friends were driving from Des Moines, so it worked out that they could pick me up from the airport and we set out from there.
