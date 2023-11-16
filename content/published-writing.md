@@ -24,4 +24,4 @@ pager: false
 
 ["Trans-Pecos Festival of Music + Love doubles as platform for advocacy and outreach"](https://bigbendsentinel.com/2022/10/05/trans-pecos-festival-of-music-love-doubles-as-platform-for-advocacy-and-outreach/) in The Big Bend Sentinel (article, Oct. 2022)
 
-["Absence of Meaning: The Lighthouse"](https://thefridacinema.org/film-criticism/absence-of-meaning-the-lighthouse/) on the Frida Cinema blog (guest blog post, April 2022)
+["Absence of Meaning: *The Lighthouse*"](https://thefridacinema.org/film-criticism/absence-of-meaning-the-lighthouse/) on the Frida Cinema blog (guest blog post, April 2022)
