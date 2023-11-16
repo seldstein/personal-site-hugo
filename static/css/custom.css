@@ -19,10 +19,6 @@ body {
     text-transform: capitalize;
 }
 
-h2.list__title {
-    font-size: 1.75rem;
-}
-
 .post__title {
     font-size: 2.25rem;
 }
