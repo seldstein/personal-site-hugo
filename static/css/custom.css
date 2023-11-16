@@ -1,5 +1,9 @@
 html {
-    font-size: 25px;
+    font-size: 20px;
+}
+
+body {
+    font-size: 1rem;
 }
 
 .logo__title {
@@ -16,11 +20,11 @@ html {
 }
 
 h2.list__title {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 .post__title {
-    font-size: 2rem;
+    font-size: 2.25rem;
 }
 
 article.list__item.post {
@@ -56,7 +60,12 @@ div.wrapper .btn:hover {
 }
 
 .tags {
-    font-size: 12px;
+    font-size: .5rem;
+}
+
+.widget-taglist__link {
+    font-size: .5rem;
+    margin: auto;
 }
 
 .meta {
