@@ -27,13 +27,10 @@ fontFamilySecondary = "'Fira Code', 'monospace'"
   
   [Params.widgets.social]
   cached = true
+  rss = "/index.xml"
   newsletter = "samfeldstein"
   email = "samfeldstein@proton.me"
   instagram = "seldstein"
-
-  [[Params.widgets.social.custom]]
-  title= "RSS"
-  url = "/index.xml"
 
   [[Params.widgets.social.custom]]
   title= "Letterboxd"

@@ -2,6 +2,14 @@
 <div class="widget-social widget">
 	<h4 class="widget-social__title widget__title">{{ T "social_title" }}</h4>
 	<div class="widget-social__content widget__content">
+		{{- with .Site.Params.widgets.social.rss }}
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="RSS" href="{{ . }}">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-social__link-icon") }} -->
+				<span>RSS</span>
+			</a>
+		</div>
+		{{- end }}
 		{{- with .Site.Params.widgets.social.newsletter }}
 		<div class="widget-social__item widget__item">
 			<a class="widget-social__link widget__link btn" title="Newsletter" href="https://{{ . }}.substack.com">
