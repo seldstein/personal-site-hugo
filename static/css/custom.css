@@ -37,8 +37,17 @@ article.list__item.post {
     text-transform: capitalize;
 }
 
+a:not(.footer):hover {
+    color: #008e00;
+}
+
+/* Selects links below the header */
 div.wrapper a:hover {
     text-decoration: underline;
+}
+
+div.primary a:hover {
+    color: #008e00;
 }
 
 div.primary a:not(.meta__link, .pager__link):hover {
@@ -47,7 +56,7 @@ div.primary a:not(.meta__link, .pager__link):hover {
 
 div.wrapper .btn:hover {
     text-decoration: none;
-    background-color: #e22d30;
+    background-color: #008e00;
 }
 
 .menu__item,
@@ -62,6 +71,10 @@ div.wrapper .btn:hover {
 .widget-taglist__link {
     font-size: .75rem;
     margin: 4px;
+}
+
+.widget__title {
+    border-bottom-color: #008e00;
 }
 
 .meta {
