@@ -29,12 +29,7 @@ fontFamilySecondary = "'Fira Code', 'monospace'"
   cached = true
   rss = "/index.xml"
   newsletter = "samfeldstein"
-  email = "samfeldstein@proton.me"
   instagram = "seldstein"
-
-  [[Params.widgets.social.custom]]
-  title= "Letterboxd"
-  url = "https://letterboxd.com/HoogoSteeglitz/"
 
   [[Params.widgets.social.custom]]
   title = "Notebook"
