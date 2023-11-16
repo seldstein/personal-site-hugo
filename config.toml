@@ -23,7 +23,7 @@ fontFamilySecondary = "'Fira Code', 'monospace'"
   list = "right"  # Configure layout for list pages
   single = true # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["recent", "social", "categories", "taglist"]
+  widgets = ["social", "recent", "categories", "taglist"]
   
   [Params.widgets.social]
   cached = true
