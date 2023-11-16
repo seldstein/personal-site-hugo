@@ -45,7 +45,7 @@ div.wrapper a:hover {
     text-decoration: underline;
 }
 
-div.primary a:hover {
+div.primary a:not(.meta__link, .pager__link):hover {
     background-color: #e0e0e0;
 }
 
