@@ -15,39 +15,39 @@ fontFamilyPrimary = "'Inconsolata', 'monospace'"
 fontFamilySecondary = "'Fira Code', 'Inconsolata', 'monospace'"
 
 [Params.logo]
-  # image = "img/placeholder.png" # Logo image. Path relative to "static"
-  # title = "Practical Agonies" # Logo title, otherwise will use site title
-  subtitle = "The teeth? We don't know. Signs from HaShem? Don't know. Helping others? Couldn't hurt."
+# image = "img/placeholder.png" # Logo image. Path relative to "static"
+# title = "Practical Agonies" # Logo title, otherwise will use site title
+subtitle = "The teeth? We don't know. Signs from HaShem? Don't know. Helping others? Couldn't hurt."
 
 [Params.sidebar]
-  home = "right"
-  list = "right"  # Configure layout for list pages
-  single = true # Configure layout for single pages
-  # Enable widgets in given order
-  widgets = ["social", "recent", "categories", "taglist", "blogroll"]
-  
-  [Params.widgets.social]
-  cached = true
-  rss = "/index.xml"
-  newsletter = "samfeldstein"
-  instagram = "seldstein"
+home = "right"
+list = "right" # Configure layout for list pages
+single = true  # Configure layout for single pages
+# Enable widgets in given order
+widgets = ["social", "recent", "categories", "taglist", "blogroll"]
 
-  [[Params.widgets.social.custom]]
-  title = "Notebook"
-  url = "https://publish.obsidian.md/sam-feldstein/homepage"
+[Params.widgets.social]
+cached = true
+rss = "/index.xml"
+newsletter = "samfeldstein"
+instagram = "seldstein"
 
-  [Params.widgets.search]
-  cached = true
+[[Params.widgets.social.custom]]
+title = "Notebook"
+url = "https://publish.obsidian.md/sam-feldstein/homepage"
+
+[Params.widgets.search]
+cached = true
 
 [Params.widgets.recent]
-  cached = true
+cached = true
 
 [Params.widgets.taglist]
-  cached = true
+cached = true
 
 [Params.widgets.categories]
-  cached = true
+cached = true
 
-[[Params.widgets.blogroll.custom]]
-  title = "Notebook"
-  url = "https://publish.obsidian.md/sam-feldstein/homepage"
+[Params.widgets.blogroll]
+cached = true
+waitbutwhy = "waitbutwhy"

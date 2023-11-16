@@ -2,16 +2,14 @@
 <div class="widget-blogroll widget">
 	<h4 class="widget-blogroll__title widget__title">Blogroll</h4>
 	<div class="widget-blogroll__content widget__content">
-		{{ range .Site.Params.widgets.blogroll.custom }}
+        {{- with .Site.Params.widgets.blogroll.waitbutwhy }}
 		<div class="widget-blogroll__item widget__item">
-			<a class="widget-blogroll__link widget__link" title="{{ .title }}" {{ with .rel | default "noopener noreferrer" }} rel="{{ . }}"{{ end }} href="{{ .url }}">
-				{{- if .icon }}
-					{{ partial .icon (dict "class" "widget-blogroll__link-icon") }}
-				{{- end }}
-				<span>{{ .title }}</span>
+			<a class="widget-blogroll__link widget__link" title="Wait But Why" href="https://{{ . }}.com/">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Wait But Why</span>
 			</a>
 		</div>
-		{{ end }}
+		{{- end }}
 	</div>
 </div>
 {{- end }}
