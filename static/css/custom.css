@@ -60,12 +60,12 @@ div.wrapper .btn:hover {
 }
 
 .tags {
-    font-size: .5rem;
+    font-size: .75rem;
 }
 
 .widget-taglist__link {
-    font-size: .5rem;
-    margin: auto;
+    font-size: .75rem;
+    margin: 4px;
 }
 
 .meta {
