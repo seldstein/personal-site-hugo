@@ -48,4 +48,5 @@ fontFamilySecondary = "'Fira Code', 'monospace'"
 [Params.widgets.taglist]
   cached = true
 
-
+[Params.widgets.categories]
+  cached = true
