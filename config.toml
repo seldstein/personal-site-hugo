@@ -24,12 +24,16 @@ fontFamilySecondary = "'Fira Code', 'monospace'"
   single = true # Configure layout for single pages
   # Enable widgets in given order
   widgets = ["recent", "categories", "taglist", "social"]
-
+  
   [Params.widgets.social]
   cached = true
   newsletter = "samfeldstein"
   email = "samfeldstein@proton.me"
   instagram = "seldstein"
+
+  [[Params.widgets.social.custom]]
+  title= "RSS"
+  url = "/index.xml"
 
   [[Params.widgets.social.custom]]
   title= "Letterboxd"
