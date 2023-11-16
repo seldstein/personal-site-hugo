@@ -29,9 +29,14 @@ div.primary a:hover {
 
 div.wrapper .btn:hover {
     text-decoration: none;
+    background-color: #e22d30; 
 }
 
 .menu__item,
 .btn {
 	transition: background-color;
+}
+
+.tags {
+    font-size: 12px;
 }
