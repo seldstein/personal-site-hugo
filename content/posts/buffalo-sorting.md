@@ -5,8 +5,10 @@ lead: Oh, that's why gambling is addictive.
 date: 2023-11-12T22:57:28-06:00
 draft: false
 tags:
-    - "Travel"
+    - "South Dakota"
+    - "First Forays"
     - "Gambling"
+    - "Buffalo"
 categories:
     - "Travel"
 ---
