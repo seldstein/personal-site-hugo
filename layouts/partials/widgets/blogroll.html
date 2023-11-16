@@ -98,6 +98,14 @@
 			</a>
 		</div>
 		{{- end }}
+		{{- with .Site.Params.widgets.blogroll.sethsimons }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Seth Simons" href="https://{{ . }}.xyz">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Seth Simons</span>
+			</a>
+		</div>
+		{{- end }}
 	</div>
 </div>
 {{- end }}
