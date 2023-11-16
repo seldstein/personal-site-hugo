@@ -37,26 +37,17 @@ article.list__item.post {
     text-transform: capitalize;
 }
 
-a:not(.btn, .footer__link):hover {
-    color: #008e00;
-}
-
 /* Selects links below the header */
 div.wrapper a:hover {
     text-decoration: underline;
 }
 
-div.primary a:hover {
-    color: #008e00;
-}
-
-div.primary a:not(.meta__link, .pager__link):hover {
+div.primary a:not(.meta__link, .tags__link, .pager__link):hover {
     background-color: #e0e0e0;
 }
 
 div.wrapper .btn:hover {
     text-decoration: none;
-    background-color: #008e00;
 }
 
 .menu__item,
@@ -71,10 +62,6 @@ div.wrapper .btn:hover {
 .widget-taglist__link {
     font-size: .75rem;
     margin: 4px;
-}
-
-.widget__title {
-    border-bottom-color: #008e00;
 }
 
 .meta {
