@@ -6,6 +6,15 @@ html {
     font-size: 3.5rem;
 }
 
+.logo__tagline {
+    font-style: italic;
+}
+
+.logo__title,
+.logo__tagline {
+    text-transform: capitalize;
+}
+
 h2.list__title {
     font-size: 1.5rem;
 }
@@ -18,10 +27,6 @@ article.list__item.post {
     padding: 0;
 }
 
-.logo__tagline {
-    font-style: italic;
-}
-
 .menu__link {
     padding: .4rem .8rem;
 }
@@ -29,6 +34,7 @@ article.list__item.post {
 .menu__link,
 .btn {
     font-weight: 400;
+    text-transform: capitalize;
 }
 
 div.wrapper a:hover {
