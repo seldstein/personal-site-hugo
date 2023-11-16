@@ -7,6 +7,10 @@ h1, .main__title {
     border-bottom: 1px solid #ebebeb;
 }
 
+body {
+    font-size: 1rem;
+}
+
 article.list__item.post {
     padding: 0;
 }
