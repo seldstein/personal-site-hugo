@@ -1,3 +1,7 @@
+html {
+    font-size: 20px;
+}
+
 h1, .main__title {
     font-size: rem;
 }
