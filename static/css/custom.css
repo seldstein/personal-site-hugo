@@ -37,7 +37,7 @@ article.list__item.post {
     text-transform: capitalize;
 }
 
-a:not(.footer, .btn):hover {
+a:not(.btn, .footer__link):hover {
     color: #008e00;
 }
 
