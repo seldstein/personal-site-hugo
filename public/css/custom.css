@@ -2,36 +2,72 @@ html {
     font-size: 20px;
 }
 
-h1, .main__title {
-    font-size: 2.25rem;
-    border-bottom: 1px solid #ebebeb;
+body {
+    font-size: 1rem;
 }
 
-article.list__item.post {
-    padding: 0;
+.logo__title {
+    font-size: 3.5rem;
 }
 
 .logo__tagline {
     font-style: italic;
 }
 
+.logo__title,
+.logo__tagline {
+    text-transform: capitalize;
+}
+
+h2.list__title {
+    font-size: 1.75rem;
+}
+
+.post__title {
+    font-size: 2.25rem;
+}
+
+article.list__item.post {
+    padding: 0;
+}
+
 .menu__link {
     padding: .4rem .8rem;
+}
+
+.menu__link,
+.btn {
+    font-weight: 400;
+    text-transform: capitalize;
 }
 
 div.wrapper a:hover {
     text-decoration: underline;
 }
 
-div.primary a:hover {
+div.primary a:not(.meta__link, .pager__link):hover {
     background-color: #e0e0e0;
 }
 
 div.wrapper .btn:hover {
     text-decoration: none;
+    background-color: #e22d30;
 }
 
 .menu__item,
 .btn {
-	transition: background-color;
+    transition: background-color;
+}
+
+.tags {
+    font-size: .75rem;
+}
+
+.widget-taglist__link {
+    font-size: .75rem;
+    margin: 4px;
+}
+
+.meta {
+    border-top: 0;
 }
