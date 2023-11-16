@@ -82,6 +82,22 @@
 			</a>
 		</div>
 		{{- end }}
+		{{- with .Site.Params.widgets.blogroll.filmcrithulk }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Film Crit Hulk" href="https://www.patreon.com/{{ . }}">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Film Crit Hulk</span>
+			</a>
+		</div>
+		{{- end }}
+		{{- with .Site.Params.widgets.blogroll.mariapopova }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Maria Popova" href="https://{{ . }}.org">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Maria Popova</span>
+			</a>
+		</div>
+		{{- end }}
 	</div>
 </div>
 {{- end }}
