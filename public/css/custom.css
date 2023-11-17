@@ -19,10 +19,6 @@ body {
     text-transform: capitalize;
 }
 
-h2.list__title {
-    font-size: 1.75rem;
-}
-
 .post__title {
     font-size: 2.25rem;
 }
@@ -41,17 +37,17 @@ article.list__item.post {
     text-transform: capitalize;
 }
 
+/* Selects links below the header */
 div.wrapper a:hover {
     text-decoration: underline;
 }
 
-div.primary a:not(.meta__link, .pager__link):hover {
+div.primary a:not(.meta__link, .tags__link, .pager__link):hover {
     background-color: #e0e0e0;
 }
 
 div.wrapper .btn:hover {
     text-decoration: none;
-    background-color: #e22d30;
 }
 
 .menu__item,

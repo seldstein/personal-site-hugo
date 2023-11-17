@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sam Feldstein</title>
-    <link>https://samfeldstein.com/categories/</link>
+    <link>https://samfeldstein.xyz/categories/</link>
     <description>Recent content in Categories on Sam Feldstein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Nov 2023 22:57:28 -0600</lastBuildDate>
-    <atom:link href="https://samfeldstein.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://samfeldstein.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Travel</title>
-      <link>https://samfeldstein.com/categories/travel/</link>
+      <link>https://samfeldstein.xyz/categories/travel/</link>
       <pubDate>Sun, 12 Nov 2023 22:57:28 -0600</pubDate>
-      <guid>https://samfeldstein.com/categories/travel/</guid>
+      <guid>https://samfeldstein.xyz/categories/travel/</guid>
       <description></description>
     </item>
     <item>
       <title>Movies</title>
-      <link>https://samfeldstein.com/categories/movies/</link>
+      <link>https://samfeldstein.xyz/categories/movies/</link>
       <pubDate>Tue, 31 Jan 2023 00:37:34 -0600</pubDate>
-      <guid>https://samfeldstein.com/categories/movies/</guid>
+      <guid>https://samfeldstein.xyz/categories/movies/</guid>
       <description></description>
     </item>
   </channel>
