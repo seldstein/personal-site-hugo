@@ -33,6 +33,7 @@ cached = true
 rss = "/index.xml"
 newsletter = "samfeldstein"
 instagram = "seldstein"
+mastodon = "@samfeldstein"
 
 [[Params.widgets.social.custom]]
 cached = true
