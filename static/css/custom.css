@@ -44,7 +44,7 @@ div.wrapper a:hover {
 }
 
 div.primary a:not(.meta__link, .tags__link, .pager__link):hover {
-    background-color: #e0e0e0;
+    background-color: #FFFF00;
 }
 
 div.wrapper .btn:hover {
