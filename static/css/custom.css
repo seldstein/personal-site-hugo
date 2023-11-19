@@ -12,6 +12,7 @@ body {
 
 .logo__tagline {
     font-style: italic;
+    font-size: 1rem;
 }
 
 .logo__title,
