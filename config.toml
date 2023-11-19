@@ -2,6 +2,7 @@ baseURL = "https://samfeldstein.xyz/"
 languageCode = "en-us"
 title = "Sam Feldstein"
 theme = "mainroad"
+googleAnalytics = "G-ECY4M5C4Z8"
 
 [Params]
 description = "Sam Feldstein's personal website. Sam writes fantasy, horror, and science fiction stories."
