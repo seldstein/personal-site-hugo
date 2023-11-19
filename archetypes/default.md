@@ -1,11 +1,14 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
 description:
 lead:
-date: {{ .Date }}
-draft: true
+categories:
+  - ""
 tags:
   - ""
+thumbnail: "img/placeholder.png"
+draft: true
 ---
 
 
