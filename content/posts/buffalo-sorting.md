@@ -28,7 +28,7 @@ I did seriously consider quitting at this point. I considered that it would be c
 
 You can probably guess what happened next. My working theory was that if I’d picked two winners right off the bat the chances were good that I’d find another before too long. Well, that logic didn’t pan out. I wandered all over that casino and didn’t find a single machine that was as good to me as those first two had been. By the time we’d finished, I had forty-four dollars on my voucher.
 
-Still, I’d started with twenty dollars if you recall, meaning I won twenty-four. For the investment strategists among you, that amounts to a %120 gain. Not bad by Wall Street standards. Still, my gain had I stopped at one hundred and twenty-eight dollars would have been 540%. Had I taken the time to do that math at the outset, I may have convinced myself to quit then and there and dinner would have been on me. As it was, we split the bill three ways.
+Still, I’d started with twenty dollars if you recall, meaning I won twenty-four. For the investment strategists among you, that amounts to a 120% gain. Not bad by Wall Street standards. Still, my gain had I stopped at one hundred and twenty-eight dollars would have been 540%. Had I taken the time to do that math at the outset, I may have convinced myself to quit then and there and dinner would have been on me. As it was, we split the bill three ways.
 
 The rest of the trip was exactly as relaxing and uneventful as it should have been. I'll close with one more brief anecdote.
 
