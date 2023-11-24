@@ -1,6 +1,7 @@
 ---
 title: "Published Writing"
 draft: false
+description: A list of my published writing.
 menu:
   - main
   - side

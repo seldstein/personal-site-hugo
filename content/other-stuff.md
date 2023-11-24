@@ -1,5 +1,6 @@
 ---
 title: "Other Stuff"
+description: A list of my miscellaneous projects.
 draft: false
 menu:
   - main
