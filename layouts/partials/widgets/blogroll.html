@@ -122,6 +122,14 @@
 			</a>
 		</div>
 		{{- end }}
+		{{- with .Site.Params.widgets.blogroll.heathercoxrichardson }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Heather Cox Richardson" href="https://{{ . }}.substack.com">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Heather Cox Richardson</span>
+			</a>
+		</div>
+		{{- end }}
 	</div>
 </div>
 {{- end }}
