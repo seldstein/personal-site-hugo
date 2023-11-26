@@ -130,6 +130,14 @@
 			</a>
 		</div>
 		{{- end }}
+		{{- with .Site.Params.widgets.blogroll.mollywhite }}
+		<div class="widget-blogroll__item widget__item">
+			<a class="widget-blogroll__link widget__link" title="Molly White" href="https://newsletter.{{ . }}.net">
+				<!-- {{ partial "svg/email.svg" (dict "class" "widget-blogroll__link-icon") }} -->
+				<span>Molly White</span>
+			</a>
+		</div>
+		{{- end }}
 	</div>
 </div>
 {{- end }}
