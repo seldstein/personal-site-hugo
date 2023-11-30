@@ -7,7 +7,8 @@
 		{{- $currentNode := . }}
 		{{- range .Site.Menus.main }}
 		{{- if .Name }}
-		<li class="menu__item{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
+		<li class="menu__item{{ if or ($currentNode.IsMenuCurrent " main" .) ($currentNode.HasMenuCurrent "main" .) }}
+			menu__item--active{{ end }}">
 			<a class="menu__link" href="{{ .URL }}">
 				{{ .Pre }}
 				<span class="menu__text">{{ .Name }}</span>
@@ -18,10 +19,6 @@
 		{{- end }}
 		</li>
 	</ul>
-	<!-- Dark Mode Toggle Button -->
-	<button id="dark-mode-toggle" class="menu__link menu__item" tabindex="0">
-		<span class="menu__text">Dark Mode</span>
-	</button>
 </nav>
 {{ else -}}
 <div class="divider"></div>

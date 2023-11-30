@@ -72,28 +72,3 @@ div.wrapper .btn:hover {
 .meta {
     border-top: 0;
 }
-
-/* Dark Mode */
-
-/* :root {
-    --bg-color-light: #ffffff;
-    --text-color-light: #000000;
-    --bg-color-dark: #1a1a1a;
-    --text-color-dark: #ffffff;
-}
-
-body {
-    background-color: var(--bg-color-light);
-    color: var(--text-color-light);
-}
-
-/* Additional styles for other elements in light mode */
-
-/* body.dark-mode {
-    background-color: var(--bg-color-dark);
-    color: var(--text-color-dark);
-} */
-
-#dark-mode-toggle {
-    white-space: nowrap;
-}
