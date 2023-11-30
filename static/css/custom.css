@@ -28,6 +28,10 @@ article.list__item.post {
     padding: 0;
 }
 
+nav {
+    display: flex;
+}
+
 .menu__link {
     padding: .4rem .8rem;
 }
@@ -44,7 +48,7 @@ div.wrapper a:hover {
 }
 
 div.primary a:not(.meta__link, .tags__link, .pager__link):hover {
-    background-color: #d3d3d3 ;
+    background-color: #d3d3d3;
 }
 
 div.wrapper .btn:hover {
@@ -69,24 +73,27 @@ div.wrapper .btn:hover {
     border-top: 0;
 }
 
-/* Dark Mode
+/* Dark Mode */
 
 :root {
     --bg-color-light: #ffffff;
     --text-color-light: #000000;
     --bg-color-dark: #1a1a1a;
     --text-color-dark: #ffffff;
-  }
-  
-  body {
+}
+
+body {
     background-color: var(--bg-color-light);
     color: var(--text-color-light);
-  }
-  
-  /* Additional styles for other elements in light mode */
-  
-  /* body.dark-mode {
+}
+
+/* Additional styles for other elements in light mode */
+
+body.dark-mode {
     background-color: var(--bg-color-dark);
     color: var(--text-color-dark);
-  } */
-  
+}
+
+#dark-mode-toggle {
+    white-space: nowrap;
+}
