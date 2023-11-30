@@ -75,7 +75,7 @@ div.wrapper .btn:hover {
 
 /* Dark Mode */
 
-:root {
+/* :root {
     --bg-color-light: #ffffff;
     --text-color-light: #000000;
     --bg-color-dark: #1a1a1a;
@@ -89,10 +89,10 @@ body {
 
 /* Additional styles for other elements in light mode */
 
-body.dark-mode {
+/* body.dark-mode {
     background-color: var(--bg-color-dark);
     color: var(--text-color-dark);
-}
+} */
 
 #dark-mode-toggle {
     white-space: nowrap;
