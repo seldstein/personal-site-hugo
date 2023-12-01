@@ -1,9 +1,11 @@
 html {
     font-size: 20px;
+    box-sizing: border-box;
 }
 
 body {
     font-size: 1rem;
+    background: #fff;
 }
 
 .logo__title {
