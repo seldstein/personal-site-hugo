@@ -1,5 +1,4 @@
 html {
-    font-size: 20px;
     box-sizing: border-box;
 }
 
@@ -10,10 +9,17 @@ body {
 
 .container--outer {
     box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 60rem;
 }
 
-/* .logo__title {
-    font-size: 3.5rem;
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo__tagline {
@@ -24,7 +30,9 @@ body {
 .logo__title,
 .logo__tagline {
     text-transform: capitalize;
-} */
+    text-align: center;
+    border: none;
+}
 
 .menu__list {
     background: transparent;
@@ -39,12 +47,18 @@ article.list__item.post {
 }
 
 .menu__list {
-    display: flex;
     justify-content: center;
     width: 95%;
     margin: 1rem auto;
     gap: 1.5rem;
-    flex-wrap: wrap;
+}
+
+.menu__item:hover {
+    background: none;
+}
+
+.menu__item--active {
+    background: none;
 }
 
 .menu__link {
@@ -56,6 +70,10 @@ article.list__item.post {
 .btn {
     font-weight: 400;
     text-transform: capitalize;
+}
+
+.menu__link:hover {
+    color: #666666;
 }
 
 /* Selects links below the header */
