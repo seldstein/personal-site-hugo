@@ -12,14 +12,14 @@ pager = true
 googleFontsLink = "https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
 
 [Params.style.vars]
-fontFamilyPrimary = "'Inconsolata', 'monospace'"
+fontFamilyPrimary = "'EB Garamond', 'serif'"
 fontFamilySecondary = "'Fira Code', 'Inconsolata', 'monospace'"
 highlightColor = "#666666"
 
 [Params.logo]
 # image = "img/placeholder.png" # Logo image. Path relative to "static"
 # title = "Practical Agonies" # Logo title, otherwise will use site title
-subtitle = "The teeth? We don't know. Signs from Hashem? Don't know. Helping others? Couldn't hurt."
+# subtitle = "The teeth? We don't know. Signs from Hashem? Don't know. Helping others? Couldn't hurt."
 
 [Params.sidebar]
 home = "right"
