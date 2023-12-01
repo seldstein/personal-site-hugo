@@ -8,7 +8,11 @@ body {
     background: #fff;
 }
 
-.logo__title {
+.container--outer {
+    box-shadow: none;
+}
+
+/* .logo__title {
     font-size: 3.5rem;
 }
 
@@ -20,6 +24,10 @@ body {
 .logo__title,
 .logo__tagline {
     text-transform: capitalize;
+} */
+
+.menu__list {
+    background: transparent;
 }
 
 .post__title {
@@ -30,12 +38,18 @@ article.list__item.post {
     padding: 0;
 }
 
-nav {
+.menu__list {
     display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 1rem auto;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
 .menu__link {
     padding: .4rem .8rem;
+    color: #333333;
 }
 
 .menu__link,
