@@ -72,3 +72,21 @@ div.wrapper .btn:hover {
 .meta {
     border-top: 0;
 }
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: dark) {
+    body{
+        background: #323133;
+    }
+    .header, .wrapper {
+        background: #252526;
+        color: #fff;
+    }
+    .menu__list, .btn {
+        background: #656467;
+    }
+    .logo__title, h1, h2, h3, h4, a {
+        color: #fff;
+    }
+}
