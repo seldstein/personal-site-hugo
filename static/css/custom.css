@@ -80,6 +80,10 @@ article.list__item.post {
     color: #666666;
 }
 
+.list__title {
+    font-size: 2rem;
+}
+
 /* Selects links below the header */
 div.wrapper a:hover {
     text-decoration: underline;
