@@ -50,11 +50,19 @@ article.list__item.post {
     padding: 0;
 }
 
+.post__lead {
+font-size: 1.4rem;
+}
+
 .menu__list {
     justify-content: center;
     width: 95%;
     margin: 1rem auto;
     gap: 1.5rem;
+}
+
+.menu__item {
+    border: 0;
 }
 
 .menu__item:hover {
@@ -113,6 +121,13 @@ div.wrapper .btn:hover {
 
 .meta {
     border-top: 0;
+    font-size: 1rem;
+}
+
+/* Sidebar */
+
+.sidebar {
+    margin: 0 0 0 5rem;
 }
 
 /* Dark Mode */
