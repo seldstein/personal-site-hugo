@@ -54,6 +54,10 @@ article.list__item.post {
 font-size: 1.4rem;
 }
 
+.sidebar a {
+    text-decoration: underline;
+}
+
 .menu__list {
     justify-content: center;
     width: 95%;
@@ -84,8 +88,8 @@ font-size: 1.4rem;
     text-transform: capitalize;
 }
 
-.menu__link:hover {
-    color: #666666;
+a:hover, .menu__link:hover {
+    color: #bbbbbb;
 }
 
 .primary {
@@ -99,10 +103,6 @@ font-size: 1.4rem;
 /* Selects links below the header */
 div.wrapper a:hover {
     text-decoration: underline;
-}
-
-div.primary a:not(.meta__link, .tags__link, .pager__link):hover {
-    background-color: #d3d3d3;
 }
 
 div.wrapper .btn:hover {
@@ -121,10 +121,20 @@ div.wrapper .btn:hover {
 .widget__title {
     border-bottom: none;
     font-size: 1.2rem;
+    margin: 0 0 0;
+}
+
+.widget__content {
+    padding-left: 1rem;
 }
 
 .widget__item {
     font-size: 1.2rem;
+    border-bottom: none;
+}
+
+.widget-social__link {
+    margin: 0;
 }
 
 .widget-taglist__link {
