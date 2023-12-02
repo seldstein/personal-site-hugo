@@ -5,7 +5,6 @@ description: A list of my published writing.
 menu:
   - main
   - side
-  - footer
 weight: 2
 sidebar: false
 pager: false

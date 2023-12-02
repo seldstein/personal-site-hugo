@@ -5,7 +5,6 @@ draft: false
 menu:
   - main
   - side
-  - footer
 pager: false
 sidebar: false
 ---

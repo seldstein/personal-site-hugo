@@ -83,11 +83,6 @@ font-size: 1.4rem;
     background: none;
 }
 
-.menu__link {
-    padding: .4rem .8rem;
-    color: #333333;
-}
-
 .menu__link,
 .btn {
     font-weight: 400;
@@ -95,7 +90,7 @@ font-size: 1.4rem;
 }
 
 a:hover, .menu__link:hover {
-    color: #bbbbbb;
+    color: #808080;
 }
 
 .primary {
@@ -154,11 +149,11 @@ div.wrapper .btn:hover {
 }
 
 .meta, .meta a {
-    color: #bbbbbb;
+    color: #808080;
 }
 
 .meta a:hover {
-    color: #bbbbbb;
+    color: #808080;
 }
 
 /* Dark Mode */
@@ -186,3 +181,11 @@ div.wrapper .btn:hover {
     }
 
 }
+
+/* Hide main menu on desktop */
+
+@media screen and (min-width: 768px) {
+    .menu {
+      display: none;
+    }
+  }

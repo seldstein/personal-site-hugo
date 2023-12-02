@@ -14,7 +14,7 @@ googleFontsLink = "https://fonts.googleapis.com/css2?family=Inconsolata:wght@200
 [Params.style.vars]
 fontFamilyPrimary = "'EB Garamond', 'serif'"
 fontFamilySecondary = "'Fira Code', 'Inconsolata', 'monospace'"
-highlightColor = "#bbbbbb"
+highlightColor = "#808080"
 
 [Params.logo]
 # image = "img/placeholder.png" # Logo image. Path relative to "static"
