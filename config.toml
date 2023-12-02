@@ -26,7 +26,7 @@ home = "right"
 list = "right" # Configure layout for list pages
 single = false  # Configure layout for single pages
 # Enable widgets in given order
-widgets = ["social", "categories", "taglist", "blogroll"]
+widgets = ["sidemenu", "social", "categories", "taglist", "blogroll"]
 
 [Params.widgets.social]
 cached = true
