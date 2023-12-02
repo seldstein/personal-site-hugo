@@ -21,12 +21,8 @@ header {
     margin-bottom: 3rem;
 }
 
-.logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
+.header__container {
+    margin: 0;
 }
 
 .logo__tagline {
