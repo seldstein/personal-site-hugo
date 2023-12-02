@@ -24,7 +24,7 @@ highlightColor = "#808080"
 [Params.sidebar]
 home = "right"
 list = "right" # Configure layout for list pages
-single = false  # Configure layout for single pages
+single = true  # Configure layout for single pages
 # Enable widgets in given order
 widgets = ["sidemenu", "social", "categories", "taglist", "blogroll"]
 

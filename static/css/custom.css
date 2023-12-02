@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    max-width: 60rem;
+    max-width: 80rem;
 }
 
 header {
@@ -42,7 +42,12 @@ header {
     border: none;
 }
 
-.menu__list, .menu__btn {
+.menu__btn {
+    font-size: 1.2rem;
+}
+
+.menu__list,
+.menu__btn {
     background: #252526;
 }
 
@@ -57,7 +62,7 @@ article.list__item.post {
 }
 
 .post__lead {
-font-size: 1.4rem;
+    font-size: 1.4rem;
 }
 
 .sidebar a {
@@ -89,12 +94,15 @@ font-size: 1.4rem;
     text-transform: capitalize;
 }
 
-a:hover, .menu__link:hover {
+a:hover,
+.menu__link:hover {
     color: #808080;
 }
 
-.primary {
-    padding-right: 5rem;
+@media screen and (min-width: 767px) {
+    .primary {
+        padding-right: 5rem;
+    }
 }
 
 .list__title {
@@ -148,7 +156,8 @@ div.wrapper .btn:hover {
     font-size: 1rem;
 }
 
-.meta, .meta a {
+.meta,
+.meta a {
     color: #808080;
 }
 
@@ -186,6 +195,6 @@ div.wrapper .btn:hover {
 
 @media screen and (min-width: 768px) {
     .menu {
-      display: none;
+        display: none;
     }
-  }
+}
