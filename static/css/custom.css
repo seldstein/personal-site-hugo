@@ -65,6 +65,15 @@ article.list__item.post {
     font-size: 1.4rem;
 }
 
+.post__meta,
+.pager {
+    border-bottom: 1px solid #808080;
+}
+
+hr {
+    border-top: 1px solid #808080;
+}
+
 .sidebar a {
     text-decoration: underline;
 }
