@@ -88,6 +88,10 @@ font-size: 1.4rem;
     color: #666666;
 }
 
+.primary {
+    padding-right: 5rem;
+}
+
 .list__title {
     font-size: 2rem;
 }
@@ -122,12 +126,6 @@ div.wrapper .btn:hover {
 .meta {
     border-top: 0;
     font-size: 1rem;
-}
-
-/* Sidebar */
-
-.sidebar {
-    margin: 0 0 0 5rem;
 }
 
 /* Dark Mode */
