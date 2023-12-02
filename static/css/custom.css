@@ -110,7 +110,7 @@ header {
     background: #252526;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .menu {
         border-bottom: none;
     }
@@ -167,7 +167,7 @@ a:hover,
     color: #808080;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .primary {
         padding-right: 5rem;
     }
@@ -264,5 +264,16 @@ div.wrapper .btn:hover {
 @media screen and (min-width: 768px) {
     .menu {
         display: none;
+    }
+}
+
+/* Mobile Styles */
+
+@media screen and (max-width: 767px) {
+    body {
+        padding: 0;
+    }
+    header {
+        margin: 0;
     }
 }
