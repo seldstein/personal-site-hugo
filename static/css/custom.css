@@ -147,6 +147,14 @@ div.wrapper .btn:hover {
     font-size: 1rem;
 }
 
+.meta, .meta a {
+    color: #bbbbbb;
+}
+
+.meta a:hover {
+    color: #bbbbbb;
+}
+
 /* Dark Mode */
 
 @media (prefers-color-scheme: dark) {
