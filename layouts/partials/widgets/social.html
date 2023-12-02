@@ -4,7 +4,7 @@
 	<div class="widget-social__content widget__content">
 		{{- with .Site.Params.widgets.social.rss }}
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="RSS" href="{{ . }}">
+			<a class="widget-social__link widget__link" title="RSS" href="{{ . }}">
 				<!-- {{ partial "svg/email.svg" (dict "class" "widget-social__link-icon") }} -->
 				<span>RSS</span>
 			</a>
@@ -12,7 +12,7 @@
 		{{- end }}
 		{{- with .Site.Params.widgets.social.newsletter }}
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Newsletter" href="https://{{ . }}.substack.com">
+			<a class="widget-social__link widget__link" title="Newsletter" href="https://{{ . }}.substack.com">
 				<!-- {{ partial "svg/email.svg" (dict "class" "widget-social__link-icon") }} -->
 				<span>Newsletter</span>
 			</a>
@@ -20,7 +20,7 @@
 		{{- end }}
 		{{- with .Site.Params.widgets.social.email }}
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Email" href="mailto:{{ . }}">
+			<a class="widget-social__link widget__link" title="Email" href="mailto:{{ . }}">
 				<!-- {{ partial "svg/email.svg" (dict "class" "widget-social__link-icon") }} -->
 				<span>Email</span>
 			</a>
@@ -28,7 +28,7 @@
 		{{- end }}
 		{{- with .Site.Params.widgets.social.mastodon }}
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Mastodon" rel="noopener noreferrer" href="https://mastodon.social/{{ . }}">
+			<a class="widget-social__link widget__link" title="Mastodon" rel="noopener noreferrer" href="https://mastodon.social/{{ . }}">
 				<!-- {{ partial "svg/instagram.svg" (dict "class" "widget-social__link-icon") }} -->
 				<span>Mastodon</span>
 			</a>
@@ -36,7 +36,7 @@
 		{{- end }}
 		{{- with .Site.Params.widgets.social.instagram }}
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Instagram" rel="noopener noreferrer" href="https://www.instagram.com/{{ . }}">
+			<a class="widget-social__link widget__link" title="Instagram" rel="noopener noreferrer" href="https://www.instagram.com/{{ . }}">
 				<!-- {{ partial "svg/instagram.svg" (dict "class" "widget-social__link-icon") }} -->
 				<span>Instagram</span>
 			</a>
@@ -44,7 +44,7 @@
 		{{- end }}
 		{{ range .Site.Params.widgets.social.custom }}
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="{{ .title }}" {{ with .rel | default "noopener noreferrer" }} rel="{{ . }}"{{ end }} href="{{ .url }}">
+			<a class="widget-social__link widget__link" title="{{ .title }}" {{ with .rel | default "noopener noreferrer" }} rel="{{ . }}"{{ end }} href="{{ .url }}">
 				{{- if .icon }}
 					{{ partial .icon (dict "class" "widget-social__link-icon") }}
 				{{- end }}
