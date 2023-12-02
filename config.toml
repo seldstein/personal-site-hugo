@@ -9,10 +9,10 @@ description = "Sam Feldstein's personal website. Sam writes fantasy, horror, and
 post_meta = ["date", "categories"]
 customCSS = ["css/custom.css"]
 pager = true
-googleFontsLink = "https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+googleFontsLink = "false"
 
 [Params.style.vars]
-fontFamilyPrimary = "'EB Garamond', 'serif'"
+fontFamilyPrimary = "'EB Garamond', Serif"
 fontFamilySecondary = "'Fira Code', 'Inconsolata', 'monospace'"
 highlightColor = "#808080"
 
