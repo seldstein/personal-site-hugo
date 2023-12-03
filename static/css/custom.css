@@ -160,7 +160,6 @@ hr {
 .menu__link,
 .btn {
     font-weight: 400;
-    text-transform: capitalize;
 }
 
 a:hover,
