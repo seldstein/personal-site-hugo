@@ -135,6 +135,10 @@ article.list__item.post {
     text-transform: none;
 }
 
+.pager__title {
+    font-size: 1rem;
+}
+
 hr {
     border-top: 1px solid #808080;
 }
