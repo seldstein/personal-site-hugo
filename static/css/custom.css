@@ -36,18 +36,17 @@
 
 i {
     font-family: "EB Garamond Italic", serif;
-    font-weight: normal;
-    font-style: normal;
 }
 
 em {
     font-family: "EB Garamond Italic", serif;
-    font-weight: normal;
-    font-style: normal;
 }
 
 strong {
     font-family: "EB Garamond Bold", serif;
+}
+
+i, em, strong {
     font-weight: normal;
     font-style: normal;
 }
