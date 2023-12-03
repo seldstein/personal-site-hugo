@@ -34,10 +34,7 @@
     font-style: normal;
 }
 
-i {
-    font-family: "EB Garamond Italic", serif;
-}
-
+i,
 em {
     font-family: "EB Garamond Italic", serif;
 }
@@ -46,7 +43,9 @@ strong {
     font-family: "EB Garamond Bold", serif;
 }
 
-i, em, strong {
+i,
+em,
+strong {
     font-weight: normal;
     font-style: normal;
 }
@@ -254,22 +253,21 @@ div.wrapper .btn:hover {
 }
 
 .meta,
-.meta a {
+.meta a,
+.meta a:hover {
     color: #000;
 }
 
-.meta a:hover {
-    color: #000;
+.js .menu__btn--active,
+.menu__link:hover {
+    color: #fff;
 }
 
 /* Dark Mode */
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background: #252526;
-        color: #fff;
-    }
 
+    body,
     .header,
     .wrapper {
         background: #252526;
@@ -285,15 +283,9 @@ div.wrapper .btn:hover {
     a,
     .content a,
     a:hover,
-    .content a:hover {
-        color: #fff;
-    }
-
+    .content a:hover,
     .meta,
-    .meta a {
-        color: #fff;
-    }
-
+    .meta a,
     .meta a:hover {
         color: #fff;
     }
@@ -310,11 +302,8 @@ div.wrapper .btn:hover {
 /* Mobile Styles */
 
 @media screen and (max-width: 767px) {
-    body {
+    body, header {
         padding: 0;
-    }
-
-    header {
         margin: 0;
     }
 }
