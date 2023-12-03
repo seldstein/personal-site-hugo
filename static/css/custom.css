@@ -156,13 +156,6 @@ hr {
     text-decoration: underline;
 }
 
-.menu__list {
-    justify-content: center;
-    width: 95%;
-    margin: 1rem auto;
-    gap: 1.5rem;
-}
-
 .menu__item {
     border: 0;
 }
