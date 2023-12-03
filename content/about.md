@@ -5,7 +5,6 @@ menu:
   - main
   - side
 pager: false
-sidebar: false
 weight: 1
 ---
 

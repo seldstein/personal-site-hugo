@@ -6,7 +6,6 @@ menu:
   - main
   - side
 pager: false
-sidebar: false
 ---
 
 ## Notebook
