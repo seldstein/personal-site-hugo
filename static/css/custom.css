@@ -75,7 +75,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+.widget__title {
     font-family: "Cormorant SC";
     font-weight: 500;
 }
@@ -199,6 +200,7 @@ div.wrapper .btn:hover {
     border-bottom: none;
     font-size: 1.2rem;
     margin: .5rem 0 0 0;
+    text-transform: none;
 }
 
 .widget__content {
