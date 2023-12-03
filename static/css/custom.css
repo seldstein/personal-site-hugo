@@ -125,6 +125,10 @@ a,
     font-weight: 400;
 }
 
+.content a:hover {
+    color: #000;
+}
+
 article.list__item.post {
     padding: 0;
 }
@@ -281,7 +285,8 @@ div.wrapper .btn:hover {
     h4,
     a,
     .content a,
-    a:hover {
+    a:hover,
+    .content a:hover {
         color: #fff;
     }
 
