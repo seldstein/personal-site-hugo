@@ -216,6 +216,10 @@ div.wrapper .btn:hover {
     margin: 0;
 }
 
+.widget-social__item {
+    padding: 5px 0;
+}
+
 .widget-taglist__link {
     font-size: .75rem;
     margin: 0.1rem;
