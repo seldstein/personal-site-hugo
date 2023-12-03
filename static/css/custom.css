@@ -75,9 +75,13 @@ h2,
 h3,
 h4,
 .widget__title,
-.pager__subtitle {
+.pager__subtitle,
+.menu__btn-title,
+.menu__item,
+.menu__link {
     font-family: "Cormorant SC";
     font-weight: 500;
+    text-transform: none;
 }
 
 header {
@@ -99,10 +103,6 @@ header {
     text-transform: capitalize;
     text-align: center;
     border: none;
-}
-
-.menu__btn {
-    font-size: 1.2rem;
 }
 
 .menu__list,
