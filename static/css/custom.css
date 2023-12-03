@@ -76,7 +76,8 @@ h1,
 h2,
 h3,
 h4,
-.widget__title {
+.widget__title,
+.pager__subtitle {
     font-family: "Cormorant SC";
     font-weight: 500;
 }
@@ -128,6 +129,10 @@ article.list__item.post {
 .post__meta,
 .pager {
     border-bottom: 1px solid #808080;
+}
+
+.pager__subtitle {
+    text-transform: none;
 }
 
 hr {
