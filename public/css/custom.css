@@ -1,50 +1,194 @@
+@font-face {
+    font-family: "EB Garamond";
+    src:
+        url("../fonts/eb-garamond/webfontkit/EBGaramond-Regular.woff2") format("woff2"),
+        url("../fonts/eb-garamond/webfontkit/EBGaramond-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EB Garamond Bold";
+    src:
+        url("../fonts/eb-garamond/webfontkit/EBGaramond-Bold.woff2") format("woff2"),
+        url("../fonts/eb-garamond/webfontkit/EBGaramond-Bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EB Garamond Italic";
+    src:
+        url("../fonts/eb-garamond/webfontkit/EBGaramond-Italic.woff2") format("woff2"),
+        url("../fonts/eb-garamond/webfontkit/EBGaramond-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cormorant SC";
+    src:
+        url("../fonts/cormorant/webfontkit/cormorantsc-regular-webfont.woff2") format("woff2"),
+        url("../fonts/cormorant/webfontkit/cormorantsc-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+i {
+    font-family: "EB Garamond Italic", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+em {
+    font-family: "EB Garamond Italic", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-family: "EB Garamond Bold", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
-    font-size: 20px;
+    box-sizing: border-box;
 }
 
 body {
-    font-size: 1rem;
+    background: #fff;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 3rem 0;
 }
 
-.logo__title {
-    font-size: 3.5rem;
+.container--outer {
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 80rem;
+}
+
+.logo,
+h1,
+h2,
+h3,
+h4,
+.widget__title,
+.pager__subtitle {
+    font-family: "Cormorant SC";
+    font-weight: 500;
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+.header__container {
+    margin: 0;
 }
 
 .logo__tagline {
     font-style: italic;
+    font-weight: 400;
     font-size: 1rem;
 }
 
 .logo__title,
 .logo__tagline {
     text-transform: capitalize;
+    text-align: center;
+    border: none;
 }
 
-.post__title {
-    font-size: 2.25rem;
+.menu__btn {
+    font-size: 1.2rem;
+}
+
+.menu__list,
+.menu__btn {
+    background: #252526;
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        border-bottom: none;
+    }
 }
 
 article.list__item.post {
     padding: 0;
 }
 
-.menu__link {
-    padding: .4rem .8rem;
+.post__lead {
+    font-size: 1.4rem;
+}
+
+.post__meta,
+.pager {
+    border-bottom: 1px solid #808080;
+}
+
+.pager__subtitle {
+    text-transform: none;
+}
+
+.pager__title {
+    font-size: 1rem;
+}
+
+hr {
+    border-top: 1px solid #808080;
+}
+
+.sidebar a {
+    text-decoration: underline;
+}
+
+.menu__list {
+    justify-content: center;
+    width: 95%;
+    margin: 1rem auto;
+    gap: 1.5rem;
+}
+
+.menu__item {
+    border: 0;
+}
+
+.menu__item:hover {
+    background: none;
+}
+
+.menu__item--active {
+    background: none;
 }
 
 .menu__link,
 .btn {
     font-weight: 400;
-    text-transform: capitalize;
+}
+
+a:hover,
+.menu__link:hover {
+    color: #808080;
+}
+
+@media screen and (min-width: 768px) {
+    .primary {
+        padding-right: 5rem;
+    }
+}
+
+.list__title {
+    font-size: 2rem;
 }
 
 /* Selects links below the header */
 div.wrapper a:hover {
     text-decoration: underline;
-}
-
-div.primary a:not(.meta__link, .tags__link, .pager__link):hover {
-    background-color: #D3D3D3 ;
 }
 
 div.wrapper .btn:hover {
@@ -60,11 +204,90 @@ div.wrapper .btn:hover {
     font-size: .75rem;
 }
 
+.widget__title {
+    border-bottom: none;
+    font-size: 1.2rem;
+    margin: .5rem 0 0 0;
+    text-transform: none;
+}
+
+.widget__content {
+    padding: 0 5rem 0 1rem;
+}
+
+.widget__item {
+    font-size: 1.2rem;
+    border-bottom: none;
+}
+
+.widget-social__link {
+    margin: 0;
+}
+
+.widget-social__item {
+    padding: 5px 0;
+}
+
 .widget-taglist__link {
     font-size: .75rem;
-    margin: 4px;
+    margin: 0.1rem;
 }
 
 .meta {
     border-top: 0;
+    font-size: 1rem;
+}
+
+.meta,
+.meta a {
+    color: #808080;
+}
+
+.meta a:hover {
+    color: #808080;
+}
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #252526;
+        color: #fff;
+    }
+
+    .header,
+    .wrapper {
+        background: #252526;
+        color: #fff;
+    }
+
+    .logo__title,
+    .menu__link,
+    h1,
+    h2,
+    h3,
+    h4,
+    a {
+        color: #fff;
+    }
+
+}
+
+/* Hide main menu on desktop */
+
+@media screen and (min-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
+
+/* Mobile Styles */
+
+@media screen and (max-width: 767px) {
+    body {
+        padding: 0;
+    }
+    header {
+        margin: 0;
+    }
 }

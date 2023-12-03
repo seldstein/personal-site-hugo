@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://samfeldstein.xyz/about/</loc>
+  </url><url>
     <loc>https://samfeldstein.xyz/published-writing/</loc>
   </url><url>
     <loc>https://samfeldstein.xyz/posts/</loc>
@@ -93,8 +95,6 @@
   </url><url>
     <loc>https://samfeldstein.xyz/tags/willem-dafoe/</loc>
     <lastmod>2022-04-05T00:28:19-06:00</lastmod>
-  </url><url>
-    <loc>https://samfeldstein.xyz/about/</loc>
   </url><url>
     <loc>https://samfeldstein.xyz/other-stuff/</loc>
   </url>
