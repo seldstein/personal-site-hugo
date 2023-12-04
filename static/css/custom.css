@@ -299,4 +299,13 @@ div.wrapper .btn:hover {
         padding: 0;
         margin: 0;
     }
+    a,
+    .content a {
+        text-underline-offset: 3px;
+        text-decoration-thickness: .75px;
+    }
+    .menu__link,
+    .post__title a {
+        text-decoration: none;
+    }
 }
