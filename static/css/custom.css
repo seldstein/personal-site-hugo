@@ -50,10 +50,6 @@ strong {
     font-style: normal;
 }
 
-html {
-    box-sizing: border-box;
-}
-
 body {
     background: #fff;
     font-size: 1.4rem;
