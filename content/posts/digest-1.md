@@ -1,0 +1,47 @@
+---
+title: "Digest: Care, Dammit"
+date: 2023-12-04T16:09:19-06:00
+description:
+lead:
+categories:
+  - "Digests"
+tags:
+  - "Blogging"
+  - "Writing"
+  - "Charles Soule"
+  - "Jew-hatred"
+  - "Ethics"
+draft: false
+---
+
+## News
+
+My big update is that this website exists. I've been flirting with blogging for years now, but I've never committed to it. I've created and deleted several websites--mostly out of self-consciousness and an inability to decide how to spend my time--but this one looks it's here to stay. I'm really happy with how it turned out. I've been slowly learning HTML, CSS, and JavaScript over the last two years or so, first via [The Odin Project](https://www.theodinproject.com/) and then [MDN Web Docs](https://developer.mozilla.org/en-US/). But there are any number of free resources to choose from.
+
+I built the website with [Hugo](https://gohugo.io/) and the [Mainroad](https://mainroad-demo.netlify.app/) theme. I think if I had to do it over again I would have started with a more minimalistic theme, like [PaperMod](https://adityatelange.github.io/hugo-PaperMod/), but oh well. The site still seems pretty fast, and considering I'm new to this, I think it turned out pretty dang good. The layout was inspired by [Molly White's website](https://www.mollywhite.net/).
+
+## Links
+
+[The Future of the Blogosphere](https://www.ribbonfarm.com/2023/11/02/the-future-of-the-blogosphere/) by Venkatesh Rao. I don't know who this guy is, but [Alan Jacobs](https://ayjay.org/) linked to this piece so I read it. Most of it goes over my head, but as someone who's just getting into blogging, I found it interesting. I wonder if static site generators like [Hugo](https://gohugo.io/) could be one of the "seeds" he's talking about, but I really don't know enough to say.
+
+I've decided to spend some of my short breaks learning about how other writers write. I started with Charles Soule, who puts out an unbelievable amount of material: [Charles Soule Set to Write Every Comic Ever](https://archive.nerdist.com/charles-soule-set-to-write-every-comic-ever/), [Charles Soule on Finding the Joy](https://terribleminds.com/ramble/2018/04/12/charles-soule-on-finding-the-joy/), [Charles Soule: The Process](https://blog.blackwing602.com/charles-soule/), [Charles Soule on Writing Comics and Novels](https://www.writersdigest.com/be-inspired/charles-soule-on-writing-comics-and-novels), [How I do it](https://charlessoule.wordpress.com/2013/12/30/how-i-do-it/).
+
+[Heather Cox Richardson](https://heathercoxrichardson.substack.com/p/december-2-2023) wrote a nice summary of [Chuck Schumer's speech on Jew-hatred](https://www.democrats.senate.gov/newsroom/press-releases/majority-leader-schumer-delivers-major-address-on-antisemitism-on-the-senate-floor). I haven't read the full speech yet, and I may never get to it, but it seems impassioned and earnest. I learned the other week that ([according to the FBI](https://www.justice.gov/hatecrimes/hate-crime-statistics)), around half of hate crimes in America that are committed against religious minorities every year are committed against Jews. And this has been true every year since the FBI began tracking hate crimes.
+
+## Watching
+
+I don't know why it took me this long, but I finally got around to watching *Andor*, and it's...excellent? Seriously. I know people liked it, but there's a difference between "good by Disney standards" and "really fucking good by any standard you could apply." I never got the impression it was the latter, but it absolutely is. The casting is impeccable, the story is compelling, and the dialogue--the dialogue! Props to Tony Gilroy. You did good, kid.
+
+## Reading
+
+I was working on a short story about an exorcist (which I've since abandoned) so I decided to read *The Exorcist.* I've seen the movie but can't say I'm a fan. The book is excellent. One passage stood out. It's said by Merrin, the senior exorcist, to Damien, the amateur who's been having a crisis of faith:
+
+> *Long ago I despaired of ever loving my neighbor. Certain people repelled me. How could I love them? I thought. It tormented me. It led me to despair of myself, and from that,  very soon, to despair of my own God. My faith was shattered. But at last I realized that God would never ask of me that which I know to be psychologically impossible; that the love which He asked was in my* will *and not meant to be felt as emotion at all. He was asking that I* act *with love; that I* do *unto others; and that I should do it unto those who repelled me, I believe, was a greater act of love than any other.*
+
+The priests in *The Exorcists* are Jesuits, but this passage struck me as Talmudic. In Judaism, you aren't asked to care. You're *commanded* to care. And if you can't bring yourself to care, that does not relieve you of the obligation to *act as though you do.*
+
+In turn, this reminds me of a sentiment I've heard expressed by [Tim Urban](https://waitbutwhy.com/) and [Scott Alexander](https://www.astralcodexten.com/), among others: You only get to call yourself principled if you apply your principles to people you can't stand.
+
+In other words, kindness counts when it's easy, but it counts more--maybe much more--when it's hard.
+
+---
