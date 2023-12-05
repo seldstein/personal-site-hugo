@@ -34,26 +34,20 @@
     font-style: normal;
 }
 
-i {
-    font-family: "EB Garamond Italic", serif;
-    font-weight: normal;
-    font-style: normal;
-}
-
+i,
 em {
     font-family: "EB Garamond Italic", serif;
-    font-weight: normal;
-    font-style: normal;
 }
 
 strong {
     font-family: "EB Garamond Bold", serif;
-    font-weight: normal;
-    font-style: normal;
 }
 
-html {
-    box-sizing: border-box;
+i,
+em,
+strong {
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -77,9 +71,13 @@ h2,
 h3,
 h4,
 .widget__title,
-.pager__subtitle {
+.pager__subtitle,
+.menu__btn-title,
+.menu__item,
+.menu__link {
     font-family: "Cormorant SC";
     font-weight: 500;
+    text-transform: none;
 }
 
 header {
@@ -103,10 +101,6 @@ header {
     border: none;
 }
 
-.menu__btn {
-    font-size: 1.2rem;
-}
-
 .menu__list,
 .menu__btn {
     background: #252526;
@@ -116,6 +110,17 @@ header {
     .menu {
         border-bottom: none;
     }
+}
+
+a,
+.content a {
+    text-decoration: underline;
+    color: #000;
+    font-weight: 400;
+}
+
+.content a:hover {
+    color: #000;
 }
 
 article.list__item.post {
@@ -147,13 +152,6 @@ hr {
     text-decoration: underline;
 }
 
-.menu__list {
-    justify-content: center;
-    width: 95%;
-    margin: 1rem auto;
-    gap: 1.5rem;
-}
-
 .menu__item {
     border: 0;
 }
@@ -171,9 +169,14 @@ hr {
     font-weight: 400;
 }
 
+.btn {
+    text-decoration: none;
+}
+
 a:hover,
 .menu__link:hover {
-    color: #808080;
+    text-decoration: none;
+    color: #000;
 }
 
 @media screen and (min-width: 768px) {
@@ -188,7 +191,7 @@ a:hover,
 
 /* Selects links below the header */
 div.wrapper a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 div.wrapper .btn:hover {
@@ -239,22 +242,21 @@ div.wrapper .btn:hover {
 }
 
 .meta,
-.meta a {
-    color: #808080;
+.meta a,
+.meta a:hover {
+    color: #000;
 }
 
-.meta a:hover {
-    color: #808080;
+.js .menu__btn--active,
+.menu__link:hover {
+    color: #fff;
 }
 
 /* Dark Mode */
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background: #252526;
-        color: #fff;
-    }
 
+    body,
     .header,
     .wrapper {
         background: #252526;
@@ -267,10 +269,15 @@ div.wrapper .btn:hover {
     h2,
     h3,
     h4,
-    a {
+    a,
+    .content a,
+    a:hover,
+    .content a:hover,
+    .meta,
+    .meta a,
+    .meta a:hover {
         color: #fff;
     }
-
 }
 
 /* Hide main menu on desktop */
@@ -284,10 +291,17 @@ div.wrapper .btn:hover {
 /* Mobile Styles */
 
 @media screen and (max-width: 767px) {
-    body {
+    body, header {
         padding: 0;
-    }
-    header {
         margin: 0;
+    }
+    a,
+    .content a {
+        text-underline-offset: 3px;
+        text-decoration-thickness: .75px;
+    }
+    .menu__link,
+    .post__title a {
+        text-decoration: none;
     }
 }
