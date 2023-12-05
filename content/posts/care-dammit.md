@@ -6,10 +6,10 @@ lead:
 categories:
   - "Books"
 tags:
+  - "Religion"
+  - "Ethics"
   - "Judaism"
   - "Christianity"
-  - "Ethics"
-  - "Religion"
 draft: false
 ---
 
@@ -17,7 +17,7 @@ I was working on a short story about an exorcist (which I've since abandoned) so
 
 > *Long ago I despaired of ever loving my neighbor. Certain people repelled me. How could I love them? I thought. It tormented me. It led me to despair of myself, and from that,  very soon, to despair of my own God. My faith was shattered. But at last I realized that God would never ask of me that which I know to be psychologically impossible; that the love which He asked was in my* will *and not meant to be felt as emotion at all. He was asking that I* act *with love; that I* do *unto others; and that I should do it unto those who repelled me, I believe, was a greater act of love than any other.*
 
-The priests in *The Exorcists* are Jesuits, but this passage struck me as Talmudic. In Judaism, you aren't asked to care. You're *commanded* to care. And if you can't bring yourself to care, that does not relieve you of the obligation to *act as though you do.*
+The priests in *The Exorcists* are Jesuits, but this passage struck me as Talmudic. In Judaism, you aren't asked to care. You're commanded to. And if you can't bring yourself to care, that does not relieve you of the obligation to act as though you do.
 
 In turn, this reminds me of a sentiment I've heard expressed by [Tim Urban](https://waitbutwhy.com/) and [Scott Alexander](https://www.astralcodexten.com/), among others: You only get to call yourself principled if you apply your principles to people you can't stand.
 
