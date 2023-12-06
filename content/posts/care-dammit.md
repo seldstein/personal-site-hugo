@@ -22,6 +22,6 @@ The priests in *The Exorcists* are Jesuits, but this passage struck me as Talmud
 
 In turn, this reminds me of a sentiment I've heard expressed by [Tim Urban](https://waitbutwhy.com/) and [Scott Alexander](https://www.astralcodexten.com/), among others: You only get to call yourself principled if you apply your principles to people you can't stand.
 
-In other words, kindness counts when it's easy, but it counts more--maybe much more--when it's hard.
+In other words, kindness counts when it's easy, but it counts more---maybe much more---when it's hard.
 
 ---
