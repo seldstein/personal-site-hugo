@@ -5,6 +5,7 @@ description:
 lead: Two short essays and one somewhat longer essay inspired by 'Lonesome Dove' (the miniseries).
 categories:
   - "TV"
+  - "Writing"
 tags:
   - "Shock"
   - "Story"
