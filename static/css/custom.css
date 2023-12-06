@@ -55,13 +55,10 @@ body {
     font-size: 1.4rem;
     line-height: 2rem;
     padding: 0;
-    margin: 0;
 }
 
 .container--outer {
     box-shadow: none;
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
     max-width: 80rem;
 }
@@ -107,8 +104,6 @@ header {
 .menu__btn {
     background: #252526;
 }
-
-
 
 a,
 .content a {
