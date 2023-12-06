@@ -59,7 +59,7 @@ body {
 
 .container--outer {
     box-shadow: none;
-    margin: 0 auto;
+    margin: auto;
     max-width: 80rem;
 }
 
