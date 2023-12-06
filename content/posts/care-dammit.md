@@ -1,6 +1,6 @@
 ---
 title: "And God Said, 'Care, Dammit'"
-date: 2023-12-04T18:00:46-06:00
+date: 2023-12-05T10:00:46-06:00
 description:
 lead: Talmudic wisdom in 'The Exorcist'.
 categories:
