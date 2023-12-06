@@ -54,7 +54,8 @@ body {
     background: #fff;
     font-size: 1.4rem;
     line-height: 2rem;
-    padding: 3rem 0;
+    padding: 0;
+    margin: 0;
 }
 
 .container--outer {
@@ -81,7 +82,8 @@ h4,
 }
 
 header {
-    margin-bottom: 3rem;
+    margin: 0;
+    padding: 0;
 }
 
 .header__container {
@@ -106,17 +108,15 @@ header {
     background: #252526;
 }
 
-@media screen and (min-width: 768px) {
-    .menu {
-        border-bottom: none;
-    }
-}
+
 
 a,
 .content a {
-    text-decoration: underline;
-    color: #000;
     font-weight: 400;
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: .75px;
 }
 
 article.list__item.post {
@@ -189,12 +189,6 @@ a:hover,
     text-decoration: underline;
 }
 
-@media screen and (min-width: 768px) {
-    .primary {
-        padding-right: 5rem;
-    }
-}
-
 .list__title {
     font-size: 2rem;
 }
@@ -264,7 +258,6 @@ blockquote {
 /* Dark Mode */
 
 @media (prefers-color-scheme: dark) {
-
     body,
     .header,
     .wrapper {
@@ -289,27 +282,19 @@ blockquote {
     }
 }
 
-/* Hide main menu on desktop */
+/* Desktop styles */
 
 @media screen and (min-width: 768px) {
+    body {
+        padding: 3rem 0;
+    }
+    header {
+        margin-bottom: 3rem;
+    }
+    .primary {
+        padding-right: 5rem;
+    }
     .menu {
         display: none;
-    }
-}
-
-/* Mobile Styles */
-
-@media screen and (max-width: 767px) {
-
-    body,
-    header {
-        padding: 0;
-        margin: 0;
-    }
-
-    a,
-    .content a {
-        text-underline-offset: 3px;
-        text-decoration-thickness: .75px;
     }
 }
