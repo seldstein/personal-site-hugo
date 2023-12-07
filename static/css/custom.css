@@ -79,6 +79,15 @@ h4,
     text-transform: none;
 }
 
+h1,
+.list__title {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
 .header__container {
     margin: 0;
 }
@@ -178,10 +187,6 @@ a:hover,
 .meta__link:hover,
 .pager__link:hover {
     text-decoration: underline;
-}
-
-.list__title {
-    font-size: 2rem;
 }
 
 div.wrapper .btn:hover {
