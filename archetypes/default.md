@@ -7,10 +7,5 @@ categories:
   - ""
 tags:
   - ""
-thumbnail: "img/placeholder.png"
 draft: true
----
-
-
-
 ---
