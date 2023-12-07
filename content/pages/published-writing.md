@@ -1,12 +1,12 @@
 ---
 title: "Published Writing"
 draft: false
-description: A list of my published writing.
 menu:
   - main
   - side
 weight: 2
 pager: false
+layout: page
 ---
 
 ## Fiction
