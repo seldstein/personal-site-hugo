@@ -123,6 +123,10 @@ article.list__item.post {
     border-bottom: 1px solid #808080;
 }
 
+hr {
+    border-top: 1px solid #808080;
+}
+
 .pager__subtitle {
     text-transform: none;
 }
@@ -245,6 +249,7 @@ blockquote {
 /* Dark Mode */
 
 @media (prefers-color-scheme: dark) {
+
     body,
     .header,
     .wrapper {
@@ -275,12 +280,15 @@ blockquote {
     body {
         padding: 3rem 0;
     }
+
     header {
         margin-bottom: 3rem;
     }
+
     .primary {
         padding-right: 5rem;
     }
+
     .menu,
     .post__rule {
         display: none;
