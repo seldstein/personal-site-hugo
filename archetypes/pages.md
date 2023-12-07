@@ -2,6 +2,10 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 description:
-draft: true
 layout: page
+pager: false
+menu:
+  - main
+  - side
+draft: true
 ---
