@@ -290,7 +290,7 @@ blockquote {
     }
 
     .menu,
-    .post__rule {
+    .page__rule {
         display: none;
     }
 }
