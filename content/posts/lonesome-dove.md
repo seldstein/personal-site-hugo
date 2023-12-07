@@ -44,6 +44,6 @@ Part of the brilliance of *Lonesome Dove* lies in the subtlety with which it int
 
 You see what the show's doing. Each act of violence is grislier than the last. In one scene Gus comes under fire from Blue Duck's men on an open plain and stabs his own horse to death so he can use it as cover. In another, an enslaved woman named Janey breaks the knees of her captor with a frying pan. By the end of the second episode, when Blue Duck kills Bryan, we're well within the type of world where kids get stabbed to death.
 
-And yet, Bryan's death shocked me. And yet, I felt betrayed. And yet, if I felt that way, it was only because I'd become complacent. I'd unwittingly failed to take *Lonesome Dove,* seriously, even though it had never once hidden its face from me, but revealed itself at a measured pace. It did its job, and it did it well. It's not the story's fault I thought we were still on the ranch.
+And yet, Bryan's death shocked me. And yet, I felt betrayed. And yet, if I felt that way, it was only because I'd become complacent. I'd unwittingly failed to take *Lonesome Dove* seriously, even though it had never once hidden its face from me, but revealed itself at a measured pace. It did its job, and it did it well. It's not the story's fault I thought we were still on the ranch.
 
 ---
