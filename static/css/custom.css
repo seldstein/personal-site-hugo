@@ -131,10 +131,6 @@ article.list__item.post {
     font-size: 1rem;
 }
 
-hr {
-    border-top: 1px solid #808080;
-}
-
 .sidebar a {
     text-decoration: underline;
 }
@@ -285,7 +281,8 @@ blockquote {
     .primary {
         padding-right: 5rem;
     }
-    .menu {
+    .menu,
+    .post__rule {
         display: none;
     }
 }
