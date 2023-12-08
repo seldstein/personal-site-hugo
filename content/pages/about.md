@@ -13,8 +13,6 @@ Hi, I’m **Sam Feldstein** and I write stories. I mostly work in the fantasy, h
 
 The [Notebook]((https://publish.obsidian.md/sam-feldstein/)) link in the menu will take you to my digital workspace, where I keep notes, project documents, and other adversaria. Probably it's redundant. I had the notebook before I had this website. I think the advantage of it is having a place for thoughts are disorganzied and unpolished. I'm not behold to propriety or etiquette over there. I'd like to move the more useful items from over there to over here.
 
-### Like Father Like Son Like Movies
-
-A podcast I host with my dad. As you can probably tell, it's about movies. You can find us on [Apple Podcasts](https://podcasts.apple.com/us/podcast/like-father-like-son-like-movies/id1640110809) or your podcatcher of choice.
+I also host a podcast with my dad called [Like Father Like Son Like Movies](https://podcasts.apple.com/us/podcast/like-father-like-son-like-movies/id1640110809). You can find us on Apple Podcasts or your podcatcher of choice.
 
 I built this website with [Hugo](https://gohugo.io/) and the [Mainroad](https://mainroad-demo.netlify.app/) theme. The layout was inspired by [Molly White’s website](https://www.mollywhite.net/).
