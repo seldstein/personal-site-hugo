@@ -11,7 +11,7 @@ layout: page
 
 ## Fiction
 
-[*The Man Who Was a Boy Made of Memories*](https://talestoterrify.com/episodes/619-z-j-garcia-samuel-feldstein/) on *Tales to Terrify* (fiction, reprint, Dec. 2023)
+"[The Man Who Was a Boy Made of Memories](https://talestoterrify.com/episodes/619-z-j-garcia-samuel-feldstein/)" on *Tales to Terrify* (fiction, reprint, Dec. 2023)
 
 [*Queen of the Thunderbeasts*](https://www.dmsguild.com/product/426630/Queen-of-the-Thunderbeasts?affiliate_id=1701028) on the DMsGuild (roleplaying adventure, 2023)
 
