@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>South Dakota on Sam Feldstein</title>
+    <link>https://samfeldstein.xyz/tags/south-dakota/</link>
+    <description>Recent content in South Dakota on Sam Feldstein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Nov 2023 22:57:28 -0600</lastBuildDate>
+    <atom:link href="https://samfeldstein.xyz/tags/south-dakota/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Buffalo Sorting and My First Gambling Foray</title>
+      <link>https://samfeldstein.xyz/blog/buffalo-sorting/</link>
+      <pubDate>Sun, 12 Nov 2023 22:57:28 -0600</pubDate>
+      <guid>https://samfeldstein.xyz/blog/buffalo-sorting/</guid>
+      <description>Oh, that&amp;rsquo;s why gambling is addictive.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Religion on Sam Feldstein</title>
+    <link>https://samfeldstein.xyz/tags/religion/</link>
+    <description>Recent content in Religion on Sam Feldstein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Dec 2023 10:00:46 -0600</lastBuildDate>
+    <atom:link href="https://samfeldstein.xyz/tags/religion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>And God Said, &#39;Care, Dammit&#39;</title>
+      <link>https://samfeldstein.xyz/blog/care-dammit/</link>
+      <pubDate>Tue, 05 Dec 2023 10:00:46 -0600</pubDate>
+      <guid>https://samfeldstein.xyz/blog/care-dammit/</guid>
+      <description>Talmudic wisdom in &amp;lsquo;The Exorcist&amp;rsquo;.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Romance on Sam Feldstein</title>
+    <link>https://samfeldstein.xyz/tags/romance/</link>
+    <description>Recent content in Romance on Sam Feldstein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Dec 2023 20:23:25 -0600</lastBuildDate>
+    <atom:link href="https://samfeldstein.xyz/tags/romance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It&#39;s Not the Story&#39;s Fault You Thought You Were Still on the Ranch</title>
+      <link>https://samfeldstein.xyz/blog/lonesome-dove/</link>
+      <pubDate>Tue, 05 Dec 2023 20:23:25 -0600</pubDate>
+      <guid>https://samfeldstein.xyz/blog/lonesome-dove/</guid>
+      <description>Two short essays and one somewhat longer essay inspired by &amp;lsquo;Lonesome Dove&amp;rsquo; (the miniseries).</description>
+    </item>
+    <item>
+      <title>Cinderella in Reverse: &#39;Roman Holiday&#39;</title>
+      <link>https://samfeldstein.xyz/blog/roman-holiday/</link>
+      <pubDate>Tue, 24 Jan 2023 00:46:44 -0600</pubDate>
+      <guid>https://samfeldstein.xyz/blog/roman-holiday/</guid>
+      <description>Rather than putting the glass slipper on, Ann kicks it off.</description>
+    </item>
+  </channel>
+</rss>
