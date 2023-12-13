@@ -5,7 +5,7 @@ theme: custom
 
 services:
   googleAnalytics:
-    ID: G-MEASUREMENT_ID
+    ID: G-ECY4M5C4Z8
 
 analytics:
   google:
@@ -16,9 +16,6 @@ analytics:
 minify:
   minifyOutput: true
   disableXML: true
-
-params:
-  description: Sam Feldstein's personal website.
 
 menu:
   main:
@@ -31,3 +28,6 @@ menu:
     - name: RSS
       url: /index.xml
       weight: 3
+
+params:
+  description: Sam Feldstein's personal website.
