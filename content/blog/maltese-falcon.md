@@ -12,6 +12,7 @@ tags:
   - Humphrey Bogart
 draft: false
 ---
+
 Sam Spade exhibits a degree of unhinged lunacy on par with Hamlet, and there’s something to that, isn’t there, because you know what they have in common? They’re both damaged goods. Hamlet’s uncle killed his father and then had shameless carnal relations with his mother. It’s enough to drive anyone to San Francisco, and Sam, well we don’t know what he’s been through but part of the art of filmmaking as John Huston so deftly demonstrates is knowing what to say and when to say it, yes, but also knowing what not to say. No, it wouldn’t do if we knew too much about Sam Spade, if we knew what abuses he’s endured. If we knew that we’d pity him, and worse, he wouldn’t be so damn cool.
 
 Sam is pretty slick. He calls you sweetheart and gets away with it. He likes being the smartest guy in the room, it’s a hobby he turned into a career. He’s emotionally detached to a pathological degree (never does he express anything like grief over the death of his partner, except perhaps in the anger he directs at O’Shaughnessy while accusing her of being Archer’s killer), though he has appetites, like any other man, which isn’t to say he can’t love, because he can, it’s just he knows love is bad for business, and in his business, what’s bad for business gets you killed. More than that he knows love’s not to be trusted, having made himself an expert on such matters by sleeping with his partner’s wife. Sam’s no gambler but he can recognize a hand and knows when to hedge his bets. So if it comes down to you or him, sweetheart, it’s you all the way.
@@ -35,5 +36,3 @@ Sam Spade is an action hero who riddles the bad guys not with bullets but with w
 All the same, Spade meets his match in Gutman, the fat man. The thing about the fat man is he’s fat, and nothing’s getting through that. He’s too old to be teased to shambles. He’s amused by Spade’s antics more than cowed, and the fact is that right up to the finish it’s in no way clear that Sam’s going to win this one. Matter of fact everything seems to be going just swimmingly for Gutman right up until he unwraps the counterfeit avian statuette, and that’s no clever switcharoo by Sam either. The falcon is made lead only by an act of cinematic providence. Why? Probably because the alternative would have been pretty boring. Moreover it lets Sam, and by extension us, relish the look of bewildered despair that graces Gutman’s flabby jowls.
 
 For his part, Sam doesn’t seem the least bit surprised. Could it be that under everything he is, in his way, a man of faith? Not that he’d call it that. Sam has no use for faith. He believes what he knows, and what he knows is this: sooner or later, every bastard gets what’s coming to them, himself included.
-
----

@@ -33,5 +33,3 @@ Still, I’d started with twenty dollars if you recall, meaning I won twenty-fou
 The rest of the trip was exactly as relaxing and uneventful as it should have been. I'll close with one more brief anecdote.
 
 On the second to last day we went to Custer State Park with the idea of seeing some buffalo and driving up Needles Highway. What we didn't know was that that was also the day the buffalo were being sorted, which is evidently a thing they do at Custer State Park. Every September the park rangers, accompanied by a number of volunteers, round up the herd so select specimens can be sold to various ranches and meat sellers. I didn't know any of this, but it dawned on me after the fact that the bison burger I'd had in Wall must have come from somewhere.
-
----

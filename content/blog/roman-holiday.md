@@ -24,5 +24,3 @@ Roman Holiday isn’t perfect. There’s more than enough narrative wheel-spinni
 By the end, Ann has grown up a bit. She has had her day in the sun. It is midnight. The carriage has again become a pumpkin. Time to go home. She returns to the throne with quiet grace, not having escaped the gilded cage, but better equipped to bear its burdens. The child in Ann dies so the princess can live. It is death by obligation. Put less dramatically, her yearning for freedom isn’t gone, but now she has a place to keep it: her memories, rendered in photographs, themselves contained in an envelope, to be procured when she needs them, but otherwise tucked away, hidden.
 
 Joe, for his part, lingers in the grand hall — perhaps hoping that he is in one of those romantic movies where the girl comes running back, dress blowing in the wind, heralded by a triumphant brass-filled score — waiting for a happy ending that we know isn’t coming. He knows it too.
-
----
