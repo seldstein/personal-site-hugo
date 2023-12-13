@@ -22,15 +22,12 @@ menu:
     - name: Blog
       url: /blog
       weight: 1
-    - name: Categories
-      url: /categories
-      weight: 2
     - name: Notebook
       url: https://notebook.samfeldstein.xyz/homepage
-      weight: 3
+      weight: 2
     - name: RSS
       url: /index.xml
-      weight: 4
+      weight: 3
 
 params:
   description: Sam Feldstein's personal website.
