@@ -54,6 +54,7 @@ footer {
 }
 
 footer {
+  margin-top: 1rem;
   border-top: 1px solid;
   padding-bottom: 1rem;
 }
