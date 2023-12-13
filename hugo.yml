@@ -5,7 +5,7 @@ theme: custom
 
 services:
   googleAnalytics:
-    ID: G-ECY4M5C4Z8
+    id: G-ECY4M5C4Z8
 
 analytics:
   google:
@@ -25,9 +25,12 @@ menu:
     - name: Categories
       url: /categories
       weight: 2
+    - name: Notebook
+      url: https://notebook.samfeldstein.xyz/homepage
+      weight: 3
     - name: RSS
       url: /index.xml
-      weight: 3
+      weight: 4
 
 params:
   description: Sam Feldstein's personal website.
