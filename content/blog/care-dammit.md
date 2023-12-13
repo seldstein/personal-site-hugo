@@ -1,16 +1,15 @@
 ---
-title: "And God Said, 'Care, Dammit'"
+title: And God Said, 'Care, Dammit'
 date: 2023-12-05T10:00:46-06:00
-description:
-lead: Talmudic wisdom in 'The Exorcist'.
+summary: Talmudic wisdom in 'The Exorcist'.
 categories:
-  - "Books"
+  - Books
 tags:
-  - "Horror"
-  - "Religion"
-  - "Ethics"
-  - "Judaism"
-  - "Christianity"
+  - Horror
+  - Religion
+  - Ethics
+  - Judaism
+  - Christianity
 draft: false
 ---
 

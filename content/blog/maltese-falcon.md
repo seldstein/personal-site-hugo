@@ -1,16 +1,16 @@
 ---
 title: "Riddled with Words: 'The Maltese Falcon'"
-lead: Every bastard gets what's coming to them.
+summary: Every bastard gets what's coming to them.
 date: 2023-01-31T00:37:34-06:00
-draft: false
 categories:
-  - "Movies"
+  - Movies
 tags:
-  - "Noir"
-  - "Bastards"
-  - "John Huston"
-  - "Dashiell Hammett"
-  - "Humphrey Bogart"
+  - Noir
+  - Bastards
+  - John Huston
+  - Dashiell Hammett
+  - Humphrey Bogart
+draft: false
 ---
 Sam Spade exhibits a degree of unhinged lunacy on par with Hamlet, and there’s something to that, isn’t there, because you know what they have in common? They’re both damaged goods. Hamlet’s uncle killed his father and then had shameless carnal relations with his mother. It’s enough to drive anyone to San Francisco, and Sam, well we don’t know what he’s been through but part of the art of filmmaking as John Huston so deftly demonstrates is knowing what to say and when to say it, yes, but also knowing what not to say. No, it wouldn’t do if we knew too much about Sam Spade, if we knew what abuses he’s endured. If we knew that we’d pity him, and worse, he wouldn’t be so damn cool.
 
