@@ -1,6 +1,6 @@
 ---
 title: Absence of Meaning in 'The Lighthouse'
-summary: Such a successful exercise in atmosphere that we forget that the thing we’re watching may very well be about nothing.
+description: Such a successful exercise in atmosphere that we forget that the thing we’re watching may very well be about nothing.
 date: 2022-04-05T00:28:19-06:00
 categories:
   - Movies

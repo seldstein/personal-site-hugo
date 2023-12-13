@@ -1,6 +1,6 @@
 ---
 title: "Cinderella in Reverse: 'Roman Holiday'"
-summary: Rather than putting the glass slipper on, Ann kicks it off.
+description: Rather than putting the glass slipper on, Ann kicks it off.
 date: 2023-01-24T00:46:44-06:00
 categories:
   - Movies

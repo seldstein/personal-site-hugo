@@ -1,6 +1,6 @@
 ---
 title: Buffalo Sorting and My First Gambling Foray
-summary: Oh, that's why gambling is addictive.
+description: Oh, that's why gambling is addictive.
 date: 2023-11-12T22:57:28-06:00
 categories:
     - Travel
