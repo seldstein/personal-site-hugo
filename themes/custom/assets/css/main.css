@@ -64,6 +64,16 @@ main {
   flex: 1;
 }
 
+h2 {
+  text-align: right;
+  border-bottom: 1px solid;
+}
+
+.list-title {
+  text-align: left;
+  border-bottom: none;
+}
+
 .list-title a {
   text-decoration: none;
 }
