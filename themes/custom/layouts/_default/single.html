@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="single-meta">
+    {{ partial "meta.html" . }}
+</div>
+{{ .Content }}
+<div class="post-tags">
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+</div>
+{{ end }}

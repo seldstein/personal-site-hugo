@@ -1,0 +1,36 @@
+baseURL: 'https://samfeldstein.xyz/'
+languageCode: en-us
+title: Sam Feldstein
+theme: custom
+
+services:
+  googleAnalytics:
+    ID: G-MEASUREMENT_ID
+
+analytics:
+  google:
+    SiteVerificationTag: "XYZabc"
+  bing:
+    SiteVerificationTag: "XYZabc"
+
+minify:
+  minifyOutput: true
+  disableXML: true
+
+params:
+  description: A description of my website.
+
+menu:
+  main:
+    - name: Blog
+      url: /blog
+      weight: 1
+    - name: Categories
+      url: /categories
+      weight: 2
+    - name: Published Writing
+      url: /published-writing
+      weight: 3
+    - name: RSS
+      url: /index.xml
+      weight: 4
