@@ -9,4 +9,4 @@ The [Notebook](https://publish.obsidian.md/sam-feldstein/) link in the menu will
 
 I also host a podcast with my dad called [Like Father Like Son Like Movies](https://podcasts.apple.com/us/podcast/like-father-like-son-like-movies/id1640110809). You can find us on Apple Podcasts or your podcatcher of choice.
 
-I built this website with [Hugo](https://gohugo.io/) and the [Mainroad](https://mainroad-demo.netlify.app/) theme. The layout was inspired by [Molly White’s website](https://www.mollywhite.net/).
+I built this website with [Hugo](https://gohugo.io/) and a custom theme.

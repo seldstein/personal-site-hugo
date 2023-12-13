@@ -1,4 +1,4 @@
-baseURL: 'https://samfeldstein.xyz/'
+baseURL: https://samfeldstein.xyz/
 languageCode: en-us
 title: Sam Feldstein
 theme: custom
@@ -18,7 +18,7 @@ minify:
   disableXML: true
 
 params:
-  description: A description of my website.
+  description: Sam Feldstein's personal website. Sam is a writer, blogger, and web developer.
 
 menu:
   main:
