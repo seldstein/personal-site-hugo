@@ -18,7 +18,7 @@ minify:
   disableXML: true
 
 params:
-  description: Sam Feldstein's personal website. Sam is a writer, blogger, and web developer.
+  description: Sam Feldstein's personal website.
 
 menu:
   main:
