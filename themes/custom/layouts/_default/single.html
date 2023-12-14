@@ -1,9 +1,7 @@
 {{ define "main" }}
 <div class="single-header">
     <h1>{{ .Title }}</h1>
-    <div class="single-meta">
-        {{ partial "meta.html" . }}
-    </div>
+    {{ partial "meta.html" . }}
 </div>
 {{ .Content }}
 <div class="post-tags">

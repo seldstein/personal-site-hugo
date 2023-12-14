@@ -51,12 +51,8 @@ h2 {
   text-decoration: none;
 }
 
-.list-title,
-h1 {
-  margin-bottom: 0;
-}
-
 .list-title {
+  margin-bottom: 0;
   text-align: left;
   border-bottom: none;
 }
@@ -67,6 +63,10 @@ h1 {
 
 .list-title a:hover {
   text-decoration: underline;
+}
+
+.single-header {
+  text-align: center;
 }
 
 /* Links and Lists */
@@ -93,10 +93,8 @@ nav ul,
 
 /* Meta */
 
-.post-meta {
+.meta {
   font-size: 1rem;
-  display: flex;
-  gap: .5rem;
 }
 
 .post-tags ul {
