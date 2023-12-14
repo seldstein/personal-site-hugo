@@ -3,13 +3,13 @@ title: It's Not the Story's Fault You Thought You Were Still on the Ranch
 date: 2023-12-05T20:23:25-06:00
 description: Two short essays and one somewhat longer essay inspired by 'Lonesome Dove' (the miniseries).
 categories:
-  - TV
   - Writing
 tags:
+  - Romance
   - Shock
   - Story
+  - TV
   - Westerns
-  - Romance
 draft: false
 ---
 

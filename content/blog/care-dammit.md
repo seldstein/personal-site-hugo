@@ -5,11 +5,11 @@ description: Talmudic wisdom in 'The Exorcist'.
 categories:
   - Books
 tags:
-  - Horror
-  - Religion
-  - Ethics
-  - Judaism
   - Christianity
+  - Ethics
+  - Horror
+  - Judaism
+  - Religion  
 draft: false
 ---
 

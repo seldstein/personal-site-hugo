@@ -5,10 +5,10 @@ date: 2023-11-12T22:57:28-06:00
 categories:
     - Travel
 tags:
-    - South Dakota
+    - Buffalo
     - First Forays
     - Gambling
-    - Buffalo
+    - South Dakota
 draft: false
 ---
 

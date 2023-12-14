@@ -5,11 +5,11 @@ date: 2023-01-31T00:37:34-06:00
 categories:
   - Movies
 tags:
-  - Noir
   - Bastards
-  - John Huston
   - Dashiell Hammett
   - Humphrey Bogart
+  - John Huston
+  - Noir
 draft: false
 ---
 
