@@ -9,7 +9,7 @@ The [Notebook](https://publish.obsidian.md/sam-feldstein/) link in the menu will
 
 I also host a podcast with my dad called [Like Father Like Son Like Movies](https://podcasts.apple.com/us/podcast/like-father-like-son-like-movies/id1640110809). You can find us on Apple Podcasts or your podcatcher of choice.
 
-I built this website with [Hugo](https://gohugo.io/) and a custom theme.
+I built this website with [Hugo](https://gohugo.io/) and a custom theme. You can see the code on [GitHub](https://github.com/seldstein/personal-website).
 
 ## Published Writing
 
