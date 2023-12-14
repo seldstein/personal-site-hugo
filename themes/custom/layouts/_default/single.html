@@ -4,7 +4,5 @@
     {{ partial "meta.html" . }}
 </div>
 {{ .Content }}
-<div class="post-tags">
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
-</div>
+{{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 {{ end }}

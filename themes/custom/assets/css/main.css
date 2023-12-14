@@ -38,7 +38,7 @@ main {
 h1,
 h2,
 h3,
-h4, {
+h4 {
   font-variant: small-caps;
 }
 
@@ -53,8 +53,6 @@ h1 {
 
 .list-title {
   margin-bottom: 0;
-  text-align: left;
-  border-bottom: none;
 }
 
 .list-title a {
@@ -87,12 +85,19 @@ a:hover {
 }
 
 nav ul,
-.post-tags ul {
+.meta ul {
   list-style: none;
   padding: 0;
   display: flex;
-  gap: 1.5rem;
   flex-wrap: wrap;
+}
+
+nav ul {
+  gap: 1.5rem;
+}
+
+.meta ul {
+  gap: .5rem;
 }
 
 /* Meta */
@@ -101,20 +106,12 @@ nav ul,
   font-size: 1rem;
 }
 
-.post-tags ul {
+.tags ul {
   gap: .5rem;
 }
 
-.post-tags a {
-  background: #505050;
-  color: #fff;
-  padding: .25rem .75rem;
-  font-size: 1rem;
+.tags a {
   text-decoration: none;
-}
-
-.post-tags a:hover {
-  background: gray;
 }
 
 /* Dark Mode */
