@@ -25,9 +25,12 @@ menu:
     - name: Notebook
       url: https://notebook.samfeldstein.xyz/homepage
       weight: 2
+    - name: Newsletter
+      url: https://samfeldstein.substack.com/
+      weight: 3
     - name: RSS
       url: /index.xml
-      weight: 3
+      weight: 4
 
 params:
   description: Sam Feldstein's personal website. Sam is a writer and web developer from Bondurant, IA.
