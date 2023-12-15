@@ -14,7 +14,7 @@ body {
   line-height: 1.5;
   margin: 0 auto;
   padding: 1rem;
-  max-width: 60rem;
+  max-width: 50rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
