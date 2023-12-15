@@ -1,5 +1,6 @@
 ---
 title: 'Home'
+toc: true
 draft: false
 ---
 
@@ -32,3 +33,35 @@ I built this website with [Hugo](https://gohugo.io/) and a custom theme. You can
 [Trans-Pecos Festival of Music + Love doubles as platform for advocacy and outreach](https://bigbendsentinel.com/2022/10/05/trans-pecos-festival-of-music-love-doubles-as-platform-for-advocacy-and-outreach/) in *The Big Bend Sentinel* (article, Oct. 2022)
 
 [Absence of Meaning in *The Lighthouse*](https://thefridacinema.org/film-criticism/absence-of-meaning-the-lighthouse/) on the Frida Cinema blog (essay, April 2022)
+
+---
+
+## Blogroll
+
+Alan Jacobs at [The Homebound Symphony](https://blog.ayjay.org/)
+
+Cory Doctorow at [Pluralistic](https://pluralistic.net/)
+
+[Freddie deBoer](https://freddiedeboer.substack.com/)
+
+Dan Carlin at [Look Behind You!](https://dancarlin.substack.com/)
+
+[Gwern Branwen](https://gwern.net/)
+
+Henrik Karlsson at [Escaping Flatland](https://www.henrikkarlsson.xyz/)
+
+Maria Popova at [The Marginalian](https://www.themarginalian.org/)
+
+Matthew Yglesias at [Slow Boring](https://www.slowboring.com/)
+
+Molly White at [[citation needed](https://newsletter.mollywhite.net/)]
+
+[Paul Graham](https://www.paulgraham.com/)
+
+Scott Aaronson at [Shtetl-Optimized](https://scottaaronson.blog/)
+
+Scott Alexander at [Astral Codex Ten](https://www.astralcodexten.com/)
+
+Seth Simons at [Humorism](https://www.humorism.xyz/)
+
+Tim Urban at [Wait But Why](https://waitbutwhy.com/)
