@@ -36,6 +36,39 @@ I built this website with [Hugo](https://gohugo.io/) and a custom theme. You can
 
 ---
 
+## Things I Use
+
+For writing fiction, I use [Scrivener](https://www.literatureandlatte.com/scrivener/overview). For writing everything else, taking notes, and managing files, I use [Obsidian](https://obsidian.md/) with the [Minimal](https://minimal.guide/home) theme and the following community plugins:
+
+- Hider
+- LanguageTool Integration
+- Minimal Theme Settings
+- Omnivore
+- Readwise Official
+- Typewriter Scroll
+
+For reading and annotating articles, I used to use [Readwise](https://readwise.io/) but recently switched to [Omnivore](https://omnivore.app/). I store my notes and highlights in Obsidian using the plugins mentioned above.
+
+For memorizing facts, quotes, and other information, I use [spaced repitition](https://en.wikipedia.org/wiki/Spaced_repetition) via [Mnemosyne](https://mnemosyne-proj.org/).
+
+For coding, I use [VS Code](https://code.visualstudio.com/) with the following extensions:
+
+- Code Spell Checker
+- Dendron Markdown Shortcuts
+- Even Better TOML
+- HTML Boilerplate
+- HTML CSS Support
+- HTTP/s and relative link checker
+- Live Server
+- markdownlint
+- Pylance
+- Python
+- YAML
+
+I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https://github.com/seldstein/personal-website).
+
+---
+
 ## Blogroll
 
 Alan Jacobs at [The Homebound Symphony](https://blog.ayjay.org/)
