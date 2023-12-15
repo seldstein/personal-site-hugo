@@ -4,7 +4,6 @@ date: 2023-12-05T20:23:25-06:00
 description: Two short essays and one somewhat longer essay inspired by 'Lonesome Dove' (the miniseries).
 categories:
   - Movies & TV
-  - Storytelling
 tags:
   - Romance
   - Shock
