@@ -46,8 +46,9 @@ main {
 h1,
 h2,
 h3,
-h4 {
-  font-family: Lucida, Palatino, Georgia, serif;
+h4, 
+.logo {
+  font-family: Palatino, Georgia, serif;
   font-variant: small-caps;
 }
 
