@@ -1,6 +1,5 @@
 ---
 title: 'Home'
-toc: true
 draft: false
 ---
 
@@ -47,9 +46,11 @@ For writing fiction, I use [Scrivener](https://www.literatureandlatte.com/scrive
 - Readwise Official
 - Typewriter Scroll
 
-For reading and annotating articles, I used to use [Readwise](https://readwise.io/) but recently switched to [Omnivore](https://omnivore.app/). I store my notes and highlights in Obsidian using the plugins mentioned above.
+I used to read and annotate articles with [Readwise](https://readwise.io/), but recently switched to [Omnivore](https://omnivore.app/). I store my notes and highlights in Obsidian using the plugins mentioned above.
 
-For memorizing facts, quotes, and other information, I use [spaced repitition](https://en.wikipedia.org/wiki/Spaced_repetition) via [Mnemosyne](https://mnemosyne-proj.org/).
+I track RSS feeds with [NewsBlur](https://newsblur.com/) but am considering moving them to Omnivore.
+
+For memorizing facts, quotes, and other information, I use [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition) via [Mnemosyne](https://mnemosyne-proj.org/).
 
 For coding, I use [VS Code](https://code.visualstudio.com/) with the following extensions:
 
