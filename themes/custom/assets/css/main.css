@@ -57,13 +57,17 @@ h1 {
   margin: 0;
 }
 
-a {
+a,
+.list-title a:hover {
   color: #000;
   text-decoration: underline;
   text-underline-offset: .35rem;
 }
 
-a:hover {
+a:hover,
+.logo,
+.list-title a,
+.tags a {
   text-decoration: none;
 }
 
@@ -75,19 +79,10 @@ blockquote {
 
 .logo {
   font-size: 2rem;
-  text-decoration: none;
 }
 
 .list-title {
   margin-bottom: 0;
-}
-
-.list-title a {
-  text-decoration: none;
-}
-
-.list-title a:hover {
-  text-decoration: underline;
 }
 
 .single-header {
@@ -116,10 +111,6 @@ nav ul {
 
 .tags ul {
   gap: .5rem;
-}
-
-.tags a {
-  text-decoration: none;
 }
 
 /* Dark Mode */
