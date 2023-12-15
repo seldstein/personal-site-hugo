@@ -11,6 +11,8 @@ I also host a podcast with my dad called [Like Father Like Son Like Movies](http
 
 I built this website with [Hugo](https://gohugo.io/) and a custom theme. You can see the code on [GitHub](https://github.com/seldstein/personal-website).
 
+---
+
 ## Published Writing
 
 ### Fiction
