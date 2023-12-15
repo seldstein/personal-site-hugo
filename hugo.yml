@@ -7,12 +7,6 @@ services:
   googleAnalytics:
     id: G-ECY4M5C4Z8
 
-analytics:
-  google:
-    SiteVerificationTag: "XYZabc"
-  bing:
-    SiteVerificationTag: "XYZabc"
-
 minify:
   minifyOutput: true
   disableXML: true
@@ -31,6 +25,12 @@ menu:
     - name: RSS
       url: /index.xml
       weight: 4
+
+markup:
+  goldmark:
+    extensions:
+      typographer:
+        disable: true
 
 params:
   description: Sam Feldstein's personal website. Sam is a writer and web developer from Bondurant, IA.
