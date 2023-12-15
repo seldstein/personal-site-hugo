@@ -5,8 +5,6 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 <meta name="description" content="{{ if .IsHome }}{{ site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
 {{ template "_internal/google_analytics.html" . }}
-{{- if site.Params.analytics.bing.SiteVerificationTag }}
-{{- end }}
 <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}">
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
