@@ -72,6 +72,7 @@ I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https:
 - [Freddie deBoer](https://freddiedeboer.substack.com/)
 - Dan Carlin at [Look Behind You!](https://dancarlin.substack.com/)
 - [Gwern Branwen](https://gwern.net/)
+- Heather Cox Richardson at [Letters From an American](https://heathercoxrichardson.substack.com/)
 - Henrik Karlsson at [Escaping Flatland](https://www.henrikkarlsson.xyz/)
 - Maria Popova at [The Marginalian](https://www.themarginalian.org/)
 - Matthew Yglesias at [Slow Boring](https://www.slowboring.com/)
