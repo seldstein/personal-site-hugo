@@ -3,7 +3,7 @@ title: 'Home'
 draft: false
 ---
 
-Hi, I’m **Sam Feldstein** and I'm a writer. Sometimes I write fiction, sometimes essays. I'm also fond of [blogging](/blog), [reading](https://www.goodreads.com/user/show/153965751-sam-feldstein), [watching movies](https://letterboxd.com/HoogoSteeglitz/), and [taking photographs](https://www.instagram.com/seldstein/). I'm interested in writing, storytelling, Judaism, and web design. The best way to keep up with my work is to subscribe to my [newsletter](https://samfeldstein.substack.com/) or [rss feed](/index.xml). I'm not very active on social media, but you can find me on [Instagram](https://www.instagram.com/seldstein/), [Mastodon](https://mastodon.social/@samfeldstein), and [Letterboxd](https://letterboxd.com/HoogoSteeglitz/). If you'd like to get in touch, you can email me at [samfeldstein@proton.me](mailto:samfeldstein@proton.me).
+Hi, I’m **Sam Feldstein** and I'm a writer. Sometimes I write fiction, sometimes essays. I'm also fond of [blogging](/blog), [reading](https://www.goodreads.com/user/show/153965751-sam-feldstein), [watching movies](https://letterboxd.com/HoogoSteeglitz/), and [taking photographs](https://www.instagram.com/seldstein/). I'm interested in writing, storytelling, Judaism, and web design. The best way to keep up with my work is to subscribe to my [newsletter](https://samfeldstein.substack.com/) or [RSS feed](/index.xml). I'm not very active on social media, but you can find me on [Instagram](https://www.instagram.com/seldstein/), [Mastodon](https://mastodon.social/@samfeldstein), and [Letterboxd](https://letterboxd.com/HoogoSteeglitz/). If you'd like to get in touch, you can email me at [samfeldstein@proton.me](mailto:samfeldstein@proton.me).
 
 The [Notebook](https://publish.obsidian.md/sam-feldstein/) link in the menu will take you to my digital workspace, where I keep notes, project documents, and adversaria.
 
@@ -41,9 +41,7 @@ For writing fiction, I use [Scrivener](https://www.literatureandlatte.com/scrive
 - Readwise Official
 - Typewriter Scroll
 
-I used to read and annotate articles with [Readwise](https://readwise.io/), but recently switched to [Omnivore](https://omnivore.app/). I store my notes and highlights in Obsidian using the plugins mentioned above.
-
-I track RSS feeds with [NewsBlur](https://newsblur.com/) but am considering moving them to Omnivore.
+I used to read and annotate articles with [Readwise](https://readwise.io/), but recently switched to [Omnivore](https://omnivore.app/). Omnivore is open source, feels lighter, and so far doesn't include any annoying features you can't turn off (a la the blue bar to the left of paragraphs in Readwise). I don't know yet if Omnivore supports video transcription, but if not, I'll keep using Readwise for that and also for its daily review feature. I store my notes and highlights in Obsidian using the plugins mentioned above. I track RSS feeds with [NewsBlur](https://newsblur.com/) but am considering moving them to Omnivore.
 
 For memorizing facts, quotes, and other information, I use [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition) via [Mnemosyne](https://mnemosyne-proj.org/).
 
