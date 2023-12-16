@@ -41,6 +41,8 @@ For writing fiction, I use [Scrivener](https://www.literatureandlatte.com/scrive
 - Readwise Official
 - Typewriter Scroll
 
+My go-to dictionaries are the New Oxford American Dictionary and the Oxford Dictionary of English (British English), which I access via the macOS Dictionary app. I also installed the [Webster's 1913 Dictionary](https://github.com/cmod/websters-1913), which is archaic and fun. I regularly consult [The Free Dictionary](https://www.thefreedictionary.com/), [Merriam-Webster](https://www.merriam-webster.com/), [Dictionary.com](https://www.dictionary.com/), the [Online Etymology Dictionary](https://www.etymonline.com/), *Roget’s Thesaurus*, and [Thesaurus.com](https://www.thesaurus.com/).
+
 I used to read and annotate articles with [Readwise](https://readwise.io/), but recently switched to [Omnivore](https://omnivore.app/). Omnivore is open source, feels lighter, and so far doesn't include any annoying features you can't turn off (a la the blue bar to the left of paragraphs in Readwise). I don't know yet if Omnivore supports video transcription, but if not, I'll keep using Readwise for that and also for its daily review feature. I store my notes and highlights in Obsidian using the plugins mentioned above. I track RSS feeds with [NewsBlur](https://newsblur.com/) but am considering moving them to Omnivore.
 
 For memorizing facts, quotes, and other information, I use [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition) via [Mnemosyne](https://mnemosyne-proj.org/).
