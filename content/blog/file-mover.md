@@ -4,7 +4,6 @@ date: 2023-12-16T08:53:53-06:00
 description: Nothing special, but it made me happy.
 categories:
   - Programming
-  - Projects
 tags:
   - ChatGPT
   - Productivity
