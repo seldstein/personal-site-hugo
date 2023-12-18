@@ -7,7 +7,7 @@
     <!-- <div>{{ $label }}:</div> -->
     <ul>
       {{- range . }}
-        <li><i><a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a></i></li>
+        <li><i>#<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></i></li>
       {{- end }}
     </ul>
   </div>
