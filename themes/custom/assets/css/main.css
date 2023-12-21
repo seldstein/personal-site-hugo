@@ -12,7 +12,6 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.2rem;
   line-height: 1.5;
-  text-align: justify;
   margin: 0 auto;
   padding: 1rem;
   max-width: 50rem;
@@ -146,8 +145,10 @@ nav ul {
   }
 }
 
-/* Mobile */
+/* Desktop */
 
-@media screen {
-  
+@media screen and (min-width: 768px) {
+  body {
+    text-align: justify;
+  }
 }
