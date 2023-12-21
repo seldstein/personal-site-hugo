@@ -11,8 +11,6 @@ I also host a podcast with my dad called [Like Father Like Son Like Movies](http
 
 I built this website with [Hugo](https://gohugo.io/) and a custom theme.
 
----
-
 ## Published Writing
 
 ### Fiction
@@ -27,8 +25,6 @@ I built this website with [Hugo](https://gohugo.io/) and a custom theme.
 - [Big Bend Reproductive Coalition launches community needs assessment](https://bigbendsentinel.com/2023/08/09/big-bend-reproductive-coalition-launches-community-needs-assessment-with-inaugural-town-hal/?mc_cid=b24b0bb606) in *The Big Bend Sentinel* (article, Aug. 2023)
 - [Trans-Pecos Festival of Music + Love doubles as platform for advocacy and outreach](https://bigbendsentinel.com/2022/10/05/trans-pecos-festival-of-music-love-doubles-as-platform-for-advocacy-and-outreach/) in *The Big Bend Sentinel* (article, Oct. 2022)
 - [Absence of Meaning in *The Lighthouse*](https://thefridacinema.org/film-criticism/absence-of-meaning-the-lighthouse/) on the Frida Cinema blog (essay, April 2022)
-
----
 
 ## Things I Use
 
@@ -62,8 +58,6 @@ For coding, I use [VS Code](https://code.visualstudio.com/) with the following e
 - YAML
 
 I built this website with [Hugo](https://gohugo.io/) and a custom theme.
-
----
 
 ## Blogroll
 
