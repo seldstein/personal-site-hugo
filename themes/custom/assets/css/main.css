@@ -48,7 +48,14 @@ main {
 h1,
 h2,
 h3,
-h4, 
+h4 {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
 .logo {
   font-family: Palatino, Georgia, serif;
   font-variant: small-caps;
