@@ -67,6 +67,8 @@ h2 {
 a,
 .list-title {
   color: #000;
+  text-decoration-thickness: .05rem;
+  text-underline-offset: .2rem;
 }
 
 a:hover,
