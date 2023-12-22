@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://samfeldstein.xyz/blog/file-mover/</loc>
+    <lastmod>2023-12-16T08:53:53-06:00</lastmod>
+  </url><url>
     <loc>https://samfeldstein.xyz/categories/</loc>
-    <lastmod>2023-12-05T20:23:25-06:00</lastmod>
+    <lastmod>2023-12-16T08:53:53-06:00</lastmod>
+  </url><url>
+    <loc>https://samfeldstein.xyz/tags/chatgpt/</loc>
+    <lastmod>2023-12-16T08:53:53-06:00</lastmod>
   </url><url>
     <loc>https://samfeldstein.xyz/</loc>
-    <lastmod>2023-12-05T20:23:25-06:00</lastmod>
+    <lastmod>2023-12-16T08:53:53-06:00</lastmod>
+  </url><url>
+    <loc>https://samfeldstein.xyz/tags/productivity/</loc>
+    <lastmod>2023-12-16T08:53:53-06:00</lastmod>
+  </url><url>
+    <loc>https://samfeldstein.xyz/categories/programming/</loc>
+    <lastmod>2023-12-16T08:53:53-06:00</lastmod>
+  </url><url>
+    <loc>https://samfeldstein.xyz/tags/python/</loc>
+    <lastmod>2023-12-16T08:53:53-06:00</lastmod>
+  </url><url>
+    <loc>https://samfeldstein.xyz/tags/</loc>
+    <lastmod>2023-12-16T08:53:53-06:00</lastmod>
+  </url><url>
+    <loc>https://samfeldstein.xyz/tags/tools/</loc>
+    <lastmod>2023-12-16T08:53:53-06:00</lastmod>
+  </url><url>
+    <loc>https://samfeldstein.xyz/blog/digest-23-12-11/</loc>
+    <lastmod>2023-12-11T10:00:19-06:00</lastmod>
+  </url><url>
+    <loc>https://samfeldstein.xyz/categories/weekly-digests/</loc>
+    <lastmod>2023-12-11T10:00:19-06:00</lastmod>
   </url><url>
     <loc>https://samfeldstein.xyz/blog/lonesome-dove/</loc>
+    <lastmod>2023-12-05T20:23:25-06:00</lastmod>
+  </url><url>
+    <loc>https://samfeldstein.xyz/categories/movies-tv/</loc>
     <lastmod>2023-12-05T20:23:25-06:00</lastmod>
   </url><url>
     <loc>https://samfeldstein.xyz/tags/romance/</loc>
@@ -17,19 +47,10 @@
     <loc>https://samfeldstein.xyz/tags/shock/</loc>
     <lastmod>2023-12-05T20:23:25-06:00</lastmod>
   </url><url>
-    <loc>https://samfeldstein.xyz/tags/story/</loc>
-    <lastmod>2023-12-05T20:23:25-06:00</lastmod>
-  </url><url>
-    <loc>https://samfeldstein.xyz/tags/</loc>
-    <lastmod>2023-12-05T20:23:25-06:00</lastmod>
-  </url><url>
-    <loc>https://samfeldstein.xyz/categories/tv/</loc>
+    <loc>https://samfeldstein.xyz/tags/tv/</loc>
     <lastmod>2023-12-05T20:23:25-06:00</lastmod>
   </url><url>
     <loc>https://samfeldstein.xyz/tags/westerns/</loc>
-    <lastmod>2023-12-05T20:23:25-06:00</lastmod>
-  </url><url>
-    <loc>https://samfeldstein.xyz/categories/writing/</loc>
     <lastmod>2023-12-05T20:23:25-06:00</lastmod>
   </url><url>
     <loc>https://samfeldstein.xyz/blog/care-dammit/</loc>
@@ -54,9 +75,6 @@
     <lastmod>2023-12-05T10:00:46-06:00</lastmod>
   </url><url>
     <loc>https://samfeldstein.xyz/blog/digest-23-12-04/</loc>
-    <lastmod>2023-12-04T21:47:14-06:00</lastmod>
-  </url><url>
-    <loc>https://samfeldstein.xyz/categories/weekly-digests/</loc>
     <lastmod>2023-12-04T21:47:14-06:00</lastmod>
   </url><url>
     <loc>https://samfeldstein.xyz/blog/</loc>
@@ -105,9 +123,6 @@
     <lastmod>2023-01-31T00:37:34-06:00</lastmod>
   </url><url>
     <loc>https://samfeldstein.xyz/tags/john-huston/</loc>
-    <lastmod>2023-01-31T00:37:34-06:00</lastmod>
-  </url><url>
-    <loc>https://samfeldstein.xyz/categories/movies/</loc>
     <lastmod>2023-01-31T00:37:34-06:00</lastmod>
   </url><url>
     <loc>https://samfeldstein.xyz/tags/noir/</loc>

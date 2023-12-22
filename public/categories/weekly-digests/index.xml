@@ -6,14 +6,21 @@
     <description>Recent content in Weekly Digests on Sam Feldstein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Dec 2023 21:47:14 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 11 Dec 2023 10:00:19 -0600</lastBuildDate>
     <atom:link href="https://samfeldstein.xyz/categories/weekly-digests/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly Digest</title>
+      <link>https://samfeldstein.xyz/blog/digest-23-12-11/</link>
+      <pubDate>Mon, 11 Dec 2023 10:00:19 -0600</pubDate>
+      <guid>https://samfeldstein.xyz/blog/digest-23-12-11/</guid>
+      <description>New post(s) alert In case you missed them, I wrote two new posts this week: a short one about Talmudic wisdom in The Exorcist (the book, not the movie) and a longer one about shock and Lonesome Dove (the movie, not the book). (It&#39;s actually a miniseries but I really wanted to capitalize on that symmetry just now.)&#xA;New publication(s) alert This week I have the pleasure of announcing that my short story &amp;quot;The Man Who Was a Boy Made of Memories&amp;quot; was just published on the Tales to Terrify podcast.</description>
+    </item>
     <item>
       <title>Weekly Digest</title>
       <link>https://samfeldstein.xyz/blog/digest-23-12-04/</link>
       <pubDate>Mon, 04 Dec 2023 21:47:14 -0600</pubDate>
       <guid>https://samfeldstein.xyz/blog/digest-23-12-04/</guid>
-      <description>Blogging, Jew-hatred, exorcisms.</description>
+      <description>News My big update is that this website exists. I&#39;ve been flirting with blogging for years now, but I&#39;ve never committed to it. I&#39;ve created and deleted several websites--mostly out of self-consciousness and an inability to decide how to spend my time--but this one looks like it&#39;s here to stay. I&#39;m really happy with how it turned out. I&#39;ve been slowly learning HTML, CSS, and JavaScript over the last two years or so, first via The Odin Project and then MDN Web Docs.</description>
     </item>
   </channel>
 </rss>
