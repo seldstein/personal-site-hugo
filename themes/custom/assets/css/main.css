@@ -71,8 +71,7 @@ a,
 
 a:hover,
 .logo,
-.list-title a,
-.tags a {
+.list-title a {
   text-decoration: none;
 }
 
@@ -100,10 +99,6 @@ code {
   border-bottom: none;
 }
 
-.list-item .summary {
-  display: none;
-}
-
 .single-header {
   margin-bottom: 4rem;
   display: flex;
@@ -112,7 +107,7 @@ code {
   text-align: center;
 }
 
-.meta ul {
+.tags ul {
   list-style: none;
   padding: 0;
   display: flex;

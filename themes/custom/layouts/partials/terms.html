@@ -3,7 +3,7 @@
 
 {{- with $page.GetTerms $taxonomy }}
   {{- $label := (index . 0).Parent.LinkTitle }}
-  <div class="meta">
+  <div class="tags">
     <!-- <div>{{ $label }}:</div> -->
     <ul>
       {{- range . }}
