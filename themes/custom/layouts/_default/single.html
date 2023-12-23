@@ -1,9 +1,9 @@
 {{ define "main" }}
 <article>
-    <div class="single-header">
+    <header class="single-header">
         <h1>{{ .Title }}</h1>
         {{ partial "meta.html" . }}
-    </div>
+    </header>
     {{ .Content }}
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 </article>
