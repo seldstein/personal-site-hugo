@@ -9,7 +9,7 @@ tags:
   - Ethics
   - Horror
   - Judaism
-  - Religion  
+  - Religion 
 draft: false
 ---
 
