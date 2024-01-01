@@ -1,4 +1,2 @@
-<footer>
-    {{ partial "menu.html" . }}
-    <a href="/" class="logo">{{ site.Title }}</a>
-</footer>
+{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<a href="/" class="logo">{{ site.Title }}</a>
