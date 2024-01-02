@@ -3,6 +3,8 @@ languageCode: en-us
 title: Sam Feldstein
 theme: custom
 
+enableGitInfo: true
+
 services:
   googleAnalytics:
     id: G-ECY4M5C4Z8
