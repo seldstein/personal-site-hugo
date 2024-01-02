@@ -112,12 +112,12 @@ h4 {
 }
 
 h1,
-.home-post-title {
+.post-title-home {
   font-size: 4rem;
   margin-bottom: 0;
 }
 
-.home-post-title a {
+.post-title-home a {
 text-decoration: none;
 }
 
@@ -160,7 +160,7 @@ text-decoration: none;
   }
 
   h1,
-  .home-post-title {
+  .post-title-home {
     font-size: 6rem;
     text-align: left;
   }
