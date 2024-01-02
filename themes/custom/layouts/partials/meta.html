@@ -1,12 +1,12 @@
-<div class="single-meta">
-    <i><time datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
-            {{- .Date | dateFormat (.Site.Params.dateFormat | default "January 02, 2006") -}}
-        </time></i>
+<div class="meta">
+    <time datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
+        {{- .Date | dateFormat (.Site.Params.dateFormat | default "January 02, 2006") -}}
+    </time>
+    <ul class="meta-list">
     {{ range .Params.tags }}
-    <ul>
-        <li>
-            <a href="{{ printf " /tags/%s" . | urlize }}">{{ . }}</a>
-        </li>
-    </ul>
+    <li>
+        #<a href="{{ printf " /tags/%s" . | urlize }}">{{ . }}</a>
+    </li>
     {{ end }}
+    </ul>
 </div>
