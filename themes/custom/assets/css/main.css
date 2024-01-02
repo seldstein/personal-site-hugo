@@ -42,6 +42,7 @@ a:hover {
   width: 1px;
   height: 1px;
   overflow: hidden;
+  text-decoration: none;
 }
 
 .skip-link:focus {
@@ -105,7 +106,7 @@ main {
   line-height: 1.5;
 }
 
-/* Site headers */
+/* Headers */
 
 h1,
 h2,
@@ -123,6 +124,10 @@ h1,
 
 .post-title-home a {
 text-decoration: none;
+}
+
+h2 {
+  border-bottom: .1rem solid;
 }
 
 /* Metadata */
