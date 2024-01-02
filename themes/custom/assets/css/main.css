@@ -83,14 +83,18 @@ a:hover {
 /* Menus */
 
 nav ul {
+  font-family: Oxygen Mono, monospace;
+  font-size: 1rem;
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
-  font-family: Oxygen Mono, monospace;
-  font-size: 1rem;
+}
+
+.site-footer-menu ul {
+  justify-content: flex-end;
 }
 
 /* Main Content */

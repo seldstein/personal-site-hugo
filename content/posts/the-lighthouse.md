@@ -1,15 +1,10 @@
 ---
 title: Absence of Meaning in 'The Lighthouse'
-description: Such a successful exercise in atmosphere that we forget that the thing we’re watching may very well be about nothing.
 date: 2022-04-05T00:28:19-06:00
-categories:
-  - Movies & TV
+description: A review of the movie 'The Lighthouse.'
 tags:
-  - Horror
-  - Mindfuck
-  - Robert Eggers
-  - Robert Pattinson
-  - Willem Dafoe
+  - horror
+  - movies
 draft: false
 ---
 

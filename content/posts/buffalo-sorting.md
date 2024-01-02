@@ -1,14 +1,9 @@
 ---
 title: Buffalo Sorting and My First Gambling Foray
-description: Oh, that's why gambling is addictive.
+description: Notes from my trip to South Dakota.
 date: 2023-11-12T22:57:28-06:00
-categories:
-    - Travel
 tags:
-    - Buffalo
-    - First Forays
-    - Gambling
-    - South Dakota
+    - travel
 draft: false
 ---
 

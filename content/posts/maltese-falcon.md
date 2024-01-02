@@ -2,14 +2,10 @@
 title: "Riddled with Words: 'The Maltese Falcon'"
 description: Every bastard gets what's coming to them.
 date: 2023-01-31T00:37:34-06:00
-categories:
-  - Movies & TV
+description: A review of 'The Maltese Falcon.'
 tags:
-  - Bastards
-  - Dashiell Hammett
-  - Humphrey Bogart
-  - John Huston
-  - Noir
+  - movies
+  - noir
 draft: false
 ---
 
