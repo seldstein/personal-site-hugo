@@ -38,7 +38,7 @@ For coding, I use [VS Code](https://code.visualstudio.com/) with the following e
 - Python
 - YAML
 
-I built this website with [Eleventy](https://www.11ty.dev/).
+I built this website with [Hugo](https://gohugo.io/) and a custom theme.
 
 ## Published Writing
 
