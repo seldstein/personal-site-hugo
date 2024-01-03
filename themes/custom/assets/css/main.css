@@ -3,24 +3,24 @@
 @font-face {
   font-family: Lato;
   src:
-    url('/static/fonts/lato.woff2') format('woff2'),
-    url('/static/fonts/lato.woff') format('woff');
+    url('/fonts/lato.woff2') format('woff2'),
+    url('/fonts/lato.woff') format('woff');
   font-display: swap;
 }
 
 @font-face {
   font-family: Bebas Neue;
   src:
-    url('/static/fonts/bebas-neue.woff2') format('woff2'),
-    url('/static/fonts/bebas-neue.woff') format('woff');
+    url('/fonts/bebas-neue.woff2') format('woff2'),
+    url('/fonts/bebas-neue.woff') format('woff');
   font-display: swap;
 }
 
 @font-face {
   font-family: Oxygen Mono;
   src:
-    url('/static/fonts/oxygen-mono.woff2') format('woff2'),
-    url('/static/fonts/oxygen-mono.woff') format('woff');
+    url('/fonts/oxygen-mono.woff2') format('woff2'),
+    url('/fonts/oxygen-mono.woff') format('woff');
   font-display: swap;
 }
 
@@ -165,7 +165,7 @@ h3 {
 }
 
 .post-title-home a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 /* Metadata */
