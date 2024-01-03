@@ -187,10 +187,20 @@ h3 {
 
 /* List Pages */
 
-.list-page-content {
+.list-page {
   list-style: none;
   padding: 0;
   font-size: 1.5rem;
+}
+
+.tags-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.list-page-item {
+  margin: 1rem 0;
 }
 
 /* Desktop */

@@ -1,12 +1,12 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-{{ range .Pages }}
-<ul class="list-page-content">
+<ol class="list-page">
+  {{ range .Pages }}
   <li class="list-page-item">
-      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-      {{ partial "meta.html" . }}
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{ partial "meta.html" . }}
   </li>
-</ul>
-{{ end }}
+  {{ end }}
+</ol>
 {{ end }}

@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1>#{{ .Title }}</h1>
+{{ .Content }}
+{{ range .Pages }}
+<ol class="list-page">
+    <li class="list-page-item">
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ partial "meta.html" . }}
+    </li>
+</ol>
+{{ end }}
+{{ end }}
