@@ -1,8 +1,8 @@
-{{- with resources.Get "css/main.css" }}
+{{- with resources.Get "css/main.css" | resources.Minify}}
 {{- if eq hugo.Environment "development" }}
 <style>{{ .Content | safeCSS }}</style>
 {{- else }}
-{{- with . | fingerprint }}
+{{- with . | resources.Minify | fingerprint }}
 <style>{{ .Content | safeCSS }}</style>
 {{- end }}
 {{- end }}
