@@ -52,6 +52,8 @@ body {
 
 a {
   color: #000;
+  text-decoration-thickness: .06em;
+  text-underline-offset: .15em;
 }
 
 a:hover {
