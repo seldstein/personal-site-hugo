@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Sam Feldstein</title>
-    <link>https://samfeldstein.xyz/tags/python/</link>
-    <description>Recent content in python on Sam Feldstein</description>
+    <title>programming on Sam Feldstein</title>
+    <link>https://samfeldstein.xyz/tags/programming/</link>
+    <description>Recent content in programming on Sam Feldstein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Dec 2023 08:53:53 -0600</lastBuildDate>
-    <atom:link href="https://samfeldstein.xyz/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://samfeldstein.xyz/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building an Automatic File-Mover with ChatGPT</title>
       <link>https://samfeldstein.xyz/posts/file-mover/</link>

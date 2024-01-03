@@ -6,42 +6,6 @@
     <description>Recent content in Categories on Sam Feldstein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Dec 2023 08:53:53 -0600</lastBuildDate>
     <atom:link href="https://samfeldstein.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Programming</title>
-      <link>https://samfeldstein.xyz/categories/programming/</link>
-      <pubDate>Sat, 16 Dec 2023 08:53:53 -0600</pubDate>
-      <guid>https://samfeldstein.xyz/categories/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Weekly Digests</title>
-      <link>https://samfeldstein.xyz/categories/weekly-digests/</link>
-      <pubDate>Mon, 11 Dec 2023 10:00:19 -0600</pubDate>
-      <guid>https://samfeldstein.xyz/categories/weekly-digests/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Movies &amp; TV</title>
-      <link>https://samfeldstein.xyz/categories/movies-tv/</link>
-      <pubDate>Tue, 05 Dec 2023 20:23:25 -0600</pubDate>
-      <guid>https://samfeldstein.xyz/categories/movies-tv/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Books</title>
-      <link>https://samfeldstein.xyz/categories/books/</link>
-      <pubDate>Tue, 05 Dec 2023 10:00:46 -0600</pubDate>
-      <guid>https://samfeldstein.xyz/categories/books/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Travel</title>
-      <link>https://samfeldstein.xyz/categories/travel/</link>
-      <pubDate>Sun, 12 Nov 2023 22:57:28 -0600</pubDate>
-      <guid>https://samfeldstein.xyz/categories/travel/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
