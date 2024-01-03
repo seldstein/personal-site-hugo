@@ -60,6 +60,18 @@ a:hover {
   text-decoration: none;
 }
 
+.anchor {
+  color: transparent;
+  text-decoration: none;
+}
+
+.anchor:hover,
+.anchor:focus,
+:hover>.anchor,
+:focus>.anchor {
+  color: inherit;
+}
+
 /* Skip Link */
 
 .skip-link {
