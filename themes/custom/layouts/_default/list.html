@@ -2,11 +2,11 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 {{ range .Pages }}
-<article class="list-item">
-  <h2 class="list-title">
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-  </h2>
-  {{ partial "list-meta.html" . }}
-</article>
+<ul class="list-page-content">
+  <li class="list-page-item">
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{ partial "meta.html" . }}
+  </li>
+</ul>
 {{ end }}
 {{ end }}
