@@ -119,15 +119,25 @@ h4 {
 h1,
 .post-title-home {
   font-size: 4rem;
+}
+
+h1,
+h2,
+.post-title-home {
   margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  border-bottom: .1rem solid;
+}
+
+.post-title-home {
+  border-bottom: none;
 }
 
 .post-title-home a {
 text-decoration: none;
-}
-
-h2 {
-  border-bottom: .1rem solid;
 }
 
 /* Metadata */
