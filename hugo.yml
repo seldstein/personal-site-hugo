@@ -31,7 +31,7 @@ menu:
       url: https://samfeldstein.substack.com/
       weight: 5
     - name: RSS
-      url: /index.xml
+      url: /posts/index.xml
       weight: 6
     - name: Email
       url: mailto:samfeldstein@proton.me
