@@ -56,7 +56,8 @@ a {
   text-underline-offset: .15em;
 }
 
-a:hover {
+a:hover,
+a:focus {
   text-decoration: none;
 }
 
