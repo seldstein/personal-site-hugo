@@ -1,19 +1,12 @@
 /* Base Styles */
 
 @font-face {
-  font-family: Lato;
-  src:
-    url('/fonts/lato.woff2') format('woff2'),
-    url('/fonts/lato.woff') format('woff');
-  font-display: swap;
-}
-
-@font-face {
   font-family: Bebas Neue;
   src:
     url('/fonts/bebas-neue.woff2') format('woff2'),
     url('/fonts/bebas-neue.woff') format('woff');
   font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
@@ -22,6 +15,18 @@
     url('/fonts/oxygen-mono.woff2') format('woff2'),
     url('/fonts/oxygen-mono.woff') format('woff');
   font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Lato;
+  src:
+    url('/fonts/lato.woff2') format('woff2'),
+    url('/fonts/lato.woff') format('woff');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
 }
 
 * {
@@ -117,7 +122,7 @@ a:focus {
 /* Site Logo */
 
 .logo {
-  font-family: Bebas Neue, sans-serif;
+  font-family: 'Bebas Neue', Impact, 'Arial Narrow', sans-serif;
   font-size: 2rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -155,7 +160,7 @@ h2,
 h3,
 h4 {
   line-height: 1;
-  font-family: Bebas Neue, sans-serif;
+  font-family: 'Bebas Neue', Impact, 'Arial Narrow', sans-serif;
   text-transform: uppercase;
 }
 
