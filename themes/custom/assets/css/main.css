@@ -225,6 +225,12 @@ h3 {
   margin: 1rem 0;
 }
 
+/* Code blocks */
+
+code {
+  font-family: 'Oxygen Mono', monospace;
+}
+
 /* Desktop */
 
 @media (min-width: 696px) {
