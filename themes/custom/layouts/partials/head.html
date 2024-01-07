@@ -4,6 +4,7 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 <meta name="description"
     content="{{ if .IsHome }}{{ site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
+<meta name="google-site-verification" content="OaJ3DtSybELB_anSuVk_s4sjGAiVanwRBDeeWqI2onU">
 <!-- Icons -->
 <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -12,6 +13,5 @@
 <link rel="shortcut icon" href="{{ "favicon/favicon.ico" | relURL }}">
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
-<!-- Google analytics and site verification -->
-{{ template "_internal/google_analytics.html" . }}
-<meta name="google-site-verification" content="OaJ3DtSybELB_anSuVk_s4sjGAiVanwRBDeeWqI2onU">
+<!-- Google analytics -->
+<!-- {{ template "_internal/google_analytics.html" . }} -->
