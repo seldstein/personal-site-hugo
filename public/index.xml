@@ -8,6 +8,20 @@
     <language>en-us</language>
     <atom:link href="https://samfeldstein.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Oops!</title>
+      <link>https://samfeldstein.xyz/offline/</link>
+      <pubDate>Sun, 07 Jan 2024 19:29:00 -0600</pubDate>
+      <guid>https://samfeldstein.xyz/offline/</guid>
+      <description>It looks like you&amp;rsquo;re offline. Here&amp;rsquo;s my contact info and stuff.</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://samfeldstein.xyz/about/</link>
+      <pubDate>Sun, 31 Dec 2023 17:43:11 -0600</pubDate>
+      <guid>https://samfeldstein.xyz/about/</guid>
+      <description>Hi, I’m Sam Feldstein. I used to want to be an author, but lately I&amp;rsquo;m more interested in web design. I&amp;rsquo;m fond of blogs, books, movies, and photography.&#xA;Things I Use #For writing fiction, I use Scrivener. For writing everything else, taking notes, and managing files, I use Obsidian with the Minimal theme and the following community plugins:&#xA;Hider LanguageTool Integration Minimal Theme Settings Omnivore Readwise Official Typewriter Scroll My go-to dictionaries are the New Oxford American Dictionary and the Oxford Dictionary of English (British English), which I access via the macOS Dictionary app.</description>
+    </item>
+    <item>
       <title>Building an Automatic File-Mover with ChatGPT</title>
       <link>https://samfeldstein.xyz/posts/file-mover/</link>
       <pubDate>Sat, 16 Dec 2023 08:53:53 -0600</pubDate>
@@ -19,7 +33,7 @@
       <link>https://samfeldstein.xyz/posts/lonesome-dove/</link>
       <pubDate>Tue, 05 Dec 2023 20:23:25 -0600</pubDate>
       <guid>https://samfeldstein.xyz/posts/lonesome-dove/</guid>
-      <description>These aren&amp;rsquo;t young soldiers Lonesome Dove is a story about the lust for adventure, a force so powerful it can rip you from the arms of comfort and chuck you into the jaws of death. Daredevils everywhere will relate to Gus and Woodrow. They are men who can&amp;rsquo;t stand to sit still. Nobody makes them leave Lonesome Dove. They leave because they&amp;rsquo;re bored. Thus, their subsequent wounds are self-inflicted. These guys aren&amp;rsquo;t naive.</description>
+      <description>These aren&amp;rsquo;t young soldiers #Lonesome Dove is a story about the lust for adventure, a force so powerful it can rip you from the arms of comfort and chuck you into the jaws of death. Daredevils everywhere will relate to Gus and Woodrow. They are men who can&amp;rsquo;t stand to sit still. Nobody makes them leave Lonesome Dove. They leave because they&amp;rsquo;re bored. Thus, their subsequent wounds are self-inflicted. These guys aren&amp;rsquo;t naive.</description>
     </item>
     <item>
       <title>And God Said, &#34;Care, Dammit&#34;</title>
