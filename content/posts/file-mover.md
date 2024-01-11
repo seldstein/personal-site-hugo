@@ -4,7 +4,7 @@ date: 2023-12-16T08:53:53-06:00
 description: How I built an automatic file-moving tool in Python with ChatGPT.
 tags:
   - ai
-  - programming
+  - coding
   - python
   - tools
 draft: false
@@ -14,9 +14,11 @@ Once a month I back up my Goodreads library to a folder on my computer called `e
 
 The thing is, I don't know any Python. I barely know JavaScript. So I turned to ChatGPT for help, and short story short, it was really easy. The app is very simple. All it does is check my computer's `Downloads` folder for a specific file---in this case, `goodreads*.csv`---and move it to the `exports` folder.
 
-Slightly more complicated (remember that I'm new to all this) was setting the application to run automatically once a month. You do with something called a "cron job". To schedule a cron job, you first open the "crontab" with `crontab -e`. Then you enter the interval, the path to the Python interpreter, and the path to the application. Like so:
+Slightly more complicated (remember that I'm new to all this) was setting the application to run automatically once a month. You do that with something called a "cron job". To schedule a cron job, you first open the "crontab" with `crontab -e`. Then you enter the interval, the path to the Python interpreter, and the path to the application. Like so:
 
-`0 0 1 * * usr/bin/python3 /Users/User/path/to/file-mover/script.py`
+```shell
+0 0 1 * * usr/bin/python3 /Users/User/path/to/file-mover/script.py
+```
 
 The first interval field represents minutes. Setting it to `0` tells the application to run at the top of the hour. The second field represents hours. Setting it to `0` tells the app to run at midnight. The third field represents days. Setting it to `1` tells the app to run on the first day of the month. The fourth field represents months. Setting it to `*` tells the app to run every month. The fifth field represents the day of the week. Setting it to `*` allows the app to run on any given day. Taken together, this tells the app to run at midnight on the first day of each month.
 

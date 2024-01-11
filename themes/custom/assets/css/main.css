@@ -265,8 +265,25 @@ blockquote {
 
 /* Code blocks */
 
+pre,
 code {
   font-family: 'Oxygen Mono', monospace;
+  font-size: 1.1rem;
+  border-radius: 0.2rem;
+}
+
+pre code {
+  background: inherit;
+}
+
+pre {
+  overflow: auto;
+  padding: 0 1rem;
+}
+
+code {
+  background: #d3d3d3;
+  padding: 0 0.2rem;
 }
 
 /* Desktop */
@@ -301,5 +318,8 @@ code {
 
   a {
     color: #f9f9f9;
+  }
+  code {
+    background: #808080;
   }
 }
