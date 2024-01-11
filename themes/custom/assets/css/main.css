@@ -192,6 +192,7 @@ h4 {
   line-height: 1;
   font-family: 'Bebas Neue', Impact, 'Arial Narrow', sans-serif;
   text-transform: uppercase;
+  text-wrap: balance;
 }
 
 h1,
@@ -305,6 +306,12 @@ code {
   .post-title-home {
     font-size: 6rem;
     text-align: left;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: pretty;
   }
 }
 
