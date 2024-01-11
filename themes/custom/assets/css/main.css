@@ -78,6 +78,7 @@ body {
 body {
   background: #f9f9f9;
   color: #252526;
+  /* System font stack by Dan Klammer: https://modernfontstacks.com/ */
   font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
   font-size: 1.2rem;
   font-weight: 400;
@@ -85,6 +86,64 @@ body {
   padding: .5rem;
   display: flex;
   flex-direction: column;
+}
+
+/* Fonts */
+
+/* System font stacks by Dan Klammer: https://modernfontstacks.com/ */
+
+h1,
+h2,
+h3,
+h4,
+.logo {
+  font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
+}
+
+nav ul,
+.meta,
+pre,
+code {
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+/* Site header and footer */
+
+.site-header,
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.site-footer {
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+  border-top: .1rem solid;
+  align-items: flex-end;
+}
+
+/* Site Logo */
+
+.logo {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+/* Menus */
+
+nav ul {
+  font-size: 1rem;
+  list-style: none;
+  margin: .5rem 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.site-footer-menu ul {
+  justify-content: flex-end;
 }
 
 /* Links */
@@ -135,48 +194,6 @@ a:focus {
   text-transform: uppercase;
 }
 
-/* Site header and footer */
-
-.site-header,
-.site-footer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.site-footer {
-  padding-top: .5rem;
-  padding-bottom: 1rem;
-  border-top: .1rem solid;
-  align-items: flex-end;
-}
-
-/* Site Logo */
-
-.logo {
-  font-family: 'Bebas Neue', Impact, 'Arial Narrow', sans-serif;
-  font-size: 2rem;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-/* Menus */
-
-nav ul {
-  font-family: Oxygen Mono, monospace;
-  font-size: 1rem;
-  list-style: none;
-  margin: .5rem 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
-}
-
-.site-footer-menu ul {
-  justify-content: flex-end;
-}
-
 /* Main Content */
 
 main {
@@ -190,9 +207,9 @@ main {
 h1,
 h2,
 h3,
-h4 {
+h4,
+.logo {
   line-height: 1;
-  font-family: 'Bebas Neue', Impact, 'Arial Narrow', sans-serif;
   text-transform: uppercase;
   text-wrap: balance;
 }
@@ -228,7 +245,6 @@ h3 {
 /* Metadata */
 
 .meta {
-  font-family: Oxygen Mono, monospace;
   font-size: 1rem;
 }
 
@@ -270,7 +286,6 @@ blockquote {
 
 pre,
 code {
-  font-family: 'Oxygen Mono', monospace;
   font-size: 1.1rem;
   border-radius: 0.2rem;
 }
