@@ -128,7 +128,7 @@ a:focus {
   overflow: visible;
   background-color: #808080;
   color: #f9f9f9;
-  padding: 1em 2em;
+  padding: 1rem 2rem;
   z-index: 1000;
   text-transform: uppercase;
 }
@@ -234,7 +234,7 @@ h3 {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: .5em
+  gap: .5rem
 }
 
 /* List Pages */
@@ -253,6 +253,14 @@ h3 {
 
 .list-page-item {
   margin: 1rem 0;
+}
+
+/* Block quotes */
+
+blockquote {
+  margin: 0;
+  padding-left: 1rem;
+  border-left: .2rem solid #808080;
 }
 
 /* Code blocks */
