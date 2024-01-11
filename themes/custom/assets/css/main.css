@@ -1,4 +1,4 @@
-/* Base Styles */
+/* Web fonts
 
 @font-face {
   font-family: 'Bebas Neue';
@@ -57,14 +57,16 @@
   font-display: swap;
   font-style: italic;
   font-weight: bold;
-}
+} */
+
+/* Base Layout */
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 html,
@@ -76,7 +78,7 @@ body {
 body {
   background: #f9f9f9;
   color: #252526;
-  font-family: Lato, sans-serif;
+  font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
   font-size: 1.2rem;
   font-weight: 400;
   margin: 0 auto;
