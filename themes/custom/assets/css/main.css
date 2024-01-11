@@ -66,7 +66,7 @@
 }
 
 html {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 html,
@@ -79,7 +79,7 @@ body {
   background: #f9f9f9;
   color: #252526;
   /* System font stack by Dan Klammer: https://modernfontstacks.com/ */
-  font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
   margin: 0 auto;
@@ -96,15 +96,20 @@ h1,
 h2,
 h3,
 h4,
-.logo {
-  font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
-}
-
+.logo,
 nav ul,
 .meta,
 pre,
 code {
   font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+.logo {
+  font-weight: 700;
 }
 
 /* Site header and footer */
@@ -126,7 +131,7 @@ code {
 /* Site Logo */
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 
@@ -216,7 +221,7 @@ h4,
 
 h1,
 .post-title-home {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 h1,
@@ -226,12 +231,12 @@ h2,
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   border-bottom: .1rem solid;
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .post-title-home {
@@ -324,6 +329,7 @@ code {
     font-size: 6rem;
     text-align: left;
   }
+
   h1,
   h2,
   h3,
@@ -343,6 +349,7 @@ code {
   a {
     color: #f9f9f9;
   }
+
   code {
     background: #808080;
   }
