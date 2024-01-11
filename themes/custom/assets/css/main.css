@@ -231,12 +231,7 @@ h2,
 }
 
 h2 {
-  font-size: 2rem;
   border-bottom: .1rem solid;
-}
-
-h3 {
-  font-size: 1.5rem;
 }
 
 .post-title-home {
