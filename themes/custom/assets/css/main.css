@@ -180,7 +180,7 @@ nav ul {
 main {
   flex: 1;
   /* Pushes .site-footer to bottom */
-  line-height: 2;
+  line-height: 1.75;
 }
 
 /* Headers */
@@ -235,7 +235,8 @@ h3 {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: .5rem
+  gap: .5rem;
+  flex-wrap: wrap;
 }
 
 /* List Pages */
