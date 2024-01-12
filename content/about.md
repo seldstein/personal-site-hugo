@@ -9,16 +9,28 @@ Hi, I’m **Sam Feldstein**. I used to want to be an [author](#published-writing
 
 ## Things I Use
 
-For writing fiction, I use [Scrivener](https://www.literatureandlatte.com/scrivener/overview). For writing everything else, taking notes, and managing files, I use [Obsidian](https://obsidian.md/) with the [Minimal](https://minimal.guide/home) theme and the following community plugins:
+For long-form fiction, I use [Scrivener](https://www.literatureandlatte.com/scrivener/overview). For writing everything else, taking notes, and managing files, I use [Obsidian](https://obsidian.md/) with the [Minimal](https://minimal.guide/home) theme and the following community plugins:
 
 - Hider
 - LanguageTool Integration
 - Minimal Theme Settings
 - Omnivore
 - Readwise Official
-- Typewriter Scroll
+- Typewriter Mode
 
-My go-to dictionaries are the New Oxford American Dictionary and the Oxford Dictionary of English (British English), which I access via the macOS Dictionary app. I also installed the [Webster's 1913 Dictionary](https://github.com/cmod/websters-1913), which is archaic and fun. I regularly consult [The Free Dictionary](https://www.thefreedictionary.com/), [Merriam-Webster](https://www.merriam-webster.com/), [Dictionary.com](https://www.dictionary.com/), the [Online Etymology Dictionary](https://www.etymonline.com/), *Roget’s Thesaurus*, and [Thesaurus.com](https://www.thesaurus.com/).
+[Enso](https://enso.sonnet.io/) is a fantastic tool for distraction-free word-dumping.
+
+My go-to dictionaries:
+
+- [Dictionary.com](https://www.dictionary.com/)
+- [The Free Dictionary](https://www.thefreedictionary.com/)
+- [*Merriam-Webster*](https://www.merriam-webster.com/)
+- *The New Oxford American Dictionary* (macOS)
+- *The Oxford Dictionary of English* (British English, macOS)
+- [*Webster's 1913 Dictionary*](https://github.com/cmod/websters-1913) (macOS)
+- *Roget’s Thesaurus*
+- [Thesaurus.com](https://www.thesaurus.com/)
+- [Online Etymology Dictionary](https://www.etymonline.com/)
 
 I used to read and annotate articles with [Readwise](https://readwise.io/), but recently switched to [Omnivore](https://omnivore.app/). Omnivore is open source, feels lighter, and so far doesn't include any annoying features you can't turn off (a la the blue bar to the left of paragraphs in Readwise). I don't know yet if Omnivore supports video transcription, but if not, I'll keep using Readwise for that and also for its daily review feature. I store my notes and highlights in Obsidian using the plugins mentioned above. I track RSS feeds with [NewsBlur](https://newsblur.com/) but am considering moving them to Omnivore.
 
