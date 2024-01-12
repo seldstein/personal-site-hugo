@@ -1,4 +1,63 @@
-/* Base Layout */
+/* Base Styles */
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src:
+    url('/fonts/bebas-neue.woff2') format('woff2'),
+    url('/fonts/bebas-neue.woff') format('woff');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oxygen Mono';
+  src:
+    url('/fonts/oxygen-mono.woff2') format('woff2'),
+    url('/fonts/oxygen-mono.woff') format('woff');
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src:
+    url('/fonts/lato.woff2') format('woff2'),
+    url('/fonts/lato.woff') format('woff');
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src:
+    url('/fonts/lato-italic.woff2') format('woff2'),
+    url('/fonts/lato-italic.woff') format('woff');
+  font-display: swap;
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src:
+    url('/fonts/lato-bold.woff2') format('woff2'),
+    url('/fonts/lato-bold.woff') format('woff');
+  font-display: swap;
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src:
+    url('/fonts/lato-bold-italic.woff2') format('woff2'),
+    url('/fonts/lato-bold-italic.woff') format('woff');
+  font-display: swap;
+  font-style: italic;
+  font-weight: bold;
+}
 
 * {
   box-sizing: border-box;
@@ -17,77 +76,13 @@ body {
 body {
   background: #f9f9f9;
   color: #252526;
-  /* System font stack by Dan Klammer: https://modernfontstacks.com/ */
-  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-family: Lato, sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
   margin: 0 auto;
   padding: .5rem;
   display: flex;
   flex-direction: column;
-}
-
-/* Fonts */
-
-/* System font stacks by Dan Klammer: https://modernfontstacks.com/ */
-
-h1,
-h2,
-h3,
-h4,
-.logo,
-nav ul,
-.meta,
-pre,
-code {
-  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-}
-
-h1,
-h2,
-h3,
-h4,
-.logo {
-  font-weight: 700;
-}
-
-/* Site header and footer */
-
-.site-header,
-.site-footer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.site-footer {
-  padding-top: .5rem;
-  padding-bottom: 1rem;
-  border-top: .1rem solid;
-  align-items: flex-end;
-}
-
-/* Site Logo */
-
-.logo {
-  font-size: 1.5rem;
-  text-decoration: none;
-}
-
-/* Menus */
-
-nav ul {
-  font-size: 1rem;
-  list-style: none;
-  margin: .5rem 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
-}
-
-.site-footer-menu ul {
-  justify-content: flex-end;
 }
 
 /* Links */
@@ -138,6 +133,48 @@ a:focus {
   text-transform: uppercase;
 }
 
+/* Site header and footer */
+
+.site-header,
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.site-footer {
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+  border-top: .1rem solid;
+  align-items: flex-end;
+}
+
+/* Site Logo */
+
+.logo {
+  font-family: 'Bebas Neue', Impact, 'Arial Narrow', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Menus */
+
+nav ul {
+  font-family: Oxygen Mono, monospace;
+  font-size: 1rem;
+  list-style: none;
+  margin: .5rem 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.site-footer-menu ul {
+  justify-content: flex-end;
+}
+
 /* Main Content */
 
 main {
@@ -151,16 +188,16 @@ main {
 h1,
 h2,
 h3,
-h4,
-.logo {
+h4 {
   line-height: 1;
+  font-family: 'Bebas Neue', Impact, 'Arial Narrow', sans-serif;
   text-transform: uppercase;
   text-wrap: balance;
 }
 
 h1,
 .post-title-home {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 h1,
@@ -170,7 +207,12 @@ h2,
 }
 
 h2 {
+  font-size: 2.5rem;
   border-bottom: .1rem solid;
+}
+
+h3 {
+  font-size: 1.75rem;
 }
 
 .post-title-home {
@@ -184,6 +226,7 @@ h2 {
 /* Metadata */
 
 .meta {
+  font-family: Oxygen Mono, monospace;
   font-size: 1rem;
 }
 
@@ -224,8 +267,8 @@ blockquote {
 /* Code blocks */
 
 pre,
-code,
-pre span {
+code {
+  font-family: 'Oxygen Mono', monospace;
   font-size: 1.1rem;
   border-radius: 0.2rem;
 }
@@ -264,7 +307,6 @@ code {
     font-size: 6rem;
     text-align: left;
   }
-
   h1,
   h2,
   h3,
@@ -284,7 +326,6 @@ code {
   a {
     color: #f9f9f9;
   }
-
   code {
     background: #808080;
   }
