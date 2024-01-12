@@ -180,7 +180,7 @@ nav ul {
 main {
   flex: 1;
   /* Pushes .site-footer to bottom */
-  line-height: 1.75;
+  line-height: 1.6;
 }
 
 /* Headers */
