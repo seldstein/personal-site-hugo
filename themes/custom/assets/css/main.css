@@ -147,6 +147,7 @@ a:focus {
   padding-bottom: 1rem;
   border-top: .1rem solid;
   align-items: flex-end;
+  gap: .5rem;
 }
 
 /* Site Logo */
