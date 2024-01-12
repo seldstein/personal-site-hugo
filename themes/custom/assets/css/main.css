@@ -268,9 +268,14 @@ blockquote {
 /* Code blocks */
 
 pre,
-code {
+code,
+pre span {
   font-family: 'Oxygen Mono', monospace;
   font-size: 1.1rem;
+}
+
+pre,
+code {
   border-radius: 0.2rem;
 }
 
