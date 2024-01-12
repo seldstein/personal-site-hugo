@@ -85,6 +85,11 @@ body {
   flex-direction: column;
 }
 
+.monospace,
+.highlight {
+  font-family: 'Oxygen Mono', monospace;
+}
+
 /* Links */
 
 a {
@@ -159,16 +164,16 @@ a:focus {
   text-decoration: none;
 }
 
-/* Menus */
-
-nav ul {
-  font-family: Oxygen Mono, monospace;
-  font-size: 1rem;
+.flex-list {
   list-style: none;
-  margin: .5rem 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+}
+
+.menu-list {
+  font-size: 1rem;
+  margin: .5rem 0;
   gap: 1em;
 }
 
@@ -224,20 +229,13 @@ h3 {
   text-decoration: none;
 }
 
-/* Metadata */
-
 .meta {
-  font-family: Oxygen Mono, monospace;
   font-size: 1rem;
 }
 
 .meta-list {
-  list-style: none;
   margin: 0;
-  padding: 0;
-  display: flex;
   gap: .5rem;
-  flex-wrap: wrap;
 }
 
 /* List Pages */
@@ -268,16 +266,8 @@ blockquote {
 
 /* Code blocks */
 
-pre,
-code,
-pre span {
-  font-family: 'Oxygen Mono', monospace;
+.highlight {
   font-size: 1.1rem;
-}
-
-pre,
-code {
-  border-radius: 0.2rem;
 }
 
 pre code {
@@ -287,11 +277,13 @@ pre code {
 pre {
   overflow: auto;
   padding: 0 1rem;
+  border-radius: 0.2rem;
 }
 
 code {
   background: #d3d3d3;
   padding: 0 0.2rem;
+  border-radius: 0.2rem;
 }
 
 /* Desktop */
@@ -327,6 +319,7 @@ code {
   a {
     color: #f9f9f9;
   }
+
   code {
     background: #808080;
   }
