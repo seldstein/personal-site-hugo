@@ -1,0 +1,10 @@
+{{ define "main" }}
+<header>
+    <h1 class="display post-title">{{ .Title }}</h1>
+    <div class="monospace meta">
+        Updated: <time datetime="{{ .Lastmod | time.Format " 2006-01-02T15:04:05-07:00"}}">{{ .Lastmod | time.Format
+            ":date_long" }}</time>
+    </div>
+</header>
+{{ .Content }}
+{{ end }}
