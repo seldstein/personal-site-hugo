@@ -1,5 +1,6 @@
+@import url("https://classic.yarnpkg.com/en/package/normalize.css");
 @font-face {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   src: url("/fonts/bebas-neue.woff2") format("woff2"), url("/fonts/bebas-neue.woff") format("woff");
   font-display: swap;
   font-style: normal;
@@ -39,7 +40,30 @@
   font-style: italic;
   font-weight: bold;
 }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
 body {
+  font-family: Lato, sans-serif;
+  background: #f9f9f9;
+  color: #252526;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+nav {
+  font-family: "Oxygen Mono", monospace;
+}
+
+h1,
+h2,
+h3,
+h4 {
   font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
 }
 
