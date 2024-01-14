@@ -2,76 +2,79 @@
 /**
  * * @section CSS Reset
  * * Adapted from Andy Bell's modern CSS reset
- * * @link https://hankchizljaw.com/wrote/a-modern-css-reset/
+ * * @link https://piccalil.li/blog/a-more-modern-css-reset/
  * */
-/**
- * * Remove the tap delay in webkit
- * * @link https://medium.com/@adactio/delay-a9df9edceef3#.7dmbl3xow
- * */
-a,
-button,
-input,
-select,
-textarea,
-label,
-summary {
-  touch-action: manipulation;
-}
-
-/**
- * * Add box sizing to everything
- * * @link http://www.paulirish.com/2012/box-sizing-border-box-ftw/
- * */
+/* Box sizing rules */
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-/**
- * * 1. Force scrollbar display to prevent jumping on pages.
- * * 2. Prevent iOS text size adjust after orientation change, without disabling
- * *    user zoom.
- * */
+/* Prevent font size inflation */
 html {
-  overflow-y: scroll;
-  text-size-adjust: 100%;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
-/**
- * * 1. Remove the margin in all browsers (opinionated).
- * * 2. For the body to fill the viewport
- * */
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core body defaults */
 body {
-  margin: 0;
   min-height: 100vh;
+  line-height: 1.5;
 }
 
-/**
- * * Prevent img and video elements from spilling outside of the page on smaller screens.
- * */
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
 img,
-video {
+picture {
   max-width: 100%;
-  height: auto;
+  display: block;
 }
 
-/**
- * * Prevent iframe, object, and embed elements from spilling outside of the page on smaller screens.
- * * height: auto causes iframes to smush, so it's omitted here.
- * */
-iframe,
-object,
-embed {
-  max-width: 100%;
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+  font: inherit;
 }
 
-/**
- * * @workaround Remove focus from tabindex="-1" elements which are only script focusable
- * * @link https://code.google.com/p/chromium/issues/detail?id=37721
- * */
-[tabindex="-1"]:focus {
-  outline: none;
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
 }
 
 @font-face {
@@ -126,7 +129,6 @@ body {
   font-family: Lato, sans-serif;
   font-size: 125%;
   font-weight: 400;
-  line-height: 1.6;
 }
 @media (prefers-color-scheme: dark) {
   body {
