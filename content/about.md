@@ -39,7 +39,6 @@ For memorizing facts, quotes, and other information, I use [spaced repetition](h
 For coding, I use [VS Code](https://code.visualstudio.com/) with the following extensions:
 
 - Code Spell Checker
-- Dendron Markdown Shortcuts
 - Even Better TOML
 - HTML Boilerplate
 - HTML CSS Support
@@ -67,6 +66,10 @@ I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https:
 - [Trans-Pecos Festival of Music + Love doubles as platform for advocacy and outreach](https://bigbendsentinel.com/2022/10/05/trans-pecos-festival-of-music-love-doubles-as-platform-for-advocacy-and-outreach/) in *The Big Bend Sentinel* (article, Oct. 2022)
 - [Absence of Meaning in *The Lighthouse*](https://thefridacinema.org/film-criticism/absence-of-meaning-the-lighthouse/) on the Frida Cinema blog (essay, April 2022)
 
+## Personality tests
+
+- [2024-01](/personality-tests/big-five-personality-test-2024-01.html) (Big Five, [Personality Lab](https://www.personalitylab.org/))
+
 ## Blogroll
 
 - Alan Jacobs at [The Homebound Symphony](https://blog.ayjay.org/)
@@ -84,3 +87,4 @@ I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https:
 - Scott Alexander at [Astral Codex Ten](https://www.astralcodexten.com/)
 - Seth Simons at [Humorism](https://www.humorism.xyz/)
 - Tim Urban at [Wait But Why](https://waitbutwhy.com/)
+
