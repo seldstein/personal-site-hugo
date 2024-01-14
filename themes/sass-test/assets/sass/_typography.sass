@@ -1,0 +1,30 @@
+@use 'config'
+
+html
+	font-size: 16px
+
+body
+	background: config.$bg-light
+	color: config.$color-light
+	font-family: config.$font-body
+	font-size: 125%
+	font-weight: 400
+
+nav
+	font-family: config.$font-monospace
+
+h1,
+h2,
+h3,
+h4
+	font-family: config.$font-display
+	text-transform: uppercase
+
+@media (prefers-color-scheme: dark)
+	body
+		background: config.$bg-dark
+		color: config.$color-dark
+	a
+		color: config.$color-dark
+	code
+		background: #808080

@@ -1,4 +1,79 @@
-@import url("https://classic.yarnpkg.com/en/package/normalize.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+/**
+ * * @section CSS Reset
+ * * Adapted from Andy Bell's modern CSS reset
+ * * @link https://hankchizljaw.com/wrote/a-modern-css-reset/
+ * */
+/**
+ * * Remove the tap delay in webkit
+ * * @link https://medium.com/@adactio/delay-a9df9edceef3#.7dmbl3xow
+ * */
+a,
+button,
+input,
+select,
+textarea,
+label,
+summary {
+  touch-action: manipulation;
+}
+
+/**
+ * * Add box sizing to everything
+ * * @link http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/**
+ * * 1. Force scrollbar display to prevent jumping on pages.
+ * * 2. Prevent iOS text size adjust after orientation change, without disabling
+ * *    user zoom.
+ * */
+html {
+  overflow-y: scroll;
+  text-size-adjust: 100%;
+}
+
+/**
+ * * 1. Remove the margin in all browsers (opinionated).
+ * * 2. For the body to fill the viewport
+ * */
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+/**
+ * * Prevent img and video elements from spilling outside of the page on smaller screens.
+ * */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/**
+ * * Prevent iframe, object, and embed elements from spilling outside of the page on smaller screens.
+ * * height: auto causes iframes to smush, so it's omitted here.
+ * */
+iframe,
+object,
+embed {
+  max-width: 100%;
+}
+
+/**
+ * * @workaround Remove focus from tabindex="-1" elements which are only script focusable
+ * * @link https://code.google.com/p/chromium/issues/detail?id=37721
+ * */
+[tabindex="-1"]:focus {
+  outline: none;
+}
+
 @font-face {
   font-family: "Bebas Neue";
   src: url("/fonts/bebas-neue.woff2") format("woff2"), url("/fonts/bebas-neue.woff") format("woff");
@@ -40,19 +115,15 @@
   font-style: italic;
   font-weight: bold;
 }
-* {
-  box-sizing: border-box;
-}
-
 html {
   font-size: 16px;
 }
 
 body {
-  font-family: Lato, sans-serif;
   background: #f9f9f9;
   color: #252526;
-  font-size: 1.2rem;
+  font-family: Lato, sans-serif;
+  font-size: 125%;
   font-weight: 400;
 }
 
@@ -65,6 +136,20 @@ h2,
 h3,
 h4 {
   font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
+  text-transform: uppercase;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #252526;
+    color: #f9f9f9;
+  }
+  a {
+    color: #f9f9f9;
+  }
+  code {
+    background: #808080;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
