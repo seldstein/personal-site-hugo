@@ -68,7 +68,11 @@ I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https:
 
 ## Personality tests
 
-- [2024-01](/personality-tests/big-five-personality-test-2024-01.html) (Big Five, [Personality Lab](https://www.personalitylab.org/))
+- [2024-01](/personality-tests/big-five-2024-01.html) (Big Five, [Personality Lab](https://www.personalitylab.org/))
+- [2023-01](/personality-tests/big-five-2023-01.pdf)(Big Five, [FiveThirtyEight](https://projects.fivethirtyeight.com/personality-quiz/))
+- [2022-06](/personality-tests/big-five-2022-06.pdf)(Big Five, [FiveThirtyEight](https://projects.fivethirtyeight.com/personality-quiz/))
+- [2021-01](/personality-tests/big-five-2021-01.pdf)(Big Five, [FiveThirtyEight](https://projects.fivethirtyeight.com/personality-quiz/))
+- [2020-10](/personality-tests/big-five-2020-10.pdf)(Big Five, [Understand Myself](https://www.understandmyself.com/))
 
 ## Blogroll
 
@@ -87,4 +91,3 @@ I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https:
 - Scott Alexander at [Astral Codex Ten](https://www.astralcodexten.com/)
 - Seth Simons at [Humorism](https://www.humorism.xyz/)
 - Tim Urban at [Wait But Why](https://waitbutwhy.com/)
-
