@@ -72,7 +72,6 @@ I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https:
 - [2023-01](/personality-tests/big-five-2023-01.pdf)(Big Five, [FiveThirtyEight](https://projects.fivethirtyeight.com/personality-quiz/))
 - [2022-06](/personality-tests/big-five-2022-06.pdf)(Big Five, [FiveThirtyEight](https://projects.fivethirtyeight.com/personality-quiz/))
 - [2021-01](/personality-tests/big-five-2021-01.pdf)(Big Five, [FiveThirtyEight](https://projects.fivethirtyeight.com/personality-quiz/))
-- [2020-10](/personality-tests/big-five-2020-10.pdf)(Big Five, [Understand Myself](https://www.understandmyself.com/))
 
 ## Blogroll
 
