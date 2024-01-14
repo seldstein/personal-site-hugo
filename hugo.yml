@@ -1,7 +1,7 @@
 baseURL: https://samfeldstein.xyz/
 title: Sam Feldstein
 languageCode: en-us
-theme: sass-test
+theme: custom
 
 enableGitInfo: true
 

@@ -1,8 +1,9 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
-/**
- * * @section CSS Reset
- * * Adapted from Andy Bell's modern CSS reset
- * * @link https://piccalil.li/blog/a-more-modern-css-reset/
+/* @section Reset
+ *
+ * Adapted from Andy Bell's modern CSS reset and Nicolas Gallagher's normalize.css:
+ *
+ * @link https://piccalil.li/blog/a-more-modern-css-reset/
+ * @link https://github.com/necolas/normalize.css/tree/master
  * */
 /* Box sizing rules */
 *,
@@ -19,7 +20,7 @@ html {
 }
 
 /* Remove default margin in favour of better control in authored CSS */
-body, h1, h2, h3, h4, p,
+h1, h2, h3, h4, p,
 figure, blockquote, dl, dd {
   margin-block-end: 0;
 }
@@ -39,7 +40,7 @@ body {
 /* Set shorter line heights on headings and interactive elements */
 h1, h2, h3, h4,
 button, input, label {
-  line-height: 1.1;
+  line-height: 1;
 }
 
 /* Balance text wrapping on headings */
@@ -52,6 +53,18 @@ h3, h4 {
 a:not([class]) {
   text-decoration-skip-ink: auto;
   color: currentColor;
+}
+
+/* Correct the inheritance and scaling of font size in all browsers. */
+pre, code,
+kbd, samp {
+  font-family: monospace, monospace;
+}
+
+/* Add the correct font weight in Chrome, Edge, and Safari. */
+b,
+strong {
+  font-weight: bolder;
 }
 
 /* Make images easier to work with */
@@ -77,6 +90,8 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+/* @section Typography */
+/* @section Config */
 @font-face {
   font-family: "Bebas Neue";
   src: url("/fonts/bebas-neue.woff2") format("woff2"), url("/fonts/bebas-neue.woff") format("woff");
@@ -168,6 +183,7 @@ code {
 }
 
 pre {
+  font-size: 0.91em;
   overflow: auto;
 }
 
