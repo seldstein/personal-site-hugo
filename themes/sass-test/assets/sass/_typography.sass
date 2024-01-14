@@ -3,6 +3,7 @@
 html
 	font-size: 16px
 	scroll-behavior: smooth
+
 body
 	background: config.$bg-light
 	color: config.$color-light
@@ -14,19 +15,31 @@ body
 	@media (prefers-color-scheme: dark)
 		background: config.$bg-dark
 		color: config.$color-dark
+
 nav
 	font-family: config.$font-monospace
+
 h1,
 h2,
 h3,
 h4
 	font-family: config.$font-display
 	text-transform: uppercase
+
 a
+	text-decoration-thickness: .06em
+	text-underline-offset: .15em
+
 	@media (prefers-color-scheme: dark)
 		color: config.$color-dark
+
+	&:hover,
+	&:focus
+		text-decoration: none
+
 code
 	background: #808080
 	font-size: .91em
+	
 pre
 	overflow: auto

@@ -147,10 +147,17 @@ h4 {
   text-transform: uppercase;
 }
 
+a {
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.15em;
+}
 @media (prefers-color-scheme: dark) {
   a {
     color: #f9f9f9;
   }
+}
+a:hover, a:focus {
+  text-decoration: none;
 }
 
 code {
