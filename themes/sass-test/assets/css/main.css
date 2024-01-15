@@ -174,21 +174,16 @@ body {
 
 nav {
   font-family: "Oxygen Mono", monospace;
-  font-size: 0.91em;
-}
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 1em;
-}
-nav ul li {
-  margin-bottom: 0.5em;
+  font-size: 0.8em;
 }
 
 footer {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 0.05em solid;
   text-align: right;
 }
-footer nav ul {
+footer ul {
   justify-content: flex-end;
 }
 
@@ -253,32 +248,50 @@ blockquote {
   border-left: 0.1em solid;
 }
 
-code {
-  background: #808080;
-  font-size: 0.91em;
+pre {
+  overflow: auto;
+  padding: 0 0.5em;
+}
+pre code {
+  background-color: inherit;
 }
 
-pre {
-  font-size: 0.91em;
-  overflow: auto;
+code {
+  font-family: "Oxygen Mono", monospace;
+  font-size: 0.8em;
+  background: #808080;
+  padding: 0 0.2em;
+  border-radius: 0.2em;
+}
+
+.meta {
+  font-family: "Oxygen Mono", monospace;
+  font-size: 0.8em;
 }
 
 /* @section Utilities */
-.list-unstyled {
+.list-unstyled, .list-flex, .list-meta {
   list-style: none;
   padding: 0;
+}
+.list-unstyled li, .list-flex li, .list-meta li {
+  margin-bottom: 0.5em;
+}
+
+.list-flex, .list-meta {
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1em;
+}
+
+.list-meta {
+  column-gap: 0.5em;
 }
 
 .flex-column {
   display: flex;
   flex-direction: column;
-}
-
-.flex-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
 }
 
 /*# sourceMappingURL=main.css.map */

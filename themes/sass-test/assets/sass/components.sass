@@ -1,4 +1,4 @@
-/* @section Components */
+/* @section Components
 
 @use 'config'
 
@@ -40,21 +40,14 @@ nav
 	font-family: config.$font-monospace
 	font-size: config.$font-size-monospace
 
-	ul
-		display: flex
-		flex-wrap: wrap
-		column-gap: 1em
-
-		li
-			margin-bottom: .5em
-
 footer
+	margin-top: 1em
+	padding-top: 1em
+	border-top: config.$border-thin
 	text-align: right
 	
-	nav
-	
-		ul
-			justify-content: flex-end
+	ul
+		justify-content: flex-end
 
 .site-logo
 	font-family: config.$font-display
@@ -107,10 +100,20 @@ blockquote
 	padding-left: .75em
 	border-left: config.$border-thick
 
-code
-	background: config.$accent-grey
-	font-size: config.$font-size-monospace
-
 pre
-	font-size: config.$font-size-monospace
 	overflow: auto
+	padding: 0 .5em
+
+	code
+		background-color: inherit
+
+code
+	font-family: config.$font-monospace
+	font-size: config.$font-size-monospace
+	background: config.$accent-grey
+	padding: 0 .2em
+	border-radius: .2em
+
+.meta
+	font-family: config.$font-monospace
+	font-size: config.$font-size-monospace

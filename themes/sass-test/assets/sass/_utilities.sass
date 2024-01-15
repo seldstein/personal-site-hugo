@@ -1,15 +1,23 @@
-/* @section Utilities */
+/* @section Utilities
 
 .list-unstyled
     list-style: none
     padding: 0
+
+    li
+        margin-bottom: .5em
+
+.list-flex
+    @extend .list-unstyled
     margin: 0
+    display: flex
+    flex-wrap: wrap
+    column-gap: 1em
+
+.list-meta
+    @extend .list-flex
+    column-gap: .5em
 
 .flex-column
     display: flex
     flex-direction: column
-
-.flex-list
-    display: flex
-    flex-wrap: wrap
-    gap: 1em

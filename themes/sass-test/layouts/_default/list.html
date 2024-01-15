@@ -1,9 +1,9 @@
 {{ define "main" }}
-<h1 class="display post-title">{{ .Title }}</h1>
+<h1>{{ .Title }}</h1>
 {{ .Content }}
-<ol class="list-page">
+<ol class="list-unstyled">
   {{ range .Pages }}
-  <li class="list-page-item">
+  <li>
     <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
     {{ partial "meta.html" . }}
   </li>
