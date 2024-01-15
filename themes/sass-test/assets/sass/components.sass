@@ -1,0 +1,116 @@
+/* @section Components */
+
+@use 'config'
+
+html
+	font-size: 16px
+	scroll-behavior: smooth
+
+body
+	background: config.$bg-light
+	color: config.$color-light
+	font-family: config.$font-body
+	font-size: 125%
+	font-weight: 400
+
+	@media (prefers-color-scheme: dark)
+		background: config.$bg-dark
+		color: config.$color-dark
+
+.skiplink
+	position: absolute
+	left: -9999px
+	width: 1px
+	height: 1px
+	overflow: hidden
+	text-decoration: none
+
+	&:focus
+		left: auto
+		width: auto
+		height: auto
+		overflow: visible
+		background-color: config.$accent-grey
+		color: config.$color-dark
+		padding: 1em 2em
+		z-index: 1000
+		text-transform: uppercase
+
+nav
+	font-family: config.$font-monospace
+	font-size: config.$font-size-monospace
+
+	ul
+		display: flex
+		flex-wrap: wrap
+		column-gap: 1em
+
+		li
+			margin-bottom: .5em
+
+footer
+	text-align: right
+	
+	nav
+	
+		ul
+			justify-content: flex-end
+
+.site-logo
+	font-size: 1.8em
+	text-decoration: none
+
+h1, h2,
+h3, h4,
+.site-logo
+	font-family: config.$font-display
+	text-transform: uppercase
+
+h1,
+.h1
+	font-size: 2.5em
+	text-align: left
+	border-bottom: none
+
+h2,
+.h2
+	font-size: 1.8em
+	text-align: right
+	border-bottom: .05em solid
+
+	/* Style homepage post titles */
+	& > a
+		text-decoration: none
+
+h3,
+.h3
+	font-size: 1.5em
+
+h4,
+.h4
+	font-size: 1.25em
+
+a
+	color: currentColor
+	text-decoration-thickness: .06em
+	text-underline-offset: .15em
+
+	@media (prefers-color-scheme: dark)
+		color: config.$color-dark
+
+	&:hover,
+	&:focus
+		text-decoration: none
+
+blockquote
+	margin: 0
+	padding-left: .75em
+	border-left: config.$border-thick
+
+code
+	background: config.$accent-grey
+	font-size: config.$font-size-monospace
+
+pre
+	font-size: config.$font-size-monospace
+	overflow: auto
