@@ -193,13 +193,13 @@ footer nav ul {
 }
 
 .site-logo {
+  font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
   font-size: 1.8em;
   text-decoration: none;
 }
 
 h1, h2,
-h3, h4,
-.site-logo {
+h3, h4 {
   font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
   text-transform: uppercase;
 }
