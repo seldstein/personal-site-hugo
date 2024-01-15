@@ -12,6 +12,7 @@ body
 	font-family: config.$font-body
 	font-size: 125%
 	font-weight: 400
+	padding: 1em
 
 	@media (prefers-color-scheme: dark)
 		background: config.$bg-dark
@@ -40,8 +41,11 @@ nav
 	font-family: config.$font-monospace
 	font-size: config.$font-size-monospace
 
-footer
-	margin-top: 1em
+.header-main
+	margin-bottom: 3em
+
+.footer-main
+	margin-top: 3em
 	padding-top: 1em
 	border-top: config.$border-thin
 	text-align: right
@@ -49,19 +53,25 @@ footer
 	ul
 		justify-content: flex-end
 
-.site-logo
+.header-page
+	margin-bottom: 1rem
+
+%display
 	font-family: config.$font-display
+	text-transform: uppercase
+
+.site-logo
+	@extend %display
 	font-size: 1.8em
 	text-decoration: none
 
 h1, h2,
 h3, h4
-	font-family: config.$font-display
-	text-transform: uppercase
+	@extend %display
 
 h1,
 .h1
-	font-size: 2.5em
+	font-size: 3.5em
 	text-align: left
 	border-bottom: none
 

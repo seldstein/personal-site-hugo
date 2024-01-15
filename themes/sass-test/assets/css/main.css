@@ -35,6 +35,7 @@ ol[role=list] {
 body {
   min-height: 100vh;
   line-height: 1.5;
+  margin: 0;
 }
 
 /* Set shorter line heights on headings and interactive elements */
@@ -144,6 +145,7 @@ body {
   font-family: Lato, sans-serif;
   font-size: 125%;
   font-weight: 400;
+  padding: 1em;
 }
 @media (prefers-color-scheme: dark) {
   body {
@@ -177,31 +179,38 @@ nav {
   font-size: 0.8em;
 }
 
-footer {
-  margin-top: 1em;
+.header-main {
+  margin-bottom: 3em;
+}
+
+.footer-main {
+  margin-top: 3em;
   padding-top: 1em;
   border-top: 0.05em solid;
   text-align: right;
 }
-footer ul {
+.footer-main ul {
   justify-content: flex-end;
 }
 
-.site-logo {
-  font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
-  font-size: 1.8em;
-  text-decoration: none;
+.header-page {
+  margin-bottom: 1rem;
 }
 
 h1, h2,
-h3, h4 {
+h3, h4, .site-logo {
   font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
   text-transform: uppercase;
 }
 
+.site-logo {
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
 h1,
 .h1 {
-  font-size: 2.5em;
+  font-size: 3.5em;
   text-align: left;
   border-bottom: none;
 }
@@ -270,28 +279,27 @@ code {
 }
 
 /* @section Utilities */
+.grid {
+  display: grid;
+}
+
+.flex, .list-flex, .list-meta, .flex-column {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 .list-unstyled, .list-flex, .list-meta {
   list-style: none;
   padding: 0;
 }
-.list-unstyled li, .list-flex li, .list-meta li {
-  margin-bottom: 0.5em;
-}
 
 .list-flex, .list-meta {
   margin: 0;
-  display: flex;
   flex-wrap: wrap;
-  column-gap: 1em;
-}
-
-.list-meta {
-  column-gap: 0.5em;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
+  gap: 1em;
 }
 
 /*# sourceMappingURL=main.css.map */

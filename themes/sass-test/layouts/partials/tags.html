@@ -1,6 +1,6 @@
 {{ $taxonomy := "tags" }}
 {{ with .GetTerms $taxonomy }}
-  <ul class="list-meta">
+  <ul class="meta list-meta">
     {{ range . }}
       <li>#<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
     {{ end }}
