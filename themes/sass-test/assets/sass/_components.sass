@@ -8,7 +8,7 @@ html
 
 body
 	background: config.$bg-light
-	color: config.$color-light
+	color: config.$text-light
 	font:
 		family: config.$font-body
 		size: 125%
@@ -17,7 +17,7 @@ body
 
 	@media (prefers-color-scheme: dark)
 		background: config.$bg-dark
-		color: config.$color-dark
+		color: config.$text-dark
 
 .skiplink
 	position: absolute
@@ -33,7 +33,7 @@ body
 		height: auto
 		overflow: visible
 		background-color: config.$accent-grey
-		color: config.$color-dark
+		color: config.$text-dark
 		padding: 1em 2em
 		z-index: 1000
 		text-transform: uppercase
@@ -103,7 +103,7 @@ a
 		underline-offset: .15em
 
 	@media (prefers-color-scheme: dark)
-		color: config.$color-dark
+		color: config.$text-dark
 
 	&:hover,
 	&:focus
@@ -130,5 +130,14 @@ code
 	border-radius: .2em
 
 .meta
-	font-family: config.$font-monospace
-	font-size: .8em
+	font:
+		family: config.$font-monospace
+		size: .8em
+	color: config.$meta-light
+
+	@media (prefers-color-scheme: dark)
+		color: config.$meta-dark
+		
+
+.list-page li
+	margin-bottom: 1.25em

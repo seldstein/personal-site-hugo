@@ -136,6 +136,7 @@ textarea:not([rows]) {
 /* @section Config */
 /* Fonts */
 /* Colors */
+/* Breakpoints */
 /* Borders */
 html {
   font-size: 16px;
@@ -280,6 +281,16 @@ code {
 .meta {
   font-family: "Oxygen Mono", monospace;
   font-size: 0.8em;
+  color: #708090;
+}
+@media (prefers-color-scheme: dark) {
+  .meta {
+    color: #9aa6b1;
+  }
+}
+
+.list-page li {
+  margin-bottom: 1.25em;
 }
 
 /* @section Utilities */
