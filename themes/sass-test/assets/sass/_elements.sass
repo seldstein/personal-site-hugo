@@ -1,10 +1,7 @@
 /* @section Components
 
 @use 'config'
-
-html
-	font-size: 16px
-	scroll-behavior: smooth
+@use 'utilities'
 
 body
 	background: config.$bg-light
@@ -14,12 +11,14 @@ body
 		size: 125%
 		weight: 400
 	padding: 1em
+	@extend %grid
+	grid-template-rows: auto 1fr auto
 
 	@media (prefers-color-scheme: dark)
 		background: config.$bg-dark
 		color: config.$text-dark
 
-.skiplink
+#skiplink
 	position: absolute
 	left: -9999px
 	width: 1px
@@ -32,7 +31,7 @@ body
 		width: auto
 		height: auto
 		overflow: visible
-		background-color: config.$accent-grey
+		background-color: config.$light-grey
 		color: config.$text-dark
 		padding: 1em 2em
 		z-index: 1000
@@ -43,10 +42,10 @@ nav
 		family: config.$font-monospace
 		size: .8em
 
-.header-main
+#header-main
 	margin-bottom: 3em
 
-.footer-main
+#footer-main
 	margin-top: 3em
 	padding-top: 1em
 	border-top: config.$border-thin
@@ -54,16 +53,16 @@ nav
 	
 	ul
 		justify-content: flex-end
+	
+	#site-logo
+		margin-top: .2em
 
 .header-page
 	margin-bottom: 1rem
 
-%display
-	font-family: config.$font-display
-	text-transform: uppercase
-
-.site-logo
+#site-logo
 	@extend %display
+	display: block
 	font-size: 1.8em
 	text-decoration: none
 
@@ -71,11 +70,12 @@ h1, h2,
 h3, h4
 	@extend %display
 
-/* Also styles hompeage post titles
+/* Also styles homepage post titles
 h1,
 .h1
 	font-size: 3.5em
 	text-align: left
+	margin-top: 0
 	border-bottom: none
 
 h2,
@@ -125,19 +125,9 @@ code
 	font:
 		family: config.$font-monospace
 		size: .9em
-	background-color: config.$accent-grey
 	padding: 0 .2em
+	background-color: config.$light-grey
 	border-radius: .2em
 
-.meta
-	font:
-		family: config.$font-monospace
-		size: .8em
-	color: config.$meta-light
-
 	@media (prefers-color-scheme: dark)
-		color: config.$meta-dark
-		
-
-.list-page li
-	margin-bottom: 1.25em
+		background-color: config.$dark-grey

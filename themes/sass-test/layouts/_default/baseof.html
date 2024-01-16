@@ -6,16 +6,15 @@
 </head>
 
 <body>
-  <div>
-  <a href="#main-content" class="skiplink">Skip to Content</a>
-  <header class="header-main">
+  <a href="#main-content" id="skiplink">Skip to Content</a>
+  <header id="header-main">
     {{ partial "header.html" . }}
   </header>
   <main id="main-content">
     {{ block "main" . }}
     {{ end }}
   </main>
-  <footer class="footer-main">
+  <footer id="footer-main">
     {{ partial "footer.html" . }}
   </footer>
   <!--  <script>
@@ -23,7 +22,6 @@
       navigator.serviceWorker.register('/offline.js');
     }
   </script>  -->
-</div>
 </body>
 
 </html>
