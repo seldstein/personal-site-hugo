@@ -1,11 +1,9 @@
 {{ define "main" }}
-<header class="header-page">
-<h1>{{ .Title }}</h1>
-</header>
+<h1 class="display post-title">{{ .Title }}</h1>
 {{ .Content }}
-<ol class="list-flex">
+<ol class="list-page tags-page">
     {{ range .Pages }}
-    <li>
+    <li class="tags-page-item">
         #<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
     </li>
     {{ end }}

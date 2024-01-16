@@ -1,4 +1,4 @@
-/* @section Components
+/* @section Elements
 
 @use 'config'
 @use 'utilities'
@@ -10,13 +10,21 @@ body
 		family: config.$font-body
 		size: 125%
 		weight: 400
+	margin: 0 auto
 	padding: 1em
+	max-width: 40em
 	@extend %grid
 	grid-template-rows: auto 1fr auto
 
+	@media ( min-width: config.$breakpoint )
+		text-align: justify
+	
 	@media (prefers-color-scheme: dark)
 		background: config.$bg-dark
 		color: config.$text-dark
+
+main
+	overflow: auto
 
 #skiplink
 	position: absolute
@@ -41,6 +49,11 @@ nav
 	font:
 		family: config.$font-monospace
 		size: .8em
+
+	@media ( min-width: config.$breakpoint )
+		display: flex
+		justify-content: space-between
+		align-items: baseline
 
 #header-main
 	margin-bottom: 3em
@@ -78,15 +91,18 @@ h1,
 	margin-top: 0
 	border-bottom: none
 
+	@media ( min-width: config.$breakpoint )
+		font-size: 5em
+
 h2,
 .h2
 	font-size: 1.8em
 	text-align: right
 	border-bottom: .05em solid
 
-	/* Style homepage post titles */
 	& > a
 		text-decoration: none
+	/* Style homepage post titles
 
 h3,
 .h3
@@ -115,8 +131,9 @@ blockquote
 	border-left: config.$border-thick
 
 pre
-	overflow: auto
+	margin: 0
 	padding: 0 .5em
+	overflow: auto
 
 	code
 		background-color: inherit

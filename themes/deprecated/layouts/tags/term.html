@@ -2,12 +2,10 @@
 <h1>#{{ .Title }}</h1>
 {{ .Content }}
 {{ range .Pages }}
-<ol class="list-unstyled list-page">
-    <li>
-        <div>
-            {{ partial "date.html" . }}
-        </div>
+<ol class="list-page">
+    <li class="list-page-item">
         <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ partial "meta.html" . }}
     </li>
 </ol>
 {{ end }}

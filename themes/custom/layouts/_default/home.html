@@ -2,9 +2,9 @@
 {{ .Content }}
 {{ range where site.RegularPages "Type" "posts" }}
 <article>
-    <header>
-        <h2 class="display post-title home">
-            <a class="no-decor" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    <header class="header-page">
+        <h2 class="h1">
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         </h2>
         {{ partial "meta.html" . }}
     </header>

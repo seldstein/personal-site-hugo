@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article>
-    <header class="header-page">
-        <h1>{{ .Title }}</h1>
+    <header>
+        <h1 class="display post-title">{{ .Title }}</h1>
         {{ partial "meta.html" . }}
     </header>
     {{ .Content }}

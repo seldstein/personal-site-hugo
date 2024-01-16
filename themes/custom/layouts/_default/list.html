@@ -1,11 +1,15 @@
 {{ define "main" }}
-<h1 class="display post-title">{{ .Title }}</h1>
+<header class="header-page">
+<h1>{{ .Title }}</h1>
+</header>
 {{ .Content }}
-<ol class="list-page">
+<ol class="list-unstyled list-page">
   {{ range .Pages }}
-  <li class="list-page-item">
+  <li>
+    <div>
+      {{ partial "date.html" . }}
+    </div>
     <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-    {{ partial "meta.html" . }}
   </li>
   {{ end }}
 </ol>

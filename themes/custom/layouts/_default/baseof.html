@@ -6,15 +6,15 @@
 </head>
 
 <body>
-  <a href="#main-content" class="skip-link">Skip to Content</a>
-  <header class="site-header">
+  <a href="#main-content" id="skiplink">Skip to Content</a>
+  <header id="header-main">
     {{ partial "header.html" . }}
   </header>
   <main id="main-content">
     {{ block "main" . }}
     {{ end }}
   </main>
-  <footer class="site-footer">
+  <footer id="footer-main">
     {{ partial "footer.html" . }}
   </footer>
   <!--  <script>
