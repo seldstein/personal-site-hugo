@@ -9,9 +9,10 @@ html
 body
 	background: config.$bg-light
 	color: config.$color-light
-	font-family: config.$font-body
-	font-size: 125%
-	font-weight: 400
+	font:
+		family: config.$font-body
+		size: 125%
+		weight: 400
 	padding: 1em
 
 	@media (prefers-color-scheme: dark)
@@ -38,8 +39,9 @@ body
 		text-transform: uppercase
 
 nav
-	font-family: config.$font-monospace
-	font-size: config.$font-size-monospace
+	font:
+		family: config.$font-monospace
+		size: .8em
 
 .header-main
 	margin-bottom: 3em
@@ -69,6 +71,7 @@ h1, h2,
 h3, h4
 	@extend %display
 
+/* Also styles hompeage post titles
 h1,
 .h1
 	font-size: 3.5em
@@ -95,8 +98,9 @@ h4,
 
 a
 	color: currentColor
-	text-decoration-thickness: .06em
-	text-underline-offset: .15em
+	text:
+		decoration-thickness: .06em
+		underline-offset: .15em
 
 	@media (prefers-color-scheme: dark)
 		color: config.$color-dark
@@ -118,12 +122,13 @@ pre
 		background-color: inherit
 
 code
-	font-family: config.$font-monospace
-	font-size: config.$font-size-monospace
-	background: config.$accent-grey
+	font:
+		family: config.$font-monospace
+		size: .9em
+	background-color: config.$accent-grey
 	padding: 0 .2em
 	border-radius: .2em
 
 .meta
 	font-family: config.$font-monospace
-	font-size: config.$font-size-monospace
+	font-size: .8em

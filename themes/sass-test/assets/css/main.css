@@ -1,10 +1,51 @@
+/* @section Web Fonts */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("/fonts/bebas-neue.woff2") format("woff2"), url("/fonts/bebas-neue.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oxygen Mono";
+  src: url("/fonts/oxygen-mono.woff2") format("woff2"), url("/fonts/oxygen-mono.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("/fonts/lato.woff2") format("woff2"), url("/fonts/lato.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("/fonts/lato-italic.woff2") format("woff2"), url("/fonts/lato-italic.woff") format("woff");
+  font-display: swap;
+  font-style: italic;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("/fonts/lato-bold.woff2") format("woff2"), url("/fonts/lato-bold.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("/fonts/lato-bold-italic.woff2") format("woff2"), url("/fonts/lato-bold-italic.woff") format("woff");
+  font-display: swap;
+  font-style: italic;
+  font-weight: bold;
+}
 /* @section Reset
  *
  * Adapted from Andy Bell's modern CSS reset and Nicolas Gallagher's normalize.css:
  *
  * @link https://piccalil.li/blog/a-more-modern-css-reset/
- * @link https://github.com/necolas/normalize.css/tree/master
- * */
+ * @link https://github.com/necolas/normalize.css/tree/master */
 /* Box sizing rules */
 *,
 *::before,
@@ -56,13 +97,13 @@ a:not([class]) {
   color: currentColor;
 }
 
-/* Correct the inheritance and scaling of font size in all browsers. */
+/* Correct the inheritance and scaling of font size in all browsers */
 pre, code,
 kbd, samp {
   font-family: monospace, monospace;
 }
 
-/* Add the correct font weight in Chrome, Edge, and Safari. */
+/* Add the correct font weight in Chrome, Edge, and Safari */
 b,
 strong {
   font-weight: bolder;
@@ -91,49 +132,11 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-/* @section Config */
-@font-face {
-  font-family: "Bebas Neue";
-  src: url("/fonts/bebas-neue.woff2") format("woff2"), url("/fonts/bebas-neue.woff") format("woff");
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Oxygen Mono";
-  src: url("/fonts/oxygen-mono.woff2") format("woff2"), url("/fonts/oxygen-mono.woff") format("woff");
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Lato";
-  src: url("/fonts/lato.woff2") format("woff2"), url("/fonts/lato.woff") format("woff");
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Lato";
-  src: url("/fonts/lato-italic.woff2") format("woff2"), url("/fonts/lato-italic.woff") format("woff");
-  font-display: swap;
-  font-style: italic;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Lato";
-  src: url("/fonts/lato-bold.woff2") format("woff2"), url("/fonts/lato-bold.woff") format("woff");
-  font-display: swap;
-  font-style: normal;
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Lato";
-  src: url("/fonts/lato-bold-italic.woff2") format("woff2"), url("/fonts/lato-bold-italic.woff") format("woff");
-  font-display: swap;
-  font-style: italic;
-  font-weight: bold;
-}
 /* @section Components */
+/* @section Config */
+/* Fonts */
+/* Colors */
+/* Borders */
 html {
   font-size: 16px;
   scroll-behavior: smooth;
@@ -208,6 +211,7 @@ h3, h4, .site-logo {
   text-decoration: none;
 }
 
+/* Also styles hompeage post titles */
 h1,
 .h1 {
   font-size: 3.5em;
@@ -267,8 +271,8 @@ pre code {
 
 code {
   font-family: "Oxygen Mono", monospace;
-  font-size: 0.8em;
-  background: #808080;
+  font-size: 0.9em;
+  background-color: #808080;
   padding: 0 0.2em;
   border-radius: 0.2em;
 }
@@ -279,16 +283,8 @@ code {
 }
 
 /* @section Utilities */
-.grid {
-  display: grid;
-}
-
-.flex, .list-flex, .list-meta, .flex-column {
+.flex, .list-flex, .list-meta {
   display: flex;
-}
-
-.flex-column {
-  flex-direction: column;
 }
 
 .list-unstyled, .list-flex, .list-meta {
@@ -300,6 +296,10 @@ code {
   margin: 0;
   flex-wrap: wrap;
   gap: 1em;
+}
+
+.list-meta {
+  gap: 0.5em;
 }
 
 /*# sourceMappingURL=main.css.map */
