@@ -3,7 +3,7 @@
 <h1>{{ .Title }}</h1>
 </header>
 {{ .Content }}
-<ol id="tagcloud" class="meta gap-normal">
+<ol id="tagcloud">
     {{ range .Pages }}
     <li>
         #<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>

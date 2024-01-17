@@ -2,21 +2,15 @@
 @use 'reset';
 @use 'config';
 @use 'placeholders';
-@use 'utilities';
+@use 'mixins';
 
 body {
+  @include mixins.text(config.$font-family-body, 110%, config.$text-light);
   display: grid;
+  grid-template-rows: auto 1fr auto;
   background-color: config.$bg-light;
-  color: config.$text-light;
-  margin: 0 auto;
   padding: .5em;
   max-width: 40em;
-  grid-template-rows: auto 1fr auto;
-
-  font: {
-    family: config.$font-body;
-    size: 110%;
-  }
 
   @media (prefers-color-scheme: dark) {
     background-color: config.$bg-dark;
@@ -50,12 +44,10 @@ main {
 }
 
 nav {
-  font-family: config.$font-monospace;
-
   ul {
+    @include mixins.text(config.$font-family-monospace, .8em, inherit);
     @extend %list-flex;
-    font-size: 0.8em;
-    margin: 0;
+    @extend %margin-none;
     gap: .5em 1em;
   }
 
@@ -64,6 +56,10 @@ nav {
     justify-content: space-between;
     align-items: center;
   }
+}
+
+#header-main {
+  @extend %margin-bottom-large;
 }
 
 #footer-main {
@@ -90,23 +86,19 @@ nav {
 }
 
 #site-logo {
-  @extend %display;
+  @include mixins.text(config.$font-family-display, 1.8em, inherit);
   display: block;
-  font-size: 1.8em;
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  @extend %display;
+.article-home {
+  @extend %margin-bottom-large;
 }
 
 // Also styles home page post titles
 h1,
 .h1 {
-  font-size: 3em;
+  @include mixins.text(config.$font-family-display, 3em, inherit);
   margin-top: 0;
   text-align: left;
   border: none;
@@ -118,7 +110,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: 1.8em;
+  @include mixins.text(config.$font-family-display, 1.8em, inherit);
   text-align: right;
   border-bottom: 0.05em solid;
 
@@ -134,12 +126,12 @@ h2,
 
 h3,
 .h3 {
-  font-size: 1.5em;
+  @include mixins.text(config.$font-family-display, 1.5em, inherit);
 }
 
 h4,
 .h4 {
-  font-size: 1.25em;
+  @include mixins.text(config.$font-family-display, 1.25em, inherit);
 }
 
 p {
@@ -149,11 +141,8 @@ p {
 
 a {
   color: currentColor;
-
-  text: {
-    decoration-thickness: 0.06em;
-    underline-offset: 0.15em;
-  }
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.15em;
 
   &:hover,
   &:focus {
@@ -175,32 +164,30 @@ a {
 
 // Metadata
 .meta {
-  font-family: config.$font-monospace;
-  font-size: 0.8em;
-  color: config.$meta-light;
+  @extend %meta;
+  
+}
 
-  @media (prefers-color-scheme: dark) {
-    color: config.$meta-dark
-  }
-
-  ul {
-    @extend %list-flex;
-    margin: 0;
-  }
+.list-meta {
+  @extend %list-meta;
+  @extend %margin-none;
+  @extend %gap-small;
 }
 
 #tagcloud {
-  @extend %list-flex;
+  @extend %list-meta;
+  @extend %gap-normal;
+  font-size: 1em;
 }
 
 blockquote {
-  margin: 0;
+  @extend %margin-none;
   padding-left: 0.75em;
   border-left: config.$border-thick;
 }
 
 pre {
-  margin: 0;
+  @extend %margin-none;
   padding: 0 0.5em;
   overflow: auto;
 
@@ -210,11 +197,7 @@ pre {
 }
 
 code {
-  font: {
-    family: config.$font-monospace;
-    size: 0.9em;
-  }
-
+  @include mixins.text(config.$font-family-monospace, .9em, inherit);
   padding: 0 0.2em;
   background-color: config.$light-grey;
   border-radius: 0.2em;

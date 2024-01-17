@@ -1,9 +1,13 @@
 @use 'config';
+@use 'mixins';
 
-// Display fonts
-%display {
-    font-family: config.$font-display;
-    text-transform: uppercase;
+// Margins
+%margin-none {
+    margin: 0;
+}
+
+%margin-bottom-large {
+    margin-bottom: config.$margin-large;
 }
 
 // Lists
@@ -16,4 +20,27 @@
     @extend %list-unstyled;
     display: flex;
     flex-wrap: wrap;
+}
+
+// metadata
+%meta {
+    @include mixins.text(config.$font-family-monospace, .8em, config.$meta-light);
+  
+    @media (prefers-color-scheme: dark) {
+      color: config.$meta-dark
+    }
+}
+
+%list-meta{
+    @extend %meta;
+    @extend %list-flex;
+}
+
+// Flexbox
+%gap-small {
+    gap: .5em;
+}
+
+%gap-normal {
+    gap: 1em;
 }

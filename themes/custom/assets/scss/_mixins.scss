@@ -1,0 +1,12 @@
+@mixin fonts($family, $style, $weight) {
+    font-family: $family;
+    font-display: swap;
+    font-style: $style;
+    font-weight: $weight;
+}
+
+@mixin text($family, $size, $color) {
+    font-family: $family;
+    font-size: $size;
+    color: $color;
+}

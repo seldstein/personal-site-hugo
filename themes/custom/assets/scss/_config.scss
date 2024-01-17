@@ -1,13 +1,15 @@
-/*! @section Config */
-
 // Fonts
-$font-body: 'Lato',
+$font-web-body: 'Lato';
+$font-web-display: 'Bebas Neue';
+$font-web-monospace: 'Oxygen Mono';
+
+$font-family-body: 'Lato',
 sans-serif;
-$font-display: 'Bebas Neue',
+$font-family-display: 'Bebas Neue',
 Impact,
 'Arial Narrow',
 sans-serif;
-$font-monospace: 'Oxygen Mono',
+$font-family-monospace: 'Oxygen Mono',
 monospace;
 
 // Colors
