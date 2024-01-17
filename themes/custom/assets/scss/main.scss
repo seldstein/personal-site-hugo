@@ -169,27 +169,24 @@ a {
   @extend %list-unstyled;
 
   li {
-      margin-bottom: 1.25em;
+    margin-bottom: 1.25em;
   }
 }
 
 // Metadata
 .meta {
-  font: {
-      family: config.$font-monospace;
-      size: 0.8em;
-  }
-
+  font-family: config.$font-monospace;
+  font-size: 0.8em;
   color: config.$meta-light;
 
   @media (prefers-color-scheme: dark) {
-      color: config.$meta-dark
+    color: config.$meta-dark
   }
-}
 
-.meta ul {
-  @extend %list-flex;
-  margin: 0;
+  ul {
+    @extend %list-flex;
+    margin: 0;
+  }
 }
 
 #tagcloud {
