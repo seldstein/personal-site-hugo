@@ -76,6 +76,7 @@ body {
   min-height: 100vh;
   line-height: 1.5;
   margin: 0;
+  font-weight: 400;
 }
 
 h1,
@@ -207,19 +208,18 @@ body {
 }
 
 body {
-  background: #ffffff;
+  background-color: #ffffff;
   color: #252526;
-  font-family: "Lato", sans-serif;
-  font-size: 125%;
-  font-weight: 400;
   margin: 0 auto;
-  padding: 1em;
+  padding: 0.5em;
   max-width: 40em;
   grid-template-rows: auto 1fr auto;
+  font-family: "Lato", sans-serif;
+  font-size: 110%;
 }
 @media (prefers-color-scheme: dark) {
   body {
-    background: #252526;
+    background-color: #252526;
     color: #f9f9f9;
   }
 }
@@ -333,10 +333,9 @@ h4,
   font-size: 1.25em;
 }
 
-@media (min-width: 50em) {
-  p {
-    text-align: justify;
-  }
+p {
+  text-align: justify;
+  hyphens: auto;
 }
 
 a {
