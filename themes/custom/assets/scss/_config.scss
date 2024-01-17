@@ -1,0 +1,31 @@
+/*! @section Config */
+
+// Fonts
+$font-body: 'Lato',
+sans-serif;
+$font-display: 'Bebas Neue',
+Impact,
+'Arial Narrow',
+sans-serif;
+$font-monospace: 'Oxygen Mono',
+monospace;
+
+// Colors
+$bg-light: #ffffff;
+$text-light: #252526;
+$bg-dark: #252526;
+$text-dark: #f9f9f9;
+$meta-light: #708090;
+$meta-dark: #9aa6b1;
+$light-grey: #9aa6b1;
+$dark-grey: #808080;
+
+// Breakpoints
+$breakpoint: 696px;
+
+// Margins
+$margin-large: 3em;
+
+// Borders
+$border-thin: 0.05em solid;
+$border-thick: 0.1em solid;

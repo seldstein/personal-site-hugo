@@ -1,0 +1,199 @@
+/*! @section Elements */
+
+@use 'config';
+@use 'utilities';
+
+body {
+  background: config.$bg-light;
+  color: config.$text-light;
+
+  font: {
+    family: config.$font-body;
+    size: 125%;
+    weight: 400;
+  }
+
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 40em;
+  @extend %grid;
+  grid-template-rows: auto 1fr auto;
+
+  @media (prefers-color-scheme: dark) {
+    background: config.$bg-dark;
+    color: config.$text-dark;
+  }
+}
+
+main {
+  overflow: auto;
+}
+
+#skiplink {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  text-decoration: none;
+
+  &:focus {
+    left: auto;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    background-color: config.$light-grey;
+    color: config.$text-dark;
+    padding: 1em 2em;
+    z-index: 1000;
+    text-transform: uppercase;
+  }
+}
+
+nav {
+  font-family: config.$font-monospace;
+
+  ul {
+    font-size: 0.9em;
+  }
+
+  @media (min-width: config.$breakpoint) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+#header-main {
+  margin-bottom: config.$margin-large;
+}
+
+#footer-main {
+  padding-top: 1em;
+  border-top: config.$border-thin;
+  margin-top: config.$margin-large;
+
+  ul {
+    justify-content: flex-end;
+  }
+
+  #site-logo {
+    margin-top: 0.2em;
+
+    @media (min-width: config.$breakpoint) {
+      margin-top: 0;
+    }
+  }
+
+  @media (min-width: config.$breakpoint) {
+    padding-top: 0;
+  }
+}
+
+.header-page {
+  margin-bottom: 1rem;
+}
+
+#site-logo {
+  @extend %display;
+  display: block;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @extend %display;
+}
+
+h1,
+.h1 {
+  font-size: 3em;
+
+  @media (min-width: config.$breakpoint) {
+    font-size: 5em;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 1.8em;
+  text-align: right;
+  border-bottom: 0.05em solid;
+
+  // Style homepage post titles
+  &>a {
+    text-decoration: none;
+  }
+
+  @media (min-width: config.$breakpoint) {
+    font-size: 2.4em;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 1.5em;
+}
+
+h4,
+.h4 {
+  font-size: 1.25em;
+}
+
+p {
+  @media (min-width: config.$breakpoint) {
+    text-align: justify;
+  }
+}
+
+a {
+  color: currentColor;
+
+  text: {
+    decoration-thickness: 0.06em;
+    underline-offset: 0.15em;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: config.$text-dark;
+  }
+}
+
+blockquote {
+  margin: 0;
+  padding-left: 0.75em;
+  border-left: config.$border-thick;
+}
+
+pre {
+  margin: 0;
+  padding: 0 0.5em;
+  overflow: auto;
+
+  code {
+    background-color: inherit;
+  }
+}
+
+code {
+  font: {
+    family: config.$font-monospace;
+    size: 0.9em;
+  }
+
+  padding: 0 0.2em;
+  background-color: config.$light-grey;
+  border-radius: 0.2em;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: config.$dark-grey;
+  }
+}
