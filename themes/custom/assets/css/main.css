@@ -254,7 +254,7 @@ nav {
 nav ul {
   font-size: 0.9em;
 }
-@media (min-width: 696px) {
+@media (min-width: 50em) {
   nav {
     display: flex;
     justify-content: space-between;
@@ -277,12 +277,12 @@ nav ul {
 #footer-main #site-logo {
   margin-top: 0.2em;
 }
-@media (min-width: 696px) {
+@media (min-width: 50em) {
   #footer-main #site-logo {
     margin-top: 0;
   }
 }
-@media (min-width: 696px) {
+@media (min-width: 50em) {
   #footer-main {
     padding-top: 0;
   }
@@ -299,7 +299,7 @@ h1,
   font-size: 3em;
   margin-top: 0;
 }
-@media (min-width: 696px) {
+@media (min-width: 50em) {
   h1,
   .h1 {
     font-size: 5em;
@@ -316,7 +316,7 @@ h2 > a,
 .h2 > a {
   text-decoration: none;
 }
-@media (min-width: 696px) {
+@media (min-width: 50em) {
   h2,
   .h2 {
     font-size: 2.4em;
@@ -333,7 +333,7 @@ h4,
   font-size: 1.25em;
 }
 
-@media (min-width: 696px) {
+@media (min-width: 50em) {
   p {
     text-align: justify;
   }
