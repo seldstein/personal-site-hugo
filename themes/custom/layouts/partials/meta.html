@@ -1,8 +1,8 @@
-<div class="meta">
-    <time datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
+<div>
+    <time class="meta" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
         {{- .Date | dateFormat (.Site.Params.dateFormat | default "January 02, 2006") -}}
     </time>
-    <ul class="list-meta">
+    <ul class="list-meta gap-small">
     {{ range .Params.tags }}
     <li>
         #<a href="{{ printf " /tags/%s" . | urlize }}">{{ . }}</a>

@@ -3,7 +3,7 @@
 <h1>{{ .Title }}</h1>
 </header>
 {{ .Content }}
-<ol class="list-flex">
+<ol class="list-meta gap-normal margin-top-small">
     {{ range .Pages }}
     <li>
         #<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>

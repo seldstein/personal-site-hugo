@@ -18,12 +18,17 @@
 }
 
 // Margins
-.margin-bottom-large {
-    margin-bottom: config.$margin-large;
+.margin-none {
+    margin: 0;
 }
 
-.margin-top-none {
-    margin-top: 0;
+.margin-top-small {
+    margin-top: 1em;
+}
+
+
+.margin-bottom-large {
+    margin-bottom: config.$margin-large;
 }
 
 // Borders
@@ -39,6 +44,18 @@
 // Flexbox
 .flex {
     display: flex;
+}
+
+.gap-small {
+    gap: .5em;
+}
+
+.gap-normal {
+    gap: 1em;
+}
+
+.gap-proportional {
+    gap: .5em 1em;
 }
 
 // Metadata
@@ -68,12 +85,11 @@
 .list-flex {
     @extend .list-unstyled;
     @extend .flex;
-    margin: 0;
     flex-wrap: wrap;
-    gap: 1em;
 }
 
 .list-meta {
+    @extend .meta;
     @extend .list-flex;
-    gap: 0.5em;
+    @extend .margin-none;
 }

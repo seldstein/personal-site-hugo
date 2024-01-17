@@ -90,10 +90,6 @@ nav {
   }
 }
 
-.header-page {
-  margin-bottom: 1rem;
-}
-
 #site-logo {
   @extend %display;
   display: block;
@@ -111,6 +107,7 @@ h4 {
 h1,
 .h1 {
   font-size: 3em;
+  margin-top: 0;
 
   @media (min-width: config.$breakpoint) {
     font-size: 5em;
