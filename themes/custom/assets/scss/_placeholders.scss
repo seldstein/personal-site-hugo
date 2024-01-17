@@ -1,0 +1,19 @@
+@use 'config';
+
+// Display fonts
+%display {
+    font-family: config.$font-display;
+    text-transform: uppercase;
+}
+
+// Lists
+%list-unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+%list-flex {
+    @extend %list-unstyled;
+    display: flex;
+    flex-wrap: wrap;
+}

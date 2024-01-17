@@ -1,4 +1,228 @@
 @use 'fonts';
 @use 'reset';
-@use 'elements';
+@use 'config';
+@use 'placeholders';
 @use 'utilities';
+
+body {
+  display: grid;
+  background-color: config.$bg-light;
+  color: config.$text-light;
+  margin: 0 auto;
+  padding: .5em;
+  max-width: 40em;
+  grid-template-rows: auto 1fr auto;
+
+  font: {
+    family: config.$font-body;
+    size: 110%;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background-color: config.$bg-dark;
+    color: config.$text-dark;
+  }
+}
+
+main {
+  overflow: auto;
+}
+
+#skiplink {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  text-decoration: none;
+
+  &:focus {
+    left: auto;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    background-color: config.$light-grey;
+    color: config.$text-dark;
+    padding: 1em 2em;
+    z-index: 1000;
+    text-transform: uppercase;
+  }
+}
+
+nav {
+  font-family: config.$font-monospace;
+
+  ul {
+    @extend %list-flex;
+    font-size: 0.8em;
+    margin: 0;
+    gap: .5em 1em;
+  }
+
+  @media (min-width: config.$breakpoint) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+#footer-main {
+  margin-top: config.$margin-small;
+  padding-top: config.$padding-small;
+  border-top: config.$border-thin;
+  text-align: right;
+
+  @media (min-width: config.$breakpoint) {
+    padding-top: 0;
+  }
+
+  ul {
+    justify-content: flex-end;
+  }
+
+  #site-logo {
+    margin-top: 0.2em;
+
+    @media (min-width: config.$breakpoint) {
+      margin-top: 0;
+    }
+  }
+}
+
+#site-logo {
+  @extend %display;
+  display: block;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @extend %display;
+}
+
+// Also styles home page post titles
+h1,
+.h1 {
+  font-size: 3em;
+  margin-top: 0;
+  text-align: left;
+  border: none;
+
+  @media (min-width: config.$breakpoint) {
+    font-size: 5em;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 1.8em;
+  text-align: right;
+  border-bottom: 0.05em solid;
+
+  // Style homepage post titles
+  &>a {
+    text-decoration: none;
+  }
+
+  @media (min-width: config.$breakpoint) {
+    font-size: 2.4em;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 1.5em;
+}
+
+h4,
+.h4 {
+  font-size: 1.25em;
+}
+
+p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+a {
+  color: currentColor;
+
+  text: {
+    decoration-thickness: 0.06em;
+    underline-offset: 0.15em;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: config.$text-dark;
+  }
+}
+
+.list-page {
+  @extend %list-unstyled;
+
+  li {
+      margin-bottom: 1.25em;
+  }
+}
+
+// Metadata
+.meta {
+  font: {
+      family: config.$font-monospace;
+      size: 0.8em;
+  }
+
+  color: config.$meta-light;
+
+  @media (prefers-color-scheme: dark) {
+      color: config.$meta-dark
+  }
+}
+
+.meta ul {
+  @extend %list-flex;
+  margin: 0;
+}
+
+#tagcloud {
+  @extend %list-flex;
+}
+
+blockquote {
+  margin: 0;
+  padding-left: 0.75em;
+  border-left: config.$border-thick;
+}
+
+pre {
+  margin: 0;
+  padding: 0 0.5em;
+  overflow: auto;
+
+  code {
+    background-color: inherit;
+  }
+}
+
+code {
+  font: {
+    family: config.$font-monospace;
+    size: 0.9em;
+  }
+
+  padding: 0 0.2em;
+  background-color: config.$light-grey;
+  border-radius: 0.2em;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: config.$dark-grey;
+  }
+}

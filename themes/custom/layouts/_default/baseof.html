@@ -7,14 +7,14 @@
 
 <body>
   <a href="#main-content" id="skiplink">Skip to Content</a>
-  <header id="header-main">
+  <header id="header-main" class="margin-bottom-large">
     {{ partial "header.html" . }}
   </header>
   <main id="main-content">
     {{ block "main" . }}
     {{ end }}
   </main>
-  <footer id="footer-main" class="text-right">
+  <footer id="footer-main">
     {{ partial "footer.html" . }}
   </footer>
   <!--  <script>

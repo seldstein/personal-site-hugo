@@ -1,31 +1,13 @@
-/*! @section Utilities */
-
 @use 'config';
 
-// Display fonts
-%display {
-    font-family: config.$font-display;
-    text-transform: uppercase;
-}
-
-// Text alignment
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 // Margins
-.margin-none {
-    margin: 0;
-}
-
 .margin-top-small {
-    margin-top: 1em;
+    margin-top: config.$margin-small;
 }
 
+.margin-top-large {
+    margin-top: config.$margin-large;;
+}
 
 .margin-bottom-large {
     margin-bottom: config.$margin-large;
@@ -36,60 +18,20 @@
     border: none;
 }
 
-// Grid
-%grid {
-    display: grid;
+.border-top-thin {
+    border-top: config.$border-thin;
+}
+
+// Padding
+.padding-top-small {
+    padding-top: config.$padding-small;
 }
 
 // Flexbox
-.flex {
-    display: flex;
-}
-
 .gap-small {
     gap: .5em;
 }
 
 .gap-normal {
     gap: 1em;
-}
-
-.gap-proportional {
-    gap: .5em 1em;
-}
-
-// Metadata
-.meta {
-    font: {
-        family: config.$font-monospace;
-        size: 0.8em;
-    }
-
-    color: config.$meta-light;
-
-    @media (prefers-color-scheme: dark) {
-        color: config.$meta-dark
-    }
-}
-
-// Lists
-.list-unstyled {
-    list-style: none;
-    padding: 0;
-}
-
-.list-page li {
-    margin-bottom: 1.25em;
-}
-
-.list-flex {
-    @extend .list-unstyled;
-    @extend .flex;
-    flex-wrap: wrap;
-}
-
-.list-meta {
-    @extend .meta;
-    @extend .list-flex;
-    @extend .margin-none;
 }
