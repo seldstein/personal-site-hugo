@@ -24,18 +24,21 @@ menu:
     - name: Tags
       url: /tags
       weight: 3
-    - name: Mastodon
-      url: https://mastodon.social/@samfeldstein
+    - name: Github
+      url: https://github.com/seldstein/
       weight: 4
+    - name: Mastodon
+      url: https://mastodon.social/@samfeldstein/
+      weight: 5
     - name: Newsletter
       url: https://samfeldstein.substack.com/
-      weight: 5
+      weight: 6
     - name: RSS
       url: /posts/index.xml
-      weight: 6
+      weight: 7
     - name: Email
       url: mailto:samfeldstein@proton.me
-      weight: 7
+      weight: 8
 
 params:
   description: Sam Feldstein's personal website. Sam is a writer and web developer from Bondurant, IA.
