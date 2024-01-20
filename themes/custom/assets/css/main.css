@@ -50,6 +50,9 @@ html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
+  height: 100%;
+  font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -58,6 +61,7 @@ h3,
 h4 {
   margin-block-end: 0;
   text-wrap: balance;
+  line-height: 1;
 }
 
 ul[role=list],
@@ -65,27 +69,11 @@ ol[role=list] {
   list-style: none;
 }
 
-html {
-  height: 100%;
-  font-size: 16px;
-  scroll-behavior: smooth;
-}
-
 body {
   min-height: 100vh;
   line-height: 1.5;
   margin: 0 auto;
   font-weight: 400;
-}
-
-h1,
-h2,
-h3,
-h4,
-button,
-input,
-label {
-  line-height: 1;
 }
 
 a:not([class]) {
@@ -232,16 +220,16 @@ nav ul {
 #footer-main ul {
   justify-content: flex-end;
 }
-#footer-main #site-logo {
+#footer-main .site-logo {
   margin-top: 0.2em;
 }
 @media (min-width: 50em) {
-  #footer-main #site-logo {
+  #footer-main .site-logo {
     margin-top: 0;
   }
 }
 
-#site-logo {
+.site-logo {
   font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
   font-size: 1.8em;
   color: inherit;

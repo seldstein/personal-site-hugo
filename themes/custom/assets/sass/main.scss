@@ -76,7 +76,7 @@ nav {
     justify-content: flex-end;
   }
 
-  #site-logo {
+  .site-logo {
     margin-top: 0.2em;
 
     @media (min-width: config.$breakpoint) {
@@ -85,7 +85,7 @@ nav {
   }
 }
 
-#site-logo {
+.site-logo {
   @include mixins.text(config.$font-family-display, 1.8em, inherit);
   display: block;
   text-decoration: none;
