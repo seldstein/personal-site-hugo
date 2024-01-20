@@ -88,7 +88,7 @@ For context, I built my website with [Hugo](https://gohugo.io/) and [custom them
 11. Add tags.
 12. Add audio version.
 13. Change date.
-14. Run 'hugo server -D', make sure everything looks okay.
+14. Run `hugo server -D`, make sure everything looks okay.
 15. Change draft status.
 16. Update file name.
 17. Commit and push.

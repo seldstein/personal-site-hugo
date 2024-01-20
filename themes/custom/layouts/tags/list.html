@@ -1,13 +1,9 @@
 {{ define "main" }}
-<header>
 <h1>{{ .Title }}</h1>
-</header>
-{{ .Content }}
-<ol id="tagcloud">
-    {{ range .Pages }}
-    <li>
-        #<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-    </li>
+<!-- https://gohugo.io/templates/taxonomy-templates/#render-a-sites-taxonomies -->
+<ul id="tagcloud">
+    {{ range .Site.Taxonomies.tags }}
+    <li>#<a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>({{ .Count }})</li>
     {{ end }}
-</ol>
+</ul>
 {{ end }}

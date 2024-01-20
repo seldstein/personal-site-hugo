@@ -112,7 +112,7 @@ h2,
 .h2 {
   @include mixins.text(config.$font-family-display, 1.8em, inherit);
   text-align: right;
-  border-bottom: 0.05em solid;
+  border-bottom: config.$border-thin;
 
   // Style homepage post titles
   &>a {

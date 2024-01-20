@@ -147,11 +147,11 @@ nav ul, .list-meta, #tagcloud {
 .meta, .list-meta, #tagcloud {
   font-family: "Oxygen Mono", monospace;
   font-size: 0.8em;
-  color: #708090;
+  color: #647382;
 }
 @media (prefers-color-scheme: dark) {
   .meta, .list-meta, #tagcloud {
-    color: #9aa6b1;
+    color: #d4d9dd;
   }
 }
 
@@ -197,7 +197,7 @@ main {
   width: auto;
   height: auto;
   overflow: visible;
-  background-color: #9aa6b1;
+  background-color: #d4d9dd;
   color: #f9f9f9;
   padding: 1em 2em;
   z-index: 1000;
@@ -221,7 +221,7 @@ nav ul {
 #footer-main {
   margin-top: 1em;
   padding-top: 1em;
-  border-top: 0.05em solid;
+  border-top: 0.01rem solid;
   text-align: right;
 }
 @media (min-width: 50em) {
@@ -271,7 +271,7 @@ h2,
   font-size: 1.8em;
   color: inherit;
   text-align: right;
-  border-bottom: 0.05em solid;
+  border-bottom: 0.01rem solid;
 }
 h2 > a,
 .h2 > a {
@@ -327,7 +327,7 @@ a:hover, a:focus {
 
 blockquote {
   padding-left: 0.75em;
-  border-left: 0.1em solid;
+  border-left: 0.1rem solid;
 }
 
 pre {
@@ -343,7 +343,7 @@ code {
   font-size: 0.9em;
   color: inherit;
   padding: 0 0.2em;
-  background-color: #9aa6b1;
+  background-color: #d4d9dd;
   border-radius: 0.2em;
 }
 @media (prefers-color-scheme: dark) {
