@@ -111,7 +111,7 @@ textarea:not([rows]) {
 }
 
 :target {
-  scroll-margin-block: 5ex;
+  scroll-margin-block: 1rem;
 }
 
 nav ul, .list-meta, blockquote, pre {
