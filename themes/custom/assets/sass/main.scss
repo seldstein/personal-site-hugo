@@ -63,6 +63,7 @@ nav {
 }
 
 #footer-main {
+  @extend %defer-render;
   margin-top: config.$margin-small;
   padding-top: config.$padding-small;
   border-top: config.$border-thin;
@@ -93,6 +94,7 @@ nav {
 
 .article-home {
   @extend %margin-bottom-large;
+  @extend %defer-render;
 }
 
 // Also styles home page post titles
@@ -177,7 +179,7 @@ a {
 #tagcloud {
   @extend %list-meta;
   @extend %gap-normal;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 blockquote {

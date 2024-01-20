@@ -1,6 +1,12 @@
 @use 'config';
 @use 'mixins';
 
+// Layout
+
+%defer-render {
+    content-visibility: auto;
+}
+
 // Margins
 %margin-none {
     margin: 0;

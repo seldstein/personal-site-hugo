@@ -114,6 +114,10 @@ textarea:not([rows]) {
   scroll-margin-block: 1rem;
 }
 
+#footer-main, .article-home {
+  content-visibility: auto;
+}
+
 nav ul, .list-meta, blockquote, pre {
   margin: 0;
 }
@@ -310,7 +314,7 @@ a:hover, a:focus {
 }
 
 #tagcloud {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 blockquote {
