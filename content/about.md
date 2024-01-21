@@ -84,7 +84,7 @@ For context, I built my website with [Hugo](https://gohugo.io/) and [custom them
 7. Check Problems tab.
 8. Check for [broken links](https://marketplace.visualstudio.com/items?itemName=BillDietrich.linkcheckerhtml).
 9. Add description.
-10. Add slug.
+10. Add deck.
 11. Add tags.
 12. Add audio version.
 13. Change date.

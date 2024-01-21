@@ -10,3 +10,7 @@
     font-size: $size;
     color: $color;
 }
+
+@mixin intrinsic-size($height) {
+    contain-intrinsic-size: auto $height auto 500px;
+}
