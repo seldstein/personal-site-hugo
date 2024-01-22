@@ -11,7 +11,7 @@ body {
   background-color: config.$bg-light;
   padding: .5em;
   max-width: 40em;
-
+  
   @media (prefers-color-scheme: dark) {
     background-color: config.$bg-dark;
     color: config.$text-dark;
@@ -142,8 +142,9 @@ h4,
 }
 
 p {
-  text-align: justify;
+  overflow: auto; // Makes hyphens work on mobile (I think)
   hyphens: auto;
+  text-align: justify;
 }
 
 a {

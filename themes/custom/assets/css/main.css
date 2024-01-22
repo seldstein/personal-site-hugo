@@ -296,8 +296,9 @@ h4,
 }
 
 p {
-  text-align: justify;
+  overflow: auto;
   hyphens: auto;
+  text-align: justify;
 }
 
 a {
