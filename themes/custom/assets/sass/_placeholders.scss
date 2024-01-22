@@ -2,18 +2,12 @@
 @use 'mixins';
 
 // Margins
-%margin-none {
+%mg-none {
     margin: 0;
 }
 
-%margin-bottom-large {
+%mg-btm-lg {
     margin-bottom: config.$margin-large;
-}
-
-// Padding
-
-%padding-sm {
-    padding: config.$padding-small;
 }
 
 // Lists
@@ -43,10 +37,10 @@
 }
 
 // Flexbox
-%gap-small {
+%gap-sm {
     gap: .5em;
 }
 
-%gap-normal {
+%gap-norm {
     gap: 1em;
 }

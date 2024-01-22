@@ -2,25 +2,25 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
-<!-- Browser Early Hints: https://developers.cloudflare.com/cache/advanced-configuration/early-hints/ -->
+<!--
+  Browser Early Hints:
+    - https://developers.cloudflare.com/cache/advanced-configuration/early-hints
+-->
 <link rel="preload" href="/fonts/lato.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/bebas-neue.woff2" as="font" type="font/woff2" crossorigin>
 <meta name="author" content="Sam Feldstein">
 <meta name="description"
   content="{{ if .IsHome }}{{ site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
 <!-- Icons -->
-<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-<link rel="manifest" href="/favicon/site.webmanifest">
-<link rel="shortcut icon" href="/favicon/favicon.ico">
-<link rel="me" href="https://mastodon.social/@samfeldstein">
+{{ partial "head/icons.html" . }}
+<!-- RSS -->
 {{ with .OutputFormats.Get "rss" -}}
 {{ printf `
 <link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
 {{ end }}
+<!-- Stylesheets -->
 {{ partialCached "head/css.html" . }}
+<!-- Scripts -->
 {{ partialCached "head/js.html" . }}
+<!-- Google site verification -->
 <meta name="google-site-verification" content="OaJ3DtSybELB_anSuVk_s4sjGAiVanwRBDeeWqI2onU">
-<!-- Google analytics -->
-<!-- {{ template "_internal/google_analytics.html" . }} -->

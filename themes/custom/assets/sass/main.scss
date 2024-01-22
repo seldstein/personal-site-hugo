@@ -11,7 +11,7 @@ body {
   background-color: config.$bg-light;
   padding: .5em;
   max-width: 40em;
-  
+
   @media (prefers-color-scheme: dark) {
     background-color: config.$bg-dark;
     color: config.$text-dark;
@@ -30,7 +30,7 @@ nav {
   ul {
     @include mixins.text(config.$font-family-monospace, .8em, inherit);
     @extend %list-flex;
-    @extend %margin-none;
+    @extend %mg-none;
     gap: .5em 1em;
   }
 
@@ -42,7 +42,7 @@ nav {
 }
 
 #header-main {
-  @extend %margin-bottom-large;
+  @extend %mg-btm-lg;
 }
 
 #footer-main {
@@ -77,12 +77,11 @@ nav {
 
 article {
   @include mixins.intrinsic-size(800px, 300px);
-  @extend %padding-sm; // Fix focus borders
 }
 
 .article-home {
-  @extend %margin-bottom-large;
-  
+  @extend %mg-btm-lg;
+
 }
 
 // Also styles home page post titles
@@ -125,10 +124,10 @@ h4,
 }
 
 p {
-  overflow: auto; // Makes hyphens work on mobile (I think)
-  hyphens: auto;
-  text-align: justify;
-  padding: 2px; // Fix focus borders
+  @media (min-width: config.$breakpoint) {
+    hyphens: auto;
+    text-align: justify;
+  }
 }
 
 a {
@@ -157,29 +156,29 @@ a {
 // Metadata
 .meta {
   @extend %meta;
-  
+
 }
 
 .list-meta {
   @extend %list-meta;
-  @extend %margin-none;
-  @extend %gap-small;
+  @extend %mg-none;
+  @extend %gap-sm;
 }
 
 #tagcloud {
   @extend %list-meta;
-  @extend %gap-normal;
+  @extend %gap-norm;
   font-size: 1rem;
 }
 
 blockquote {
-  @extend %margin-none;
+  @extend %mg-none;
   padding-left: 0.75em;
   border-left: config.$border-thick;
 }
 
 pre {
-  @extend %margin-none;
+  @extend %mg-none;
   padding: 0 0.5em;
   overflow: auto;
 
@@ -191,10 +190,10 @@ pre {
 code {
   @include mixins.text(config.$font-family-monospace, .9em, inherit);
   padding: 0 0.2em;
-  background-color: config.$light-grey;
+  background-color: config.$grey-light;
   border-radius: 0.2em;
 
   @media (prefers-color-scheme: dark) {
-    background-color: config.$dark-grey;
+    background-color: config.$grey-dark;
   }
 }

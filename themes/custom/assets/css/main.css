@@ -123,10 +123,6 @@ nav ul, .list-meta, blockquote, pre {
   margin-bottom: 3em;
 }
 
-article {
-  padding: 1em;
-}
-
 .list-page, nav ul, .list-meta, #tagcloud {
   list-style: none;
   padding: 0;
@@ -180,13 +176,12 @@ main {
 #skiplink {
   border: 0;
   clip: rect(0 0 0 0);
+  width: 1px;
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0;
   position: absolute;
   white-space: nowrap;
-  width: 1px;
   text-transform: uppercase;
   text-decoration: none;
   background-color: #808080;
@@ -195,12 +190,12 @@ main {
 }
 #skiplink:active, #skiplink:focus {
   clip: auto;
+  width: auto;
   height: auto;
   margin: 0;
   overflow: visible;
   position: static;
   white-space: normal;
-  width: auto;
 }
 
 nav ul {
@@ -304,11 +299,11 @@ h4,
   color: inherit;
 }
 
-p {
-  overflow: auto;
-  hyphens: auto;
-  text-align: justify;
-  padding: 2px;
+@media (min-width: 50em) {
+  p {
+    hyphens: auto;
+    text-align: justify;
+  }
 }
 
 a {
