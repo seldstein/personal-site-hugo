@@ -115,16 +115,16 @@ textarea:not([rows]) {
   scroll-margin-block: 1rem;
 }
 
-#footer-main, article {
-  content-visibility: auto;
-}
-
 nav ul, .list-meta, blockquote, pre {
   margin: 0;
 }
 
 #header-main, .article-home {
   margin-bottom: 3em;
+}
+
+article {
+  padding: 1em;
 }
 
 .list-page, nav ul, .list-meta, #tagcloud {
@@ -178,23 +178,29 @@ main {
 }
 
 #skiplink {
-  position: absolute;
-  left: -9999px;
-  width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
   height: 1px;
+  margin: -1px;
   overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  text-transform: uppercase;
   text-decoration: none;
-}
-#skiplink:focus {
-  left: auto;
-  width: auto;
-  height: auto;
-  overflow: visible;
-  background-color: #d4d9dd;
+  background-color: #808080;
   color: #f9f9f9;
   padding: 1em 2em;
-  z-index: 1000;
-  text-transform: uppercase;
+}
+#skiplink:active, #skiplink:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: normal;
+  width: auto;
 }
 
 nav ul {
@@ -212,6 +218,8 @@ nav ul {
 }
 
 #footer-main {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 50px auto 300px;
   margin-top: 1em;
   padding-top: 1em;
   border-top: 0.01rem solid;
@@ -243,7 +251,8 @@ nav ul {
 }
 
 article {
-  contain-intrinsic-size: auto 800px auto 500px;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 800px auto 300px;
 }
 
 h1,
@@ -299,6 +308,7 @@ p {
   overflow: auto;
   hyphens: auto;
   text-align: justify;
+  padding: 2px;
 }
 
 a {

@@ -1,12 +1,6 @@
 @use 'config';
 @use 'mixins';
 
-// Layout
-
-%defer-render {
-    content-visibility: auto;
-}
-
 // Margins
 %margin-none {
     margin: 0;
@@ -14,6 +8,12 @@
 
 %margin-bottom-large {
     margin-bottom: config.$margin-large;
+}
+
+// Padding
+
+%padding-sm {
+    padding: config.$padding-small;
 }
 
 // Lists

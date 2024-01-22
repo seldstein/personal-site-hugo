@@ -1,3 +1,5 @@
+@use 'config';
+
 @mixin fonts($family, $style, $weight) {
     font-family: $family;
     font-display: swap;
@@ -11,6 +13,37 @@
     color: $color;
 }
 
-@mixin intrinsic-size($height) {
-    contain-intrinsic-size: auto $height auto 500px;
+// https://web.dev/articles/content-visibility
+@mixin intrinsic-size($height, $width) {
+    content-visibility: auto;
+    contain-intrinsic-size: auto $height auto $width;
+}
+
+// https://gomakethings.com/hidden-content-for-better-a11y/
+@mixin visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: config.$dark-grey;
+    color: config.$text-dark;
+    padding: 1em 2em;
+
+    &:active,
+    &:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        white-space: normal;
+        width: auto;
+    }
 }

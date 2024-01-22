@@ -23,24 +23,7 @@ main {
 }
 
 #skiplink {
-  position: absolute;
-  left: -9999px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  text-decoration: none;
-
-  &:focus {
-    left: auto;
-    width: auto;
-    height: auto;
-    overflow: visible;
-    background-color: config.$light-grey;
-    color: config.$text-dark;
-    padding: 1em 2em;
-    z-index: 1000;
-    text-transform: uppercase;
-  }
+  @include mixins.visually-hidden;
 }
 
 nav {
@@ -63,7 +46,7 @@ nav {
 }
 
 #footer-main {
-  @extend %defer-render;
+  @include mixins.intrinsic-size(50px, 300px);
   margin-top: config.$margin-small;
   padding-top: config.$padding-small;
   border-top: config.$border-thin;
@@ -92,14 +75,14 @@ nav {
   text-decoration: none;
 }
 
+article {
+  @include mixins.intrinsic-size(800px, 300px);
+  @extend %padding-sm; // Fix focus borders
+}
+
 .article-home {
   @extend %margin-bottom-large;
   
-}
-
-article {
-  @include mixins.intrinsic-size(800px);
-  @extend %defer-render;
 }
 
 // Also styles home page post titles
@@ -145,6 +128,7 @@ p {
   overflow: auto; // Makes hyphens work on mobile (I think)
   hyphens: auto;
   text-align: justify;
+  padding: 2px; // Fix focus borders
 }
 
 a {
