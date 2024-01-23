@@ -1,7 +1,11 @@
-{{- $css := resources.Get "css/main.css" | resources.Minify }}
-{{- if eq hugo.Environment "development" }}
-    <style>{{ $css.Content | safeCSS }}</style>
-{{- else }}
-    {{- $secureCss := $css | resources.Fingerprint }}
-    <style>{{ $secureCss.Content | safeCSS }}</style>
-{{- end }}
+{{ $css := resources.Get "css/styles.css" | minify | fingerprint }}
+
+{{/*  {{- if eq hugo.Environment "development" }}  */}}
+{{/*  Include this line if you want to swap out the inlined styles for a link to the stylesheet. Note that you can't just put $css in there or it won't work. You need the .RelPermalink method. */}}
+    {{/*  <link rel="stylesheet" href="{{ $css.RelPermalink }}">  */}}
+    {{/*  {{- else }}  */}}
+
+<style>{{ $css.Content | safeCSS }}</style>
+
+{{/*  {{- end }}  */}}
+
