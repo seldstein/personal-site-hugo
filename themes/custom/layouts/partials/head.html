@@ -9,7 +9,7 @@
 <meta name="description"
   content="{{ if .IsHome }}{{ site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
 <!-- Icons -->
-{{ partial "head/icons.html" . }}
+{{ partialCached "head/icons.html" . }}
 <!-- RSS -->
 {{ with .OutputFormats.Get "rss" -}}
 {{ printf `

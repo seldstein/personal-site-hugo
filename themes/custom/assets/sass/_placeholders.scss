@@ -24,7 +24,7 @@
 
 // metadata
 %meta {
-    @include mixins.text(config.$font-family-monospace, .8em, config.$meta-light);
+    @include mixins.text(config.$font-monospace, .8em, config.$meta-light);
   
     @media (prefers-color-scheme: dark) {
       color: config.$meta-dark
