@@ -2,20 +2,20 @@
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
 
 <head>
-  {{ partial "head.html" . }}
+  {{ partialCached "head.html" . }}
 </head>
 
 <body>
   <a href="#main-content" id="skiplink">Skip to Content</a>
   <header id="header-main">
-    {{ partial "header.html" . }}
+    {{ partialCached "header.html" . }}
   </header>
   <main id="main-content">
     {{ block "main" . }}
     {{ end }}
   </main>
   <footer id="footer-main">
-    {{ partial "footer.html" . }}
+    {{ partialCached "footer.html" . }}
   </footer>
   <!--  <script>
     if (navigator && navigator.serviceWorker) {
