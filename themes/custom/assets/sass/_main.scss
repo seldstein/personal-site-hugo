@@ -10,7 +10,7 @@ body {
   max-width: 40em;
   grid-template-rows: auto 1fr auto;
   background-color: config.$bg-light;
-
+  
   @media (prefers-color-scheme: dark) {
     background-color: config.$bg-dark;
     color: config.$text-dark;
@@ -52,7 +52,6 @@ nav {
 
 #footer-main {
   @include mixins.intrinsic-size(50px, 300px);
-  @extend %mg-btm-sm;
   text-align: right;
 
   ul {
