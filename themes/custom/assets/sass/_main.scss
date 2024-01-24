@@ -19,7 +19,8 @@ body {
 
 main {
   // Eats up extra space
-  @extend %grid;
+  @extend %flex-column;
+  // Fixes overflow issue with pre
   overflow-x: auto;
 }
 
@@ -78,6 +79,8 @@ article {
   @extend %border;
   @extend %pad-smlr;
   @extend %mg-btm-sm;
+  // Pushes footer to bottom
+  @extend %flex-grow-1;
 }
 
 // Also styles home page post titles

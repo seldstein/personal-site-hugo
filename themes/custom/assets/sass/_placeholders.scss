@@ -41,7 +41,7 @@
 
 %list-flex {
     @extend %list-unstyled;
-    display: flex;
+    @extend %flex;
     flex-wrap: wrap;
 }
 
@@ -60,6 +60,19 @@
 }
 
 // Flexbox
+%flex {
+    display: flex;
+}
+
+%flex-column {
+    @extend %flex;
+    flex-direction: column;
+}
+
+%flex-grow-1 {
+    flex-grow: 1;
+}
+
 %gap-sm {
     gap: .5em;
 }

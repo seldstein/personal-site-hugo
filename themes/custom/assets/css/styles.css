@@ -136,7 +136,6 @@ nav, article {
 }
 
 nav ul, .list-meta, #tagcloud {
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -151,6 +150,18 @@ nav ul, .list-meta, #tagcloud {
   }
 }
 
+main, nav ul, .list-meta, #tagcloud {
+  display: flex;
+}
+
+main {
+  flex-direction: column;
+}
+
+article {
+  flex-grow: 1;
+}
+
 .list-meta {
   gap: 0.5em;
 }
@@ -159,7 +170,7 @@ nav ul, .list-meta, #tagcloud {
   gap: 1em;
 }
 
-body, main {
+body {
   display: grid;
 }
 
