@@ -7,7 +7,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   background-color: config.$bg-light;
-  padding: .5em;
+  width: 95%;
   max-width: 40em;
 
   @media (prefers-color-scheme: dark) {
