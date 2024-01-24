@@ -1,4 +1,4 @@
-{{ $css := resources.Get "css/styles.css" | minify | fingerprint }}
+{{ $css := resources.Get "css/styles.css" | minify | postCSS | fingerprint }}
 
 {{/*  {{- if eq hugo.Environment "development" }}  */}}
 {{/*  Include this line if you want to swap out the inlined styles for a link to the stylesheet. Note that you can't just put $css in there or it won't work. You need the .RelPermalink method. */}}
