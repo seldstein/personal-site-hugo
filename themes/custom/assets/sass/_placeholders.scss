@@ -24,6 +24,14 @@
     margin-top: config.$margin-small;
 }
 
+%mg-l-sm {
+    margin-left: config.$margin-small;
+}
+
+%mg-l-md {
+    margin-left: config.$margin-medium;
+}
+
 // Padding
 %pad-smlr {
     padding: config.$padding-smaller;

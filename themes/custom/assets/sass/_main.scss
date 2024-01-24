@@ -167,9 +167,7 @@ a {
 }
 
 blockquote {
-  @extend %mg-none;
-  padding-left: 0.75em;
-  border-left: config.$border-thick;
+  margin-inline-start: 2rem;
 }
 
 pre {

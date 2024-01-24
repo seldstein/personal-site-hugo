@@ -118,7 +118,7 @@ nav, article {
   border: 1px solid;
 }
 
-nav ul, .list-meta, blockquote, pre {
+nav ul, .list-meta, pre {
   margin: 0;
 }
 
@@ -339,8 +339,7 @@ a:hover, a:focus {
 }
 
 blockquote {
-  padding-left: 0.75em;
-  border-left: 0.1rem solid;
+  margin-inline-start: 2rem;
 }
 
 pre {
