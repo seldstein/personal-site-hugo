@@ -3,16 +3,6 @@ title: Sam Feldstein
 languageCode: en-us
 theme: custom
 
-enableGitInfo: true
-
-# services:
-#   googleAnalytics:
-#     id: G-ECY4M5C4Z8
-
-minify:
-  minifyOutput: true
-  disableXML: true
-
 menu:
   main:
     - name: About
@@ -40,6 +30,8 @@ menu:
       url: mailto:samfeldstein@proton.me
       weight: 8
 
+enableGitInfo: true
+
 frontmatter:
   # If lastmod isn't set in the frontmatter, Hugo uses the git Author Date by default. https://gohugo.io/getting-started/configuration/#configure-front-matter
   lastmod:
@@ -48,3 +40,11 @@ frontmatter:
 params:
   description: Sam Feldstein's personal website. Sam is a writer and web developer from Bondurant, IA.
   email: samfeldstein@proton.me
+
+minify:
+  minifyOutput: true
+  disableXML: true
+
+# services:
+#   googleAnalytics:
+#     id: G-ECY4M5C4Z8
