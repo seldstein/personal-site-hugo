@@ -1,4 +1,5 @@
 {{ define "main" }}
+<article>
 <h1>#{{ .Title }}</h1>
 {{ .Content }}
 {{ range .Pages }}
@@ -10,5 +11,6 @@
         <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
     </li>
 </ol>
+</article>
 {{ end }}
 {{ end }}
