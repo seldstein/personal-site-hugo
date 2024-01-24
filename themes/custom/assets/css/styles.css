@@ -73,7 +73,6 @@ ol[role=list] {
 body {
   min-height: 100vh;
   line-height: 1.5;
-  margin: 0 auto;
   font-weight: 400;
 }
 
@@ -115,12 +114,20 @@ textarea:not([rows]) {
   scroll-margin-block: 1rem;
 }
 
+nav, article {
+  border: 1px solid;
+}
+
 nav ul, .list-meta, blockquote, pre {
   margin: 0;
 }
 
-#header-main, .article-home {
-  margin-bottom: 3em;
+#header-main, #footer-main, article {
+  margin-bottom: 1rem;
+}
+
+nav, article {
+  padding: 0.5rem;
 }
 
 .list-page, nav ul, .list-meta, #tagcloud {
@@ -152,15 +159,19 @@ nav ul, .list-meta, #tagcloud {
   gap: 1em;
 }
 
+body, main {
+  display: grid;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-size: 110%;
   color: #252526;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  background-color: #ffffff;
+  margin: 1rem auto;
   width: 95%;
   max-width: 40em;
+  grid-template-rows: auto 1fr auto;
+  background-color: #ffffff;
 }
 @media (prefers-color-scheme: dark) {
   body {
@@ -215,15 +226,7 @@ nav ul {
 #footer-main {
   content-visibility: auto;
   contain-intrinsic-size: auto 50px auto 300px;
-  margin-top: 1em;
-  padding-top: 1em;
-  border-top: 0.01rem solid;
   text-align: right;
-}
-@media (min-width: 50em) {
-  #footer-main {
-    padding-top: 0;
-  }
 }
 #footer-main ul {
   justify-content: flex-end;
@@ -256,8 +259,6 @@ h1,
   font-size: 3em;
   color: inherit;
   margin-top: 0;
-  text-align: left;
-  border: none;
 }
 @media (min-width: 50em) {
   h1,
@@ -271,8 +272,6 @@ h2,
   font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
   font-size: 1.8em;
   color: inherit;
-  text-align: right;
-  border-bottom: 0.01rem solid;
 }
 h2 > a,
 .h2 > a {

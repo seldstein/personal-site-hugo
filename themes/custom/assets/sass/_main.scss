@@ -4,11 +4,12 @@
 
 body {
   @include mixins.text(config.$font-body, 110%, config.$text-light);
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  background-color: config.$bg-light;
+  @extend %grid;
+  margin: 1rem auto;
   width: 95%;
   max-width: 40em;
+  grid-template-rows: auto 1fr auto;
+  background-color: config.$bg-light;
 
   @media (prefers-color-scheme: dark) {
     background-color: config.$bg-dark;
@@ -17,6 +18,8 @@ body {
 }
 
 main {
+  // Eats up extra space
+  @extend %grid;
   overflow-x: auto;
 }
 
@@ -25,6 +28,9 @@ main {
 }
 
 nav {
+  @extend %border;
+  @extend %pad-smlr;
+
   ul {
     @include mixins.text(config.$font-monospace, .8em, inherit);
     @extend %list-flex;
@@ -40,19 +46,13 @@ nav {
 }
 
 #header-main {
-  @extend %mg-btm-lg;
+  @extend %mg-btm-sm;
 }
 
 #footer-main {
   @include mixins.intrinsic-size(50px, 300px);
-  margin-top: config.$margin-small;
-  padding-top: config.$padding-small;
-  border-top: config.$border-thin;
+  @extend %mg-btm-sm;
   text-align: right;
-
-  @media (min-width: config.$breakpoint) {
-    padding-top: 0;
-  }
 
   ul {
     justify-content: flex-end;
@@ -75,11 +75,9 @@ nav {
 
 article {
   @include mixins.intrinsic-size(800px, 300px);
-}
-
-.article-home {
-  @extend %mg-btm-lg;
-
+  @extend %border;
+  @extend %pad-smlr;
+  @extend %mg-btm-sm;
 }
 
 // Also styles home page post titles
@@ -87,8 +85,6 @@ h1,
 .h1 {
   @include mixins.text(config.$font-display, 3em, inherit);
   margin-top: 0;
-  text-align: left;
-  border: none;
 
   @media (min-width: config.$breakpoint) {
     font-size: 5em;
@@ -98,8 +94,6 @@ h1,
 h2,
 .h2 {
   @include mixins.text(config.$font-display, 1.8em, inherit);
-  text-align: right;
-  border-bottom: config.$border-thin;
 
   // Style homepage post titles
   &>a {

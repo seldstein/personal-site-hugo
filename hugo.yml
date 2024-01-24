@@ -17,18 +17,15 @@ menu:
     - name: Github
       url: https://github.com/seldstein/
       weight: 4
-    - name: Mastodon
-      url: https://mastodon.social/@samfeldstein/
-      weight: 5
-    - name: Newsletter
+    - name: Mailing List
       url: https://samfeldstein.substack.com/
-      weight: 6
+      weight: 5
     - name: RSS
       url: /posts/index.xml
-      weight: 7
+      weight: 6
     - name: Email
       url: mailto:samfeldstein@proton.me
-      weight: 8
+      weight: 7
 
 enableGitInfo: true
 

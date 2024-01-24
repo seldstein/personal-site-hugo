@@ -1,13 +1,36 @@
 @use 'config';
 @use 'mixins';
 
+// Borders
+
+%border {
+    border: config.$border-thin;
+}
+
 // Margins
 %mg-none {
     margin: 0;
 }
 
+%mg-btm-sm {
+    margin-bottom: config.$margin-small;
+}
+
 %mg-btm-lg {
     margin-bottom: config.$margin-large;
+}
+
+%mg-top-sm {
+    margin-top: config.$margin-small;
+}
+
+// Padding
+%pad-smlr {
+    padding: config.$padding-smaller;
+}
+
+%pad-sm {
+    padding: config.$padding-small;
 }
 
 // Lists
@@ -43,4 +66,9 @@
 
 %gap-norm {
     gap: 1em;
+}
+
+// linearGradient
+%grid {
+    display: grid;
 }

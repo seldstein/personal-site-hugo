@@ -18,12 +18,13 @@ $grey-dark: #808080;
 $breakpoint: 50em;
 
 // Margins
-$margin-small: 1em;
+$margin-small: 1rem;
 $margin-large: 3em;
 
 // Borders
-$border-thin: 0.01rem solid;
+$border-thin: 1px solid;
 $border-thick: 0.1rem solid;
 
 // Padding 
-$padding-small: 1em;
+$padding-smaller: .5rem;
+$padding-small: 1rem;
