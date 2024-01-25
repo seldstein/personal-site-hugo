@@ -79,17 +79,6 @@ article {
   @extend %flex-grow-1;
 }
 
-// Also styles home page post titles
-h1,
-.h1 {
-  @include mixins.text(config.$font-display, 3em, inherit);
-  margin-top: 0;
-
-  @media (min-width: config.$breakpoint) {
-    font-size: 5em;
-  }
-}
-
 h2,
 .h2 {
   @include mixins.text(config.$font-display, 1.8em, inherit);
@@ -97,6 +86,10 @@ h2,
   // Style homepage post titles
   &>a {
     text-decoration: none;
+  }
+
+  &>a:hover {
+    color: #1a95e0;
   }
 
   @media (min-width: config.$breakpoint) {

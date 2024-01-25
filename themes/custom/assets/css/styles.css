@@ -229,20 +229,6 @@ article {
   contain-intrinsic-size: auto 800px auto 300px;
 }
 
-h1,
-.h1 {
-  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
-  font-size: 3em;
-  color: inherit;
-  margin-top: 0;
-}
-@media (min-width: 50em) {
-  h1,
-  .h1 {
-    font-size: 5em;
-  }
-}
-
 h2,
 .h2 {
   font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
@@ -252,6 +238,10 @@ h2,
 h2 > a,
 .h2 > a {
   text-decoration: none;
+}
+h2 > a:hover,
+.h2 > a:hover {
+  color: #1a95e0;
 }
 @media (min-width: 50em) {
   h2,
