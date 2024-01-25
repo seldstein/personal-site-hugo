@@ -9,7 +9,7 @@ body {
   font-family: config.$font-body;
 
   @media (min-width: config.$breakpoint) {
-    max-width: 800px;
+    max-width: 50rem;
     margin: 1rem auto;
   }
 
@@ -95,7 +95,7 @@ h2,
   }
 }
 
-// Also styles archive titles
+// Also styles Archive titles
 h3,
 .h3 {
   @extend %text-left;
@@ -119,17 +119,13 @@ a {
   &:focus {
     text-decoration: none;
   }
-
-  @media (prefers-color-scheme: dark) {
-    color: config.$text-dark;
-  }
 }
 
 .list-page {
   @extend %list-unstyled;
 
   li {
-    margin-bottom: 1.25em;
+    margin-bottom: 1.25rem;
   }
 }
 
@@ -137,12 +133,7 @@ a {
   font-style: italic;
 }
 
-// Metadata
-.meta {
-  @extend %meta;
-
-}
-
+// Meta
 .container-meta {
   @extend %meta;
 }
@@ -159,10 +150,6 @@ a {
   font-size: 1rem;
 }
 
-blockquote {
-  margin-inline-start: 2rem;
-}
-
 pre {
   @extend %mg-none;
   padding: 0 0.5em;
@@ -174,9 +161,8 @@ pre {
 }
 
 code {
-  @include mixins.text(config.$font-monospace, .9em, inherit);
-  padding: 0 0.2em;
   background-color: config.$grey-light;
+  padding: 0 0.2em;
   border-radius: 0.2em;
 
   @media (prefers-color-scheme: dark) {

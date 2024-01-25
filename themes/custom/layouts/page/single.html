@@ -3,7 +3,7 @@
     <header>
     
     <h1>{{ .Title }}</h1>
-    <div class="meta">
+    <div class="container-meta">
         Updated: <time datetime="{{ .Lastmod | time.Format " 2006-01-02T15:04:05-07:00"}}">{{ .Lastmod | time.Format
             ":date_long" }}</time>
     </div>

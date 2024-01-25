@@ -119,12 +119,12 @@ h2,
   flex-wrap: wrap;
 }
 
-.meta, .container-meta, #tagcloud {
+.container-meta, #tagcloud {
   color: #647382;
   font-size: 0.8rem;
 }
 @media (prefers-color-scheme: dark) {
-  .meta, .container-meta, #tagcloud {
+  .container-meta, #tagcloud {
     color: #d4d9dd;
   }
 }
@@ -165,7 +165,7 @@ body {
 }
 @media (min-width: 50em) {
   body {
-    max-width: 800px;
+    max-width: 50rem;
     margin: 1rem auto;
   }
 }
@@ -273,14 +273,9 @@ a {
 a:hover, a:focus {
   text-decoration: none;
 }
-@media (prefers-color-scheme: dark) {
-  a {
-    color: white;
-  }
-}
 
 .list-page li {
-  margin-bottom: 1.25em;
+  margin-bottom: 1.25rem;
 }
 
 .deck {
@@ -289,10 +284,6 @@ a:hover, a:focus {
 
 #tagcloud {
   font-size: 1rem;
-}
-
-blockquote {
-  margin-inline-start: 2rem;
 }
 
 pre {
@@ -304,11 +295,8 @@ pre code {
 }
 
 code {
-  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
-  font-size: 0.9em;
-  color: inherit;
-  padding: 0 0.2em;
   background-color: #d4d9dd;
+  padding: 0 0.2em;
   border-radius: 0.2em;
 }
 @media (prefers-color-scheme: dark) {
