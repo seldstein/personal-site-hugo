@@ -2,7 +2,8 @@
 {{ .Content }}
 {{ range where site.RegularPages "Type" "posts" }}
 <article>
-    <header>
+    <header class="page-header">
+        {{ partial "date.html" . }}
         <h2 class="h1">
             <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         </h2>

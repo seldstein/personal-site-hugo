@@ -34,6 +34,10 @@ body {
   font-weight: 400;
 }
 
+span {
+  margin: 0;
+}
+
 a:not([class]) {
   text-decoration-skip-ink: auto;
   color: currentColor;
@@ -94,7 +98,9 @@ h2,
 }
 
 #header-main ul,
-#footer-main ul, .list-meta, pre {
+#footer-main ul, h1,
+.h1, h2,
+.h2, .list-meta, pre {
   margin: 0;
 }
 
@@ -119,12 +125,12 @@ h2,
   flex-wrap: wrap;
 }
 
-.container-meta, #tagcloud {
+.container-meta, time, #tagcloud {
   color: #647382;
   font-size: 0.8rem;
 }
 @media (prefers-color-scheme: dark) {
-  .container-meta, #tagcloud {
+  .container-meta, time, #tagcloud {
     color: #d4d9dd;
   }
 }
@@ -173,7 +179,7 @@ body {
 }
 
 main > * {
-  padding: 0 1rem;
+  padding: 1rem;
   -webkit-box-shadow: 0px 0px 9px 0px rgb(166, 166, 166);
   -moz-box-shadow: 0px 0px 9px 0px rgb(166, 166, 166);
   box-shadow: 0px 0px 9px 0px rgb(166, 166, 166);
@@ -260,6 +266,10 @@ h3,
   padding-bottom: 0;
 }
 
+.page-header {
+  line-height: 2;
+}
+
 @media (min-width: 50em) {
   p {
     hyphens: auto;
@@ -276,8 +286,9 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
-.list-page li {
+.list-page-item {
   margin-bottom: 1.25rem;
+  line-height: 2;
 }
 
 .deck {

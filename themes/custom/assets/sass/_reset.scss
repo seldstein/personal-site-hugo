@@ -38,11 +38,14 @@ ol[role='list'] {
 }
 
 // Set layout defaults
-
 body {
   min-height: 100vh;
   line-height: 1.5;
   font-weight: 400;
+}
+
+span {
+  margin: 0;
 }
 
 // Links that don't have a class get default styles

@@ -1,6 +1,7 @@
 {{ define "main" }}
 <article>
-    <header>
+    <header class="page-header">
+        {{ partial "date.html" . }}
         <h1>{{ .Title }}</h1>
         <div class="deck">{{ .Params.Deck }}</div>
         {{ partial "meta.html" . }}

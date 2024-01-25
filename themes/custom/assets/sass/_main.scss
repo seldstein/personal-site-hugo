@@ -25,7 +25,7 @@ main {
 
   &>* {
     @extend %border;
-    padding: 0 1rem;
+    padding: 1rem;
     -webkit-box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
 -moz-box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
 box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
@@ -80,6 +80,7 @@ article {
 h1,
 .h1 {
   @extend %text-left;
+  @extend %mg-none;
   font-size: 2rem;
   border-bottom: none;
   padding-bottom: 0;
@@ -89,6 +90,7 @@ h2,
 .h2 {
   @extend %text-right;
   @extend %border-bottom;
+  @extend %mg-none;
   font-size: 1.5rem;
   padding-bottom: .5rem;
 
@@ -105,6 +107,10 @@ h3,
   @extend %text-left;
   border-bottom: none;
   padding-bottom: 0;
+}
+
+.page-header {
+  line-height: 2;
 }
 
 p {
@@ -127,10 +133,11 @@ a {
 
 .list-page {
   @extend %list-unstyled;
+}
 
-  li {
-    margin-bottom: 1.25rem;
-  }
+.list-page-item {
+  margin-bottom: 1.25rem;
+  line-height: 2;
 }
 
 .deck {
@@ -154,6 +161,11 @@ a {
   font-size: 1rem;
 }
 
+time {
+  @extend %meta;
+}
+
+// Code
 pre {
   @extend %mg-none;
   padding: 0 0.5em;
