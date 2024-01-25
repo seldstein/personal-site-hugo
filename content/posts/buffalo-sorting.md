@@ -1,6 +1,7 @@
 ---
 title: Buffalo Sorting and My First Gambling Foray
 description: Notes from my trip to South Dakota.
+deck: Notes from the Badlands.
 date: 2023-11-12T22:57:28-06:00
 tags:
     - travel

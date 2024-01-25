@@ -1,16 +1,17 @@
 {{ define "main" }}
 <article>
-<h1>#{{ .Title }}</h1>
-{{ .Content }}
-{{ range .Pages }}
-<ol class="list-unstyled list-page">
-    <li>
-        <div>
-            {{ partial "date.html" . }}
-        </div>
-        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-    </li>
-</ol>
+  <header>
+    <h1>#{{ .Title }}</h1>
+  </header>
+  {{ .Content }}
+  <ol class="list-page">
+    {{ range .Pages }}
+      <li>
+        <h2 class="title-archive h3"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        <div>{{ .Params.Deck }}</div>
+        {{ partial "meta.html" . }}
+      </li>
+    {{ end }}
+  </ol>
 </article>
-{{ end }}
 {{ end }}

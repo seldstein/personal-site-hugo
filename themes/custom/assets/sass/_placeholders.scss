@@ -1,12 +1,26 @@
 @use 'config';
 @use 'mixins';
 
-// Typography
+// TYPOGRAPHY
 %text-center {
     text-align: center;
 }
 
-// Margins
+%text-left {
+    text-align: left;
+}
+
+%text-right {
+    text-align: right;
+}
+
+%hover-color {
+    &:hover {
+        color: #1a95e0;
+    }
+}
+
+// MARGINS
 %mg-none {
     margin: 0;
 }
@@ -41,6 +55,10 @@
     border: config.$border-thin;
 }
 
+%border-bottom {
+    border-bottom: config.$border-thin;
+}
+
 // Padding
 %pad-smlr {
     padding: config.$padding-smaller;
@@ -62,16 +80,17 @@
     flex-wrap: wrap;
 }
 
-// metadata
+// META
 %meta {
-    @include mixins.text(config.$font-monospace, .8em, config.$meta-light);
-  
+    color: config.$meta-light;
+    font-size: .8rem;
+
     @media (prefers-color-scheme: dark) {
-      color: config.$meta-dark
+        color: config.$meta-dark
     }
 }
 
-%list-meta{
+%list-meta {
     @extend %meta;
     @extend %list-flex;
 }
@@ -94,6 +113,11 @@
     justify-content: center;
 }
 
+%align-center {
+    @extend %flex;
+    align-items: center;
+}
+
 %gap-sm {
     gap: .5em;
 }
@@ -105,4 +129,8 @@
 // GRID
 %grid {
     display: grid;
+}
+
+%grid-gap {
+    gap: 1rem;
 }

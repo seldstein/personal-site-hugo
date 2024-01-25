@@ -2,6 +2,7 @@
 title: 'Building an Automatic File-Mover with ChatGPT'
 date: 2023-12-16T08:53:53-06:00
 description: How I built an automatic file-moving tool in Python with ChatGPT.
+deck: Nothing special.
 tags:
   - ai
   - coding

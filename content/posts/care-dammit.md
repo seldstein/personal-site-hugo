@@ -2,6 +2,7 @@
 title: And God Said, "Care, Dammit"
 date: 2023-12-05T10:00:46-06:00
 description: A review of the novel 'The Exorcist.'
+deck: Talmudic wisdom in 'The Exorcist.'
 tags:
   - books
   - horror

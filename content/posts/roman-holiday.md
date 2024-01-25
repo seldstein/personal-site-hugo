@@ -2,6 +2,7 @@
 title: "Cinderella in Reverse: 'Roman Holiday'"
 date: 2023-01-24T00:46:44-06:00
 description: A review of the movie 'Roman Holiday.'
+deck: Instead of putting the glass slipper on, Ann kicks it off.
 tags:
   - movies
   - romance

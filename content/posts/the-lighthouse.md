@@ -2,6 +2,7 @@
 title: Absence of Meaning in 'The Lighthouse'
 date: 2022-04-05T00:28:19-06:00
 description: A review of the movie 'The Lighthouse.'
+deck: A successful exercise in atmosphere, but it's probably about nothing.
 tags:
   - horror
   - movies

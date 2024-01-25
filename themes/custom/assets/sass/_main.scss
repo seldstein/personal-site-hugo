@@ -3,20 +3,16 @@
 @use 'mixins';
 
 body {
-  @include mixins.text(config.$font-body, 110%, config.$text-light);
   @extend %grid;
-  @extend %pad-sm;
+  @extend %grid-gap;
   grid-template-rows: auto 1fr auto;
-  width: 95%;
-  max-width: 800px;
-  margin: 1rem auto;
-  background-color: config.$bg-light;
-  box-shadow: -1px 5px 35px -9px rgba(0,0,0,.2);
+  font-family: config.$font-body;
 
   @media (min-width: config.$breakpoint) {
-    padding: 2rem;
+    max-width: 800px;
+    margin: 1rem auto;
   }
-  
+
   @media (prefers-color-scheme: dark) {
     background-color: config.$bg-dark;
     color: config.$text-dark;
@@ -24,17 +20,27 @@ body {
 }
 
 main {
-  // Eats up extra space
-  @extend %flex-column;
+  @extend %grid;
+  @extend %grid-gap;
+
+  &>* {
+    @extend %border;
+    padding: 0 1rem;
+  }
+
   // Fixes overflow issue with pre
-  overflow-x: auto;
+  &>article {
+    overflow-x: auto;
+  }
 }
 
 #skiplink {
   @include mixins.visually-hidden;
 }
 
-.main-menu {
+#header-main,
+#footer-main {
+  @extend %text-center;
   @extend %border;
   @extend %text-center;
   padding: .5rem 0;
@@ -50,22 +56,10 @@ main {
 
 #footer-main {
   @include mixins.intrinsic-size(50px, 300px);
-  text-align: right;
-
-  ul {
-    justify-content: flex-end;
-  }
-
-  .site-logo {
-    margin-top: 0.2em;
-
-    @media (min-width: config.$breakpoint) {
-      margin-top: 0;
-    }
-  }
 }
 
 .site-logo {
+  @extend %hover-color;
   font-family: config.$font-display;
   font-size: 1.8rem;
   display: block;
@@ -74,37 +68,39 @@ main {
 
 article {
   @include mixins.intrinsic-size(800px, 300px);
-  @extend %mg-btm-sm;
   // Pushes footer to bottom
   @extend %flex-grow-1;
 }
 
+// Also styles home post titles
+h1,
+.h1 {
+  @extend %text-left;
+  font-size: 2rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
 h2,
 .h2 {
-  @include mixins.text(config.$font-display, 1.8em, inherit);
+  @extend %text-right;
+  @extend %border-bottom;
+  font-size: 1.5rem;
+  padding-bottom: .5rem;
 
-  // Style homepage post titles
+  // Styles home post titles
   &>a {
+    @extend %hover-color;
     text-decoration: none;
   }
-
-  &>a:hover {
-    color: #1a95e0;
-  }
-
-  @media (min-width: config.$breakpoint) {
-    font-size: 2.4em;
-  }
 }
 
+// Also styles archive titles
 h3,
 .h3 {
-  @include mixins.text(config.$font-display, 1.5em, inherit);
-}
-
-h4,
-.h4 {
-  @include mixins.text(config.$font-display, 1.25em, inherit);
+  @extend %text-left;
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 p {
@@ -143,8 +139,12 @@ a {
 
 }
 
+.container-meta {
+  @extend %meta;
+}
+
 .list-meta {
-  @extend %list-meta;
+  @extend %list-flex;
   @extend %mg-none;
   @extend %gap-sm;
 }
