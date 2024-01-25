@@ -26,6 +26,9 @@ main {
   &>* {
     @extend %border;
     padding: 0 1rem;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
+-moz-box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
+box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
   }
 
   // Fixes overflow issue with pre
@@ -44,6 +47,9 @@ main {
   @extend %border;
   @extend %text-center;
   padding: .5rem 0;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
+-moz-box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
+box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
 
   ul {
     @extend %list-flex;
@@ -68,8 +74,6 @@ main {
 
 article {
   @include mixins.intrinsic-size(800px, 300px);
-  // Pushes footer to bottom
-  @extend %flex-grow-1;
 }
 
 // Also styles home post titles

@@ -100,12 +100,12 @@ h2,
 
 main > *, #header-main,
 #footer-main {
-  border: 1px solid;
+  border: 1px solid #cccccc;
 }
 
 h2,
 .h2 {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #cccccc;
 }
 
 .list-page, #header-main ul,
@@ -132,10 +132,6 @@ h2,
 #header-main ul,
 #footer-main ul, .list-meta, #tagcloud {
   display: flex;
-}
-
-article {
-  flex-grow: 1;
 }
 
 #header-main ul,
@@ -178,6 +174,9 @@ body {
 
 main > * {
   padding: 0 1rem;
+  -webkit-box-shadow: 0px 0px 9px 0px rgb(166, 166, 166);
+  -moz-box-shadow: 0px 0px 9px 0px rgb(166, 166, 166);
+  box-shadow: 0px 0px 9px 0px rgb(166, 166, 166);
 }
 main > article {
   overflow-x: auto;
@@ -211,6 +210,9 @@ main > article {
 #header-main,
 #footer-main {
   padding: 0.5rem 0;
+  -webkit-box-shadow: 0px 0px 9px 0px rgb(166, 166, 166);
+  -moz-box-shadow: 0px 0px 9px 0px rgb(166, 166, 166);
+  box-shadow: 0px 0px 9px 0px rgb(166, 166, 166);
 }
 #header-main ul,
 #footer-main ul {
