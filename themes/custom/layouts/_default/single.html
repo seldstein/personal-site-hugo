@@ -2,6 +2,7 @@
 <article>
     <header>
         <h1>{{ .Title }}</h1>
+        <div class="deck">{{ .Params.Deck }}</div>
         {{ partial "meta.html" . }}
     </header>
     {{ .Content }}

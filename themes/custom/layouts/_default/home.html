@@ -6,6 +6,7 @@
         <h2 class="h1">
             <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         </h2>
+        <div class="deck">{{ .Params.Deck }}</div>
         {{ partial "meta.html" . }}
     </header>
     {{ .Content }}

@@ -8,7 +8,7 @@
     {{ range .Pages }}
       <li>
         <h2 class="title-archive h3"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-        <div>{{ .Params.Deck }}</div>
+        <div class="deck">{{ .Params.Deck }}</div>
         {{ partial "meta.html" . }}
       </li>
     {{ end }}

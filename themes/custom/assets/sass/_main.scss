@@ -133,6 +133,10 @@ a {
   }
 }
 
+.deck {
+  font-style: italic;
+}
+
 // Metadata
 .meta {
   @extend %meta;
