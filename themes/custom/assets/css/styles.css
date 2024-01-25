@@ -199,13 +199,6 @@ main {
   font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
   gap: 0.5em 1em;
 }
-@media (min-width: 50em) {
-  .main-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
 
 #footer-main {
   content-visibility: auto;
