@@ -5,11 +5,17 @@
 body {
   @include mixins.text(config.$font-body, 110%, config.$text-light);
   @extend %grid;
-  margin: 1rem auto;
-  width: 95%;
-  max-width: 40em;
+  @extend %pad-sm;
   grid-template-rows: auto 1fr auto;
+  width: 95%;
+  max-width: 800px;
+  margin: 1rem auto;
   background-color: config.$bg-light;
+  box-shadow: -1px 5px 35px -9px rgba(0,0,0,.2);
+
+  @media (min-width: config.$breakpoint) {
+    padding: 2rem;
+  }
   
   @media (prefers-color-scheme: dark) {
     background-color: config.$bg-dark;
@@ -28,14 +34,16 @@ main {
   @include mixins.visually-hidden;
 }
 
-nav {
+.main-menu {
   @extend %border;
-  @extend %pad-smlr;
+  @extend %text-center;
+  padding: .5rem 0;
 
   ul {
-    @include mixins.text(config.$font-monospace, .8em, inherit);
     @extend %list-flex;
     @extend %mg-none;
+    @extend %justify-center;
+    font-family: config.$font-monospace;
     gap: .5em 1em;
   }
 
@@ -44,10 +52,6 @@ nav {
     justify-content: space-between;
     align-items: center;
   }
-}
-
-#header-main {
-  @extend %mg-btm-sm;
 }
 
 #footer-main {
@@ -68,15 +72,14 @@ nav {
 }
 
 .site-logo {
-  @include mixins.text(config.$font-display, 1.8em, inherit);
+  font-family: config.$font-display;
+  font-size: 1.8rem;
   display: block;
   text-decoration: none;
 }
 
 article {
   @include mixins.intrinsic-size(800px, 300px);
-  @extend %border;
-  @extend %pad-smlr;
   @extend %mg-btm-sm;
   // Pushes footer to bottom
   @extend %flex-grow-1;

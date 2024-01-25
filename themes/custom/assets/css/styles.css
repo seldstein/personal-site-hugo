@@ -1,45 +1,3 @@
-@font-face {
-  src: url("/fonts/bebas-neue.woff2") format("woff2"), url("/fonts/bebas-neue.woff") format("woff");
-  font-family: "Bebas Neue";
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  src: url("/fonts/oxygen-mono.woff2") format("woff2"), url("/fonts/oxygen-mono.woff") format("woff");
-  font-family: "Oxygen Mono";
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  src: url("/fonts/lato.woff2") format("woff2"), url("/fonts/lato.woff") format("woff");
-  font-family: "Lato";
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  src: url("/fonts/lato-italic.woff2") format("woff2"), url("/fonts/lato-italic.woff") format("woff");
-  font-family: "Lato";
-  font-display: swap;
-  font-style: italic;
-  font-weight: normal;
-}
-@font-face {
-  src: url("/fonts/lato-bold.woff2") format("woff2"), url("/fonts/lato-bold.woff") format("woff");
-  font-family: "Lato";
-  font-display: swap;
-  font-style: normal;
-  font-weight: bold;
-}
-@font-face {
-  src: url("/fonts/lato-bold-italic.woff2") format("woff2"), url("/fonts/lato-bold-italic.woff") format("woff");
-  font-family: "Lato";
-  font-display: swap;
-  font-style: italic;
-  font-weight: bold;
-}
 *,
 *::before,
 *::after {
@@ -114,33 +72,37 @@ textarea:not([rows]) {
   scroll-margin-block: 1rem;
 }
 
-nav, article {
-  border: 1px solid;
+.main-menu {
+  text-align: center;
 }
 
-nav ul, .list-meta, pre {
+.main-menu ul, .list-meta, pre {
   margin: 0;
 }
 
-#header-main, article {
+article {
   margin-bottom: 1rem;
 }
 
-nav, article {
-  padding: 0.5rem;
+.main-menu {
+  border: 1px solid;
 }
 
-.list-page, nav ul, .list-meta, #tagcloud {
+body {
+  padding: 1rem;
+}
+
+.list-page, .main-menu ul, .list-meta, #tagcloud {
   list-style: none;
   padding: 0;
 }
 
-nav ul, .list-meta, #tagcloud {
+.main-menu ul, .list-meta, #tagcloud {
   flex-wrap: wrap;
 }
 
 .meta, .list-meta, #tagcloud {
-  font-family: "Oxygen Mono", monospace;
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
   font-size: 0.8em;
   color: #647382;
 }
@@ -150,7 +112,7 @@ nav ul, .list-meta, #tagcloud {
   }
 }
 
-main, nav ul, .list-meta, #tagcloud {
+main, .main-menu ul, .list-meta, #tagcloud {
   display: flex;
 }
 
@@ -160,6 +122,10 @@ main {
 
 article {
   flex-grow: 1;
+}
+
+.main-menu ul {
+  justify-content: center;
 }
 
 .list-meta {
@@ -175,14 +141,20 @@ body {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
   font-size: 110%;
   color: #252526;
-  margin: 1rem auto;
-  width: 95%;
-  max-width: 40em;
   grid-template-rows: auto 1fr auto;
+  width: 95%;
+  max-width: 800px;
+  margin: 1rem auto;
   background-color: #ffffff;
+  box-shadow: -1px 5px 35px -9px rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 50em) {
+  body {
+    padding: 2rem;
+  }
 }
 @media (prefers-color-scheme: dark) {
   body {
@@ -220,14 +192,15 @@ main {
   white-space: normal;
 }
 
-nav ul {
-  font-family: "Oxygen Mono", monospace;
-  font-size: 0.8em;
-  color: inherit;
+.main-menu {
+  padding: 0.5rem 0;
+}
+.main-menu ul {
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
   gap: 0.5em 1em;
 }
 @media (min-width: 50em) {
-  nav {
+  .main-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -252,9 +225,8 @@ nav ul {
 }
 
 .site-logo {
-  font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
-  font-size: 1.8em;
-  color: inherit;
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  font-size: 1.8rem;
   display: block;
   text-decoration: none;
 }
@@ -266,7 +238,7 @@ article {
 
 h1,
 .h1 {
-  font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
   font-size: 3em;
   color: inherit;
   margin-top: 0;
@@ -280,7 +252,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
   font-size: 1.8em;
   color: inherit;
 }
@@ -297,14 +269,14 @@ h2 > a,
 
 h3,
 .h3 {
-  font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
   font-size: 1.5em;
   color: inherit;
 }
 
 h4,
 .h4 {
-  font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
   font-size: 1.25em;
   color: inherit;
 }
@@ -351,7 +323,7 @@ pre code {
 }
 
 code {
-  font-family: "Oxygen Mono", monospace;
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
   font-size: 0.9em;
   color: inherit;
   padding: 0 0.2em;

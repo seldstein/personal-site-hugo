@@ -1,8 +1,8 @@
-// Fonts
-
-$font-body: 'Lato', sans-serif;
-$font-display: 'Bebas Neue', Impact, 'Arial Narrow', sans-serif;
-$font-monospace: 'Oxygen Mono', monospace;
+// FONTS
+// https://modernfontstacks.com/
+$font-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+$font-body: $font-monospace;
+$font-display: $font-monospace;
 
 // Colors
 $bg-light: #ffffff;
