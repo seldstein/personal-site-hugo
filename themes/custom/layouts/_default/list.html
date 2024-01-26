@@ -7,7 +7,7 @@
   <ol class="list-page">
     {{ range .Pages }}
       <li class="list-page-item">
-        <span>{{ partial "date.html" . }}</span>
+        {{ partial "date.html" . }}
         <h2 class="h3"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
         <div class="deck">{{ .Params.Deck }}</div>
         {{ partial "meta.html" . }}

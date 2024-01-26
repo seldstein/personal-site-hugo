@@ -1,7 +1,7 @@
 @use 'config';
 @use 'mixins';
 
-// TYPOGRAPHY
+// Typography
 %text-center {
     text-align: center;
 }
@@ -17,36 +17,32 @@
 %hover-color {
     &:hover {
         color: #1a95e0;
+
+        @media (prefers-color-scheme: dark) {
+            color: greenyellow;
+        }
     }
 }
 
-// MARGINS
+// Margins
 %mg-none {
     margin: 0;
 }
 
 %mg-sm {
-    margin: config.$margin-small;
+    margin: 1rem;
 }
 
 %mg-btm-sm {
-    margin-bottom: config.$margin-small;
+    margin-bottom: 1rem;
 }
 
 %mg-btm-lg {
-    margin-bottom: config.$margin-large;
+    margin-bottom: 3rem;
 }
 
 %mg-top-sm {
     margin-top: config.$margin-small;
-}
-
-%mg-l-sm {
-    margin-left: config.$margin-small;
-}
-
-%mg-l-md {
-    margin-left: config.$margin-medium;
 }
 
 // Borders
@@ -60,12 +56,8 @@
 }
 
 // Padding
-%pad-smlr {
-    padding: config.$padding-smaller;
-}
-
-%pad-sm {
-    padding: config.$padding-small;
+%padding-small {
+    padding: 1rem;
 }
 
 // Lists
@@ -84,9 +76,10 @@
 %meta {
     color: config.$meta-light;
     font-size: .8rem;
+    color: #1a95e0;
 
     @media (prefers-color-scheme: dark) {
-        color: config.$meta-dark
+        color: greenyellow;
     }
 }
 
@@ -95,27 +88,18 @@
     @extend %list-flex;
 }
 
-// FLEXBOX
+// Flexbox
 %flex {
     display: flex;
 }
 
 %flex-column {
-    @extend %flex;
+    display: flex;
     flex-direction: column;
-}
-
-%flex-grow-1 {
-    flex-grow: 1;
 }
 
 %justify-center {
     justify-content: center;
-}
-
-%align-center {
-    @extend %flex;
-    align-items: center;
 }
 
 %gap-sm {

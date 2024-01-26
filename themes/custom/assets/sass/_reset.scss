@@ -26,15 +26,8 @@ h1,
 h2,
 h3,
 h4 {
-  margin-block-end: 0;
   text-wrap: balance;
   line-height: 1.1;
-}
-
-// Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed
-ul[role='list'],
-ol[role='list'] {
-  list-style: none;
 }
 
 // Set layout defaults
@@ -42,16 +35,6 @@ body {
   min-height: 100vh;
   line-height: 1.5;
   font-weight: 400;
-}
-
-span {
-  margin: 0;
-}
-
-// Links that don't have a class get default styles
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-  color: currentColor;
 }
 
 // Correct the inheritance and scaling of font size in all browsers
@@ -81,11 +64,6 @@ button,
 textarea,
 select {
   font: inherit;
-}
-
-// Make sure textareas without a rows attribute are not tiny
-textarea:not([rows]) {
-  min-height: 10em;
 }
 
 // Anything that has been anchored to should have extra scroll margin

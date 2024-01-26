@@ -2,7 +2,7 @@
 <article>
 <h1>Tags</h1>
 <!-- https://gohugo.io/templates/taxonomy-templates/#render-a-sites-taxonomies -->
-<ul id="tagcloud">
+<ul class="tagcloud">
     {{ range .Site.Taxonomies.tags }}
     <li>#<a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>({{ .Count }})</li>
     {{ end }}

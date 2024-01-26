@@ -25,10 +25,7 @@ main {
 
   &>* {
     @extend %border;
-    padding: 1rem;
-    -webkit-box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
--moz-box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
-box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
+    @extend %padding-small;
   }
 
   // Fixes overflow issue with pre
@@ -37,8 +34,32 @@ box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
   }
 }
 
+// https://gomakethings.com/hidden-content-for-better-a11y/
 #skiplink {
-  @include mixins.visually-hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: config.$grey-dark;
+  color: config.$text-dark;
+  padding: 1em 2em;
+
+  &:active,
+  &:focus {
+    clip: auto;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: normal;
+  }
 }
 
 #header-main,
@@ -46,10 +67,7 @@ box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
   @extend %text-center;
   @extend %border;
   @extend %text-center;
-  padding: .5rem 0;
-  -webkit-box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
--moz-box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
-box-shadow: 0px 0px 9px 0px rgba(166,166,166,1);
+  padding: 1rem 0;
 
   ul {
     @extend %list-flex;
@@ -110,7 +128,7 @@ h3,
 }
 
 .page-header {
-  line-height: 2;
+  @extend %mg-btm-sm;
 }
 
 p {
@@ -137,11 +155,11 @@ a {
 
 .list-page-item {
   margin-bottom: 1.25rem;
-  line-height: 2;
 }
 
 .deck {
   font-style: italic;
+  margin: .2rem auto;
 }
 
 // Meta
@@ -155,14 +173,19 @@ a {
   @extend %gap-sm;
 }
 
-#tagcloud {
+.tagcloud {
   @extend %list-meta;
   @extend %gap-norm;
   font-size: 1rem;
 }
 
-time {
-  @extend %meta;
+.date {
+  font-size: .8rem;
+  color: #647382;
+
+  @media (prefers-color-scheme: dark) {
+    color: #d4d9dd;
+  }
 }
 
 // Code
