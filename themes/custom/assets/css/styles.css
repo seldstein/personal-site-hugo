@@ -277,7 +277,7 @@ a:hover, a:focus {
 
 .date {
   font-size: 0.8rem;
-  color: #808080;
+  color: #575757;
 }
 @media (prefers-color-scheme: dark) {
   .date {
@@ -300,7 +300,7 @@ code {
 }
 @media (prefers-color-scheme: dark) {
   code {
-    background-color: #808080;
+    background-color: #575757;
   }
 }
 
