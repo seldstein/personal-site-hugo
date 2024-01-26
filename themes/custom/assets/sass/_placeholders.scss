@@ -14,13 +14,18 @@
     text-align: right;
 }
 
+%accent {
+    color: config.$accent-light;
+
+    @media (prefers-color-scheme: dark) {
+        color: config.$accent-dark;
+    }
+
+}
+
 %hover-color {
     &:hover {
-        color: #1a95e0;
-
-        @media (prefers-color-scheme: dark) {
-            color: greenyellow;
-        }
+        @extend %accent;
     }
 }
 
@@ -74,13 +79,8 @@
 
 // META
 %meta {
-    color: config.$meta-light;
+    @extend %accent;
     font-size: .8rem;
-    color: #1a95e0;
-
-    @media (prefers-color-scheme: dark) {
-        color: greenyellow;
-    }
 }
 
 %list-meta {

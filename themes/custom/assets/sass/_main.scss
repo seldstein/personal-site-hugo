@@ -23,13 +23,13 @@ main {
   @extend %grid;
   @extend %grid-gap;
 
-  &>* {
+  & > * {
     @extend %border;
     @extend %padding-small;
   }
 
   // Fixes overflow issue with pre
-  &>article {
+  & > article {
     overflow-x: auto;
   }
 }
@@ -46,7 +46,7 @@ main {
   white-space: nowrap;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: config.$grey-dark;
+  background-color: config.$accent-second-dark;
   color: config.$text-dark;
   padding: 1em 2em;
 
@@ -181,10 +181,10 @@ a {
 
 .date {
   font-size: .8rem;
-  color: #647382;
+  color: config.$accent-second-light;
 
   @media (prefers-color-scheme: dark) {
-    color: #d4d9dd;
+    color: config.$accent-second-dark;
   }
 }
 
@@ -200,11 +200,11 @@ pre {
 }
 
 code {
-  background-color: config.$grey-light;
+  background-color: config.$accent-second-dark;
   padding: 0 0.2em;
   border-radius: 0.2em;
 
   @media (prefers-color-scheme: dark) {
-    background-color: config.$grey-dark;
+    background-color: config.$accent-second-light;
   }
 }
