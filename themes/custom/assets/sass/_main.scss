@@ -108,7 +108,7 @@ h2,
 .h2 {
   @extend %text-right;
   @extend %border-bottom;
-  @extend %mg-none;
+  @extend %mg-top-lg;
   font-size: 1.5rem;
   padding-bottom: .5rem;
 
@@ -119,13 +119,6 @@ h2,
   }
 }
 
-// Also styles Archive titles
-h3,
-.h3 {
-  @extend %text-left;
-  border-bottom: none;
-  padding-bottom: 0;
-}
 
 .page-header {
   @extend %mg-btm-sm;
@@ -155,6 +148,13 @@ a {
 
 .list-page-item {
   margin-bottom: 1.25rem;
+}
+
+.list-page-title {
+  @extend %text-left;
+  @extend %mg-none;
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .deck {

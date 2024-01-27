@@ -67,8 +67,7 @@ pre, code {
 }
 
 h1,
-.h1, h3,
-.h3 {
+.h1, .list-page-title {
   text-align: left;
 }
 
@@ -90,13 +89,17 @@ h2,
 
 #header-main ul,
 #footer-main ul, h1,
-.h1, h2,
-.h2, .list-meta, pre {
+.h1, .list-page-title, .list-meta, pre {
   margin: 0;
 }
 
 .page-header {
   margin-bottom: 1rem;
+}
+
+h2,
+.h2 {
+  margin-top: 3rem;
 }
 
 main > *, #header-main,
@@ -113,7 +116,7 @@ main > * {
   padding: 1rem;
 }
 
-pre {
+main > article, pre {
   overflow: auto;
 }
 
@@ -173,10 +176,6 @@ body {
     background-color: black;
     color: white;
   }
-}
-
-main > article {
-  overflow-x: auto;
 }
 
 #skiplink {
@@ -248,12 +247,6 @@ h2 > a,
   text-decoration: none;
 }
 
-h3,
-.h3 {
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
 @media (min-width: 50em) {
   p {
     hyphens: auto;
@@ -272,6 +265,11 @@ a:hover, a:focus {
 
 .list-page-item {
   margin-bottom: 1.25rem;
+}
+
+.list-page-title {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .deck {
