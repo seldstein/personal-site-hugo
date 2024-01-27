@@ -217,7 +217,6 @@ body {
 }
 
 .site-logo {
-  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
   font-size: 1.8rem;
   display: block;
   text-decoration: none;

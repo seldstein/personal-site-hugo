@@ -82,7 +82,6 @@ main {
 
 .site-logo {
   @extend %hover-color;
-  font-family: config.$font-display;
   font-size: 1.8rem;
   display: block;
   text-decoration: none;
