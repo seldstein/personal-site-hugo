@@ -41,13 +41,13 @@ main {
   @extend %padding-small;
   @extend %no-decor;
   position: absolute;
-  transform: translateY(-150%);
+  top: -100%;
   text-transform: uppercase;
 
   &:active,
   &:focus {
+    // Static positioning negates the top property
     position: static;
-    transform: translateY(0%);
   }
 }
 
