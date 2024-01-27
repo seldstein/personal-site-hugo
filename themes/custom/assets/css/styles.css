@@ -61,7 +61,7 @@ pre, code {
   font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
 }
 
-#header-main,
+#skiplink, #header-main,
 #footer-main {
   text-align: center;
 }
@@ -74,6 +74,11 @@ h1,
 h2,
 .h2 {
   text-align: right;
+}
+
+#skiplink, .site-logo, h2 > a,
+.h2 > a, a:hover, a:focus {
+  text-decoration: none;
 }
 
 .container-meta, .tagcloud, .site-logo:hover, h2 > a:hover,
@@ -101,7 +106,7 @@ h2,
   margin-top: 3rem;
 }
 
-main > *, #header-main,
+main > *, #skiplink, #header-main,
 #footer-main {
   border: 1px solid;
 }
@@ -111,7 +116,7 @@ h2,
   border-bottom: 1px solid;
 }
 
-main > * {
+main > *, #skiplink {
   padding: 1rem;
 }
 
@@ -178,28 +183,13 @@ body {
 }
 
 #skiplink {
-  border: 0;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
   position: absolute;
-  white-space: nowrap;
+  transform: translateY(-150%);
   text-transform: uppercase;
-  text-decoration: none;
-  background-color: #d4d9dd;
-  color: white;
-  padding: 1em 2em;
 }
 #skiplink:active, #skiplink:focus {
-  clip: auto;
-  width: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
   position: static;
-  white-space: normal;
+  transform: translateY(0%);
 }
 
 #header-main,
@@ -219,7 +209,6 @@ body {
 .site-logo {
   font-size: 1.8rem;
   display: block;
-  text-decoration: none;
 }
 
 article {
@@ -239,11 +228,6 @@ h2,
   font-size: 1.5rem;
   padding-bottom: 0.5rem;
 }
-h2 > a,
-.h2 > a {
-  text-decoration: none;
-}
-
 @media (min-width: 50em) {
   p {
     hyphens: auto;
@@ -256,10 +240,6 @@ a {
   text-decoration-thickness: 0.06em;
   text-underline-offset: 0.15em;
 }
-a:hover, a:focus {
-  text-decoration: none;
-}
-
 .list-page-item {
   margin-bottom: 1.25rem;
 }

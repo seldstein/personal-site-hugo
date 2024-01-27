@@ -18,6 +18,10 @@
     text-align: right;
 }
 
+%no-decor {
+    text-decoration: none;
+}
+
 %accent {
     color: config.$accent-light;
 

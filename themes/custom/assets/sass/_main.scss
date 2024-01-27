@@ -34,31 +34,20 @@ main {
   }
 }
 
-// https://gomakethings.com/hidden-content-for-better-a11y/
+// https://css-tricks.com/how-to-create-a-skip-to-content-link/
 #skiplink {
-  border: 0;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
+  @extend %border;
+  @extend %text-center;
+  @extend %padding-small;
+  @extend %no-decor;
   position: absolute;
-  white-space: nowrap;
+  transform: translateY(-150%);
   text-transform: uppercase;
-  text-decoration: none;
-  background-color: config.$accent-second-dark;
-  color: config.$text-dark;
-  padding: 1em 2em;
 
   &:active,
   &:focus {
-    clip: auto;
-    width: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
     position: static;
-    white-space: normal;
+    transform: translateY(0%);
   }
 }
 
@@ -84,7 +73,7 @@ main {
   @extend %hover-color;
   font-size: 1.8rem;
   display: block;
-  text-decoration: none;
+  @extend %no-decor;
 }
 
 article {
@@ -112,7 +101,7 @@ h2,
   // Styles home post titles
   &>a {
     @extend %hover-color;
-    text-decoration: none;
+    @extend %no-decor;
   }
 }
 
@@ -135,7 +124,7 @@ a {
 
   &:hover,
   &:focus {
-    text-decoration: none;
+    @extend %no-decor;
   }
 }
 
