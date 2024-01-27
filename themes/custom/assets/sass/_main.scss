@@ -71,9 +71,7 @@ main {
 
   ul {
     @extend %list-flex;
-    @extend %mg-none;
     @extend %justify-center;
-    font-family: config.$font-monospace;
     gap: .5em 1em;
   }
 }
