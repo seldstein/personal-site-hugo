@@ -2,6 +2,10 @@
 @use 'mixins';
 
 // Typography
+%font-monospace {
+    font-family: config.$font-monospace;
+}
+
 %text-center {
     text-align: center;
 }
@@ -65,6 +69,11 @@
     padding: 1rem;
 }
 
+// Overflow
+%overflow-auto {
+    overflow: auto;
+}
+
 // Lists
 %list-unstyled {
     list-style: none;
@@ -77,7 +86,7 @@
     flex-wrap: wrap;
 }
 
-// META
+// Meta
 %meta {
     @extend %accent;
     font-size: .8rem;
@@ -110,7 +119,7 @@
     gap: 1em;
 }
 
-// GRID
+// Grid
 %grid {
     display: grid;
 }

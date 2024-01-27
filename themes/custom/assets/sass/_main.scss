@@ -30,7 +30,7 @@ main {
 
   // Fixes overflow issue with pre
   & > article {
-    overflow-x: auto;
+    @extend %overflow-auto;
   }
 }
 
@@ -190,9 +190,10 @@ a {
 
 // Code
 pre {
+  @extend %font-monospace;
   @extend %mg-none;
+  @extend %overflow-auto;
   padding: 0 0.5em;
-  overflow: auto;
 
   code {
     background-color: inherit;
@@ -200,6 +201,7 @@ pre {
 }
 
 code {
+  @extend %font-monospace;
   background-color: config.$accent-second-dark;
   padding: 0 0.2em;
   border-radius: 0.2em;
