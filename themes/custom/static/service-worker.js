@@ -1,7 +1,7 @@
 // https://css-tricks.com/add-a-service-worker-to-your-site/
 
 // Core assets
-let coreAssets = ['/offline/', '/favicon/icon.svg', '/favicon/favicon.ico', '/css/styles.css'];
+let coreAssets = ['/', '/offline/', '/favicon/icon.svg', '/favicon/favicon.ico', '/css/styles.css'];
 
 // On install, cache core assets
 self.addEventListener('install', function (event) {

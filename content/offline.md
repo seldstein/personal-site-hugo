@@ -6,4 +6,4 @@ description: A cached page to display if the user is offline.
 draft: false
 ---
 
-It looks like you aren't connected to the internet.
+It looks like you aren't connected to the internet, but if you like, you can still view the [homepage](/).
