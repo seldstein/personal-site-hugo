@@ -77,9 +77,9 @@ I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https:
 For context, I built my website with [Hugo](https://gohugo.io/) and [custom theme](https://github.com/seldstein/personal-website).
 
 1. Draft in [Obsidian](https://obsidian.md/).
-2. Run [LanguageTool extention](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Plugins/obsidian-languagetool-plugin).
-3. Run [Grammarly](https://www.grammarly.com/).
-4. Run Obsidian spellcheck.
+2. Run Obsidian spellcheck.
+3. Run [LanguageTool](https://languagetool.org/).
+4. Run [Grammarly](https://www.grammarly.com/).
 5. Check readability with [Hemingway](https://hemingwayapp.com/).
 6. Paste draft to [VS Code](https://code.visualstudio.com/).
 7. Check Problems tab.
@@ -87,13 +87,12 @@ For context, I built my website with [Hugo](https://gohugo.io/) and [custom them
 9. Add description.
 10. Add deck.
 11. Add tags.
-12. Add audio version.
-13. Change date.
-14. Run `hugo server -D`, make sure everything looks okay.
-15. Change draft status.
-16. Update file name.
-17. Commit and push.
-18. Send email.
+12. Change date.
+13. Run `hugo server -D`, make sure everything looks okay.
+14. Change draft status.
+15. Update file name.
+16. Commit and push.
+17. Send email.
 
 ## Personality Tests
 

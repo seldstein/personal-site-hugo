@@ -13,7 +13,7 @@ draft: false
 
 Once a month I back up my Goodreads library to a folder on my computer called `exports`. The process: Go to the website, find the Export button, download the file, open the terminal, move the file from `Downloads` to `exports`. It's not enough of a pain for me not to do it, but it is enough of a pain for me to try to make it easier. I figured there had to be an extant solution, but rather than hunt around the internet for an appropriate application, I decided to build one myself.
 
-The thing is, I don't know any Python. I barely know JavaScript. So I turned to ChatGPT for help, and short story short, it was really easy. The app is very simple. All it does is check my computer's `Downloads` folder for a specific file---in this case, `goodreads*.csv`---and move it to the `exports` folder.
+The thing is, I don't know any Python. I barely know JavaScript. So I turned to ChatGPT for help, and short story short, it was really easy. The app is very simple. All it does is check my computer's `Downloads` folder for a specific file (in this case, `goodreads*.csv`)and move it to the `exports` folder.
 
 Slightly more complicated (remember that I'm new to all this) was setting the application to run automatically once a month. You do that with something called a "cron job". To schedule a cron job, you first open the "crontab" with `crontab -e`. Then you enter the interval, the path to the Python interpreter, and the path to the application. Like so:
 
