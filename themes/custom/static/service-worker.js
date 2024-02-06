@@ -1,14 +1,23 @@
 // https://css-tricks.com/add-a-service-worker-to-your-site/
 
-// On install, cache some stuff
-self.addEventListener('install', event => {
-	event.waitUntil(caches.open('core').then(cache => {
-		cache.add(new Request('/offline/'));
+// Core assets
+let coreAssets = ['/offline/', '/favicon/icon.svg', '/favicon/favicon.ico', '/css/styles.css'];
+
+// On install, cache core assets
+self.addEventListener('install', function (event) {
+
+	// Cache core assets
+	event.waitUntil(caches.open('core').then(function (cache) {
+		for (let asset of coreAssets) {
+			cache.add(new Request(asset));
+		}
+		return cache;
 	}));
+
 });
 
-// listen for requests
-addEventListener('fetch', event => {
+// Listen for request events
+self.addEventListener('fetch', function (event) {
 
 	// Get the request
 	let request = event.request;
@@ -19,14 +28,25 @@ addEventListener('fetch', event => {
 
 	// HTML files
 	// Network-first
-	// Send the request to the network first
-	// If it's not found, look in the cache
 	if (request.headers.get('Accept').includes('text/html')) {
 		event.respondWith(
-			fetch(request).then(response => {
+			fetch(request).then(function (response) {
+
+				// Create a copy of the response and save it to the cache
+				let copy = response.clone();
+				event.waitUntil(caches.open('core').then(function (cache) {
+					return cache.put(request, copy);
+				}));
+
+				// Return the response
 				return response;
-			}).catch(error => {
-				return caches.match('/offline/');
+
+			}).catch(function (error) {
+
+				// If there's no item in cache, respond with a fallback
+				return caches.match(request).then(function (response) {
+					return response || caches.match('/offline/');
+				});
 			})
 		);
 	}
@@ -37,7 +57,10 @@ addEventListener('fetch', event => {
 		event.respondWith(
 			caches.match(request).then(function (response) {
 				return response || fetch(request).then(function (response) {
+
+					// Return the response
 					return response;
+
 				});
 			})
 		);
@@ -50,9 +73,19 @@ addEventListener('fetch', event => {
 		event.respondWith(
 			caches.match(request).then(function (response) {
 				return response || fetch(request).then(function (response) {
+
+					// Save a copy of it in cache
+					let copy = response.clone();
+					event.waitUntil(caches.open('core').then(function (cache) {
+						return cache.put(request, copy);
+					}));
+
+					// Return the response
 					return response;
+
 				});
 			})
 		);
 	}
+
 });

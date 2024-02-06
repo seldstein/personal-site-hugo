@@ -6,4 +6,4 @@ description: A cached page to display if the user is offline.
 draft: false
 ---
 
-Here's my contact info and stuff.
+It looks like you aren't connected to the internet.
