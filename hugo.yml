@@ -27,6 +27,12 @@ menu:
       url: mailto:samfeldstein@proton.me
       weight: 7
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      hardWraps: true
+
 enableGitInfo: true
 
 frontmatter:

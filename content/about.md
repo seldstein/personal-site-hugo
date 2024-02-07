@@ -6,7 +6,7 @@ description: About Sam Feldstein.
 draft: false
 ---
 
-Hi, I’m **Sam Feldstein**. I used to want to be an [author](#published-writing), but lately I'm more interested in web design. I'm fond of [blogs](#blogroll), [books](https://www.goodreads.com/user/show/153965751-sam-feldstein), [movies](https://letterboxd.com/HoogoSteeglitz/), and [photography](https://www.instagram.com/seldstein/).
+Hi, I’m **Sam Feldstein**. I used to want to be an [author](#published-writing), but lately I'm more interested in web design and behavioral economics. I'm fond of [blogs](#blogroll), [books](https://www.goodreads.com/user/show/153965751-sam-feldstein), [movies](https://letterboxd.com/HoogoSteeglitz/), and [photography](https://www.instagram.com/seldstein/).
 
 ## Things I Use
 
@@ -42,15 +42,12 @@ I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https:
 ## Blogroll
 
 - Alan Jacobs at [The Homebound Symphony](https://blog.ayjay.org/)
-- Cory Doctorow at [Pluralistic](https://pluralistic.net/)
 - [Freddie deBoer](https://freddiedeboer.substack.com/)
 - Dan Carlin at [Look Behind You!](https://dancarlin.substack.com/)
 - [Gwern Branwen](https://gwern.net/)
 - Heather Cox Richardson at [Letters From an American](https://heathercoxrichardson.substack.com/)
 - Henrik Karlsson at [Escaping Flatland](https://www.henrikkarlsson.xyz/)
 - Maria Popova at [The Marginalian](https://www.themarginalian.org/)
-- Matthew Yglesias at [Slow Boring](https://www.slowboring.com/)
-- Molly White at [[citation needed](https://newsletter.mollywhite.net/)]
 - [Paul Graham](https://www.paulgraham.com/)
 - Scott Aaronson at [Shtetl-Optimized](https://scottaaronson.blog/)
 - Scott Alexander at [Astral Codex Ten](https://www.astralcodexten.com/)
