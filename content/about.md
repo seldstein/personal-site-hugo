@@ -8,6 +8,10 @@ draft: false
 
 Hi, I’m **Sam Feldstein**. I used to want to be an [author](#published-writing), but lately I'm more interested in web design and behavioral economics. I'm fond of [blogs](#blogroll), [books](https://www.goodreads.com/user/show/153965751-sam-feldstein), [movies](https://letterboxd.com/HoogoSteeglitz/), and [photography](https://www.instagram.com/seldstein/).
 
+This blog is where I work things out. I write in public in case somebody else finds it helpful, but I'm an expert in precisely nothing. I'm qualified to advise exactly one person, and that person is me. To quote [Gwern Branwen](https://gwern.net/about#target-audience): "I am attempting to explain things to my future self, who is intelligent and interested, but has forgotten."
+
+The best way to keep up with my work is to subscribe to my [RSS feed](/posts/index.xml). If you don't use RSS, I also have a [mailing list](https://samfeldstein.substack.com/). I only send emails about new posts or important updates (like if I get published somewhere). At this point, that probably averages to once a month.
+
 ## Things I Use
 
 I don't write fiction so much anymore, but when I did I used [Scrivener](https://www.literatureandlatte.com/scrivener/overview). For distraction-free word-dumping, I use [Enso](https://enso.sonnet.io/). For writing everything else, taking notes, and managing files, I use [Obsidian](https://obsidian.md/) with the [Minimal](https://minimal.guide/home) theme and the following community plugins:
@@ -31,7 +35,7 @@ My go-to dictionaries are:
 - [Thesaurus.com](https://www.thesaurus.com/)
 - [Online Etymology Dictionary](https://www.etymonline.com/)
 
-I track RSS feeds with [NewsBlur](https://newsblur.com/). I used to read and annotate articles with [Readwise](https://readwise.io/), but recently switched to [Omnivore](https://omnivore.app/). Omnivore is open source, feels lighter, and so far doesn't include any annoying features you can't turn off (a la the blue bar to the left of paragraphs in Readwise). It doesn't support video transcription, so I'll keep using Readwise for that and also for its daily review feature. I store my notes and highlights in Obsidian using the plugins mentioned above.
+I track RSS feeds with [NewsBlur](https://newsblur.com/). I used to read and annotate articles with [Readwise](https://readwise.io/) but recently switched to [Omnivore](https://omnivore.app/). Omnivore is open source, feels lighter, and so far doesn't include any annoying features you can't turn off (a la the blue bar to the left of paragraphs in Readwise). It doesn't support video transcription, so I'll keep using Readwise for that and also for its daily review feature. I store my notes and highlights in Obsidian using the plugins mentioned above.
 
 For memorizing facts, quotes, and other information, I use [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition) via [Mnemosyne](https://mnemosyne-proj.org/).
 
