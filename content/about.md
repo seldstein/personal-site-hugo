@@ -8,8 +8,6 @@ draft: false
 
 Hi, I’m **Sam Feldstein**. I used to want to be an [author](#published-writing), but lately I'm more interested in web design and behavioral economics. I'm fond of [blogs](#blogroll), [books](https://www.goodreads.com/user/show/153965751-sam-feldstein), [movies](https://letterboxd.com/HoogoSteeglitz/), and [photography](https://www.instagram.com/seldstein/).
 
-This blog is where I work things out. I write in public in case somebody else finds it helpful, but I'm an expert in precisely nothing. I'm qualified to advise exactly one person, and that person is me. To quote [Gwern Branwen](https://gwern.net/about#target-audience): "I am attempting to explain things to my future self, who is intelligent and interested, but has forgotten."
-
 The best way to keep up with my work is to subscribe to my [RSS feed](/posts/index.xml). If you don't use RSS, I also have a [mailing list](https://samfeldstein.substack.com/). I only send emails about new posts or important updates (like if I get published somewhere). At this point, that probably averages to once a month.
 
 ## Things I Use
