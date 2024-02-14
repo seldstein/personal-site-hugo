@@ -2,6 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://samfeldstein.xyz/</loc>
+  </url><url>
+    <loc>https://samfeldstein.xyz/posts/nothing-rhymes-with-kerouac/</loc>
+  </url><url>
+    <loc>https://samfeldstein.xyz/tags/poetry/</loc>
+  </url><url>
+    <loc>https://samfeldstein.xyz/tags/</loc>
+  </url><url>
+    <loc>https://samfeldstein.xyz/posts/get-out-of-the-water/</loc>
+  </url><url>
+    <loc>https://samfeldstein.xyz/tags/life/</loc>
+  </url><url>
+    <loc>https://samfeldstein.xyz/tags/work/</loc>
+  </url><url>
+    <loc>https://samfeldstein.xyz/offline/</loc>
+    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samfeldstein.xyz/about/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,11 +28,7 @@
   </url><url>
     <loc>https://samfeldstein.xyz/tags/coding/</loc>
   </url><url>
-    <loc>https://samfeldstein.xyz/</loc>
-  </url><url>
     <loc>https://samfeldstein.xyz/tags/python/</loc>
-  </url><url>
-    <loc>https://samfeldstein.xyz/tags/</loc>
   </url><url>
     <loc>https://samfeldstein.xyz/tags/tools/</loc>
   </url><url>
