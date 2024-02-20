@@ -75,23 +75,24 @@ I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https:
 
 For context, I built my website with [Hugo](https://gohugo.io/) and [custom theme](https://github.com/seldstein/personal-website).
 
-1. Draft in [Obsidian](https://obsidian.md/).
-2. Run Obsidian spellcheck.
-3. Run [LanguageTool](https://languagetool.org/).
-4. Run [Grammarly](https://www.grammarly.com/).
-5. Check readability with [Hemingway](https://hemingwayapp.com/).
-6. Paste draft to [VS Code](https://code.visualstudio.com/).
-7. Check Problems tab.
-8. Check for [broken links](https://marketplace.visualstudio.com/items?itemName=BillDietrich.linkcheckerhtml).
-9. Add description.
-10. Add deck.
-11. Add tags.
-12. Change date.
-13. Run `hugo server -D`, make sure everything looks okay.
-14. Change draft status.
-15. Update file name.
-16. Commit and push.
-17. Send email.
+1. Draft in [Obsidian](https://obsidian.md/)
+2. Run Obsidian spellcheck
+3. Run [LanguageTool](https://languagetool.org/)
+4. Run [Grammarly](https://www.grammarly.com/)
+5. Check readability with [Hemingway](https://hemingwayapp.com/)
+6. Paste draft to [VS Code](https://code.visualstudio.com/)
+7. Check Problems tab
+8. Check for [broken links](https://marketplace.visualstudio.com/items?itemName=BillDietrich.linkcheckerhtml)
+9. Add description
+10. Add deck
+11. Add tags
+12. Change date
+13. Run `hugo server -D`, make sure everything looks okay
+14. Change draft status
+15. Update file name
+16. Commit and push
+17. Send email
+18. Promote
 
 ## Personality Tests
 
