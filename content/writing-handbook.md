@@ -12,9 +12,7 @@ draft: false
 
 This document is inspired, formally speaking, by *[Jewish Wisdom](https://bookshop.org/p/books/jewish-wisdom-ethical-spiritual-and-historical-lessons-from-the-great-works-and-thinkers-joseph-telushkin/10301330)*. It's a work in progress.
 
-## What is a story?
-
-### Stories as designed experiences
+## Stories as designed experiences
 
 > *Writing is a craft, not an art.*
 > 
@@ -26,27 +24,53 @@ I never liked that response. For one thing, it implied I was seeking permission 
 
 Stories, or any written object, are built from the page up. And like any built object, this is done consciously, and with purpose. Stories are designed experiences.
 
-### Writing as performance
-
-People say to write for yourself. That's good advice if what they mean is, "Write the story you want to write, not the story someone else wants you to write."
-
-But sometimes what people mean is "Fuck the audience." That's bad advice. Don't fuck the audience. You're a performer, remember? Do you mean to perform to an empty room? A falling tree makes no sound if no one hears it, and a story has no meaning if no one reads it. The audience is the point, and the fun lies in getting a reaction from them.
-
 > *What I'm about is playing the audience. I'm an orchestra conductor, and the audience is my orchestra, and the sounds they make and the feelings they have are my instruments."
 > 
 > [Quentin Tarantino](https://youtu.be/sXSh3p6THv0?si=wos3VGXmzVBzulqp)
 
 Performance is about evocation. If I do *this,* the audience reacts like *that.* So it is with writing. All writers are performers, and the page is our stage.
 
-#### Find a muse
+### The audience
 
-> *Write to please just one person. If you open a window and make love to the world, so to speak, your story will get pneumonia.*
-> 
-> [Kurt Vonnegut](https://www.themarginalian.org/2012/04/03/kurt-vonnegut-on-writing-stories/)
+People say to write for yourself. That's good advice if what they mean is, "Write the story you want to write, not the story someone else wants you to write."
 
-Performers need someone to perform for. But you can't please everybody, so don't try. Instead, take Vonnegut's advice and write for just one person. It doesn't even have to be a real person. But whoever it is, that's your muse.
+But sometimes what people mean is, "Fuck the audience." That's bad advice. Don't fuck the audience. You're a performer, remember? Do you mean to perform to an empty room? A falling tree makes no sound if no one hears it, and a story has no meaning if no one reads it. The audience is the point, and the fun lies in getting a reaction from them.
+
+Still, you can't please everybody, so don't try. Instead, write for just one person. It doesn't even have to be a real person. But whoever it is, that's your muse.
 
 Your muse may change depending on the medium. If I'm writing prose, my muse is an imagined "ideal reader" who responds to each beat exactly the way I want them to. If I'm writing a screenplay it's much the same, except the "ideal reader" becomes an "ideal audience." If I'm writing a D&D adventure, the players are my muses.
+
+## Choosing an idea
+
+> *Before I settle in on what I'm gonna do I'm contemplating a lot of different things. I explore some different ideas and see what stage they're at. It's almost a metaphor for falling in love. You date a lot of people and you flirt with a lot of people, but then you meet the right one. And once I realize, "Okay, this has grabbed me," now maybe I'm thinking about music choices for it maybe it gets me to actually start writing a little bit and pretty shortly into that process I'll probably end up writing something that's like, "Okay, I'm doing this."* 
+> 
+> [Quentin Tarantino](https://www.youtube.com/watch?v=8MGGMmXeS6I)
+
+## Characters
+
+To build a story, you have to understand people. The good news is that you're a people too, and you know what makes you tick.
+
+> *How do you put the audience into a character? Easy. Show one. You'd have to go out of your way to keep the audience from imprinting on them. It could be a raccoon, a homeless man or the President. Just fade in on them and we are them until we have a better choice.*
+>
+> *If there are choices, the audience picks someone they can relate to. When in doubt, they follow their pity. Fade in on a raccoon being chased by a bear, we are the raccoon. Fade in on a room full of ambassadors. The President walks in and trips on the carpet. We are the President.*
+> 
+> Dan Harmon, [Story Structure 104: The Juicy Details](https://channel101.fandom.com/wiki/Story_Structure_104:_The_Juicy_Details)
+
+When we see a character going through it, our heart goes out to them. That's empathy.
+
+## Planning
+
+> *When Chris Mannix shows up and says he's the sheriff, is he is he not? Well I don't know yet. I only what John Ruth knows about him. I only know what Major Warren knows about him. And even when they arrive at Minnie's haberdashery and there's four other people there, I didn't know who those four other people were. I let them reveal themselves to me. By the time we did the movie I had to know who all those characters really were and where they came from in order for me to talk to the actors about it, but in the first draft I didn't want to know any more than a viewer or one of the other characters would know.* 
+> 
+> [Quentin Tarantino](https://www.youtube.com/watch?v=8MGGMmXeS6I)
+
+> *t doesn't do me much good to think too much past the middle i mean i might know where i want to go i mean i write genre pieces so you have an idea what the third act's going to be you know and kill bill i guess she'll probably kill bill at the end all right you know you know she's got a list she's going to work down the list all right so the big choice is well who's who on the list right um but you know a genre movie you think you know where you're going and you're probably right and you have an idea of how you might want the ending to end as for you know for both a movie and for an audience but for the most part you can kind of work out more or less what's going to get you to the middle but to think beyond that is kind of silly because um by the time you get to the middle when you've actually been writing it well it's a different story now it's a different thing now now you are the characters you know the characters things that you could never have known before you started writing are now they're in your blood it's like this entire month you know there is a mythology to my movies to some degree or another not mythology is delivered as as i write and i might have a checklist of things that i might want to do during the course of the time but some of them you know you know uh become irrelevant as you go on and when other ones take their place and some things that you thought could have been a big deal well they are a big deal and some things you about maybe half the reason you wanted to write it by the time you get to where that would happen it's for something else it's not for this um but by the time you get to the middle that's where you want to be you want to have the be this expert you want to be in the middle of the story you want to know who these people are and now with all this knowledge now you figure out where you want to go for the second half but i am trusting that i will know exactly what to do when i get there from having done the work one way or the other you know and uh but it's that trust you have to trust you have to trust you know that it's gonna be there yeah when you reach out*
+> 
+> [Quentin Tarantino](https://youtu.be/8MGGMmXeS6I?si=Kfql4zaYJ095eaCB)
+
+> *a good majority of movies that come out all right you pretty much know everything you're going to see in the movie by the first 10 or 20 minutes now that's not a story a story is something that constantly unfolds*
+> 
+> [Quentin Tarantino](https://youtu.be/8MGGMmXeS6I?si=HPT36jREqwkzVWix)
 
 ## Rules
 
@@ -76,21 +100,7 @@ If the reader can't figure out what's going on, it's only a matter of time befor
 
 Arousing confusion is not the same as arousing interest.
 
-## Characters
-
-To build a story, you have to understand people. The good news is that you're a people too, and you know what makes you tick.
-
-> *How do you put the audience into a character? Easy. Show one. You'd have to go out of your way to keep the audience from imprinting on them. It could be a raccoon, a homeless man or the President. Just fade in on them and we are them until we have a better choice.*
->
-> *If there are choices, the audience picks someone they can relate to. When in doubt, they follow their pity. Fade in on a raccoon being chased by a bear, we are the raccoon. Fade in on a room full of ambassadors. The President walks in and trips on the carpet. We are the President.*
-> 
-> Dan Harmon, [Story Structure 104: The Juicy Details](https://channel101.fandom.com/wiki/Story_Structure_104:_The_Juicy_Details)
-
-When we see a character going through it, our heart goes out to them. That's empathy.
-
 ## Whiteboard
-
-
 
 But there has to an element of design when you’re writing entertainment. Whether you’re doing it consciously or subsconsciously, the design is there. Some people seem to be able to do this automatically. I’ve tried it. I’m also tried being a planner. There is a certain spontaneouty that happens when you get really sucked into a story, and when that happens it makes no sense to fight the current. But in general, I have a hard time working this way. I need a little more structure. In order to design a story, you have to know what you’re trying to get. It requires you to take the audience’s perspective. You aren’t just writing for you. You’re perofmring. And you want the performance to be successful. So you have to take pains to surprise the audience. To thrill them. To know what they want from you and what you want from them. 
 
@@ -155,3 +165,13 @@ I once heard someone describe their process as a cat going over itself with its 
 %% This goes with the craft not an art thing. %%
 
 I do get a little tired of “writing is rewrting,” because like any aphorism people repeat it like it’s supposed to be obvious. What they don’t do is bother to expound. But all it means, *all* it means, is that very rarely does anything come out right the first time. But the beauty of text editors is that there is precisely zero cost in just getting the thought down. You don’t waste time (you probably save it), you don’t waste space, you don’t waste paper. So get it down, then rework it. Aphorisms are shorthand. They are not the wisdom itself. They are meant to remind you of the wisdom.
+
+---
+
+> *most of these people that talk about writing for screenplays if they were teaching acting they would be thrown out and ridiculed they all seem to be result oriented and real actors aren't result oriented but real writers aren't result oriented i mean the actor wants everything they do to be magnificent and the writer wants everything they do to be magnificent but novelists aren't result oriented it's the doing of it it's the process it's the getting there it's it's the journey it's it's it's the journey is everything the journey makes the destination worthwhile you can only have a worthwhile destination after you've had a worthwhile journey and novelists trust that actors trust that they trust that they live the part and they are honest and they don't try to predetermine too much that the ultimately the ultimate end result will be rewarding and it seems like people who teach screenwriting go in the opposite direction if you're judging it by a coloring book and you're getting a's for keeping your colors inside of the lines then maybe they are right but i that's not how i want to judge it*
+> 
+> [Quentin Tarantino](https://www.youtube.com/watch?v=8MGGMmXeS6I)
+
+> *If the process is sound, the product takes care of itself.*
+> 
+> William Zinsser, *[On Writing Well](https://bookshop.org/p/books/on-writing-well-the-classic-guide-to-writing-nonfiction-william-zinsser/8860186?ean=9780060891541)*
