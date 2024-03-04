@@ -7,22 +7,36 @@ deck: Collected quotes and notes on writing and storytelling.
 tags:
   - story
   - writing
-draft: false
+draft: true
 ---
 
 This document is inspired, formally speaking, by *[Jewish Wisdom](https://bookshop.org/p/books/jewish-wisdom-ethical-spiritual-and-historical-lessons-from-the-great-works-and-thinkers-joseph-telushkin/10301330)*. It's a work in progress.
 
-## Stories as designed experiences
+## The two phases of writing
 
-> *Writing is a craft, not an art.*
+When you're writing, you're either generating material or shaping material.
+
+These processes are intertwined, or they can be. When you're in shaping mode, your subsconscious might still be in generating mode. And so you get ideas as your shaping the ideas you already have. So it's not that only one of these processes can happen at a time. But they are distinct processes.
+
+When you're generating, that's the messy time. That's the time to be completely uninhibited and just write down whatever comes to mind with no thought to whether it makes any sense, or whether you like it, or whether it fits with the story, or whether you'll even use it. 
+
+And you continue to switch between these modes as you write. You have some ideas, and you jot them down, and then you start to shape them into a story, and then as you engage in the shaping process your brain in the background is still generating. So new ideas come to you, and you catch them as they fall, get them down, and keep going. And that's spontaneity. That's origiality. Because you didn't try to plan anything. You just took what came to you. But just because you respect the generation process doesn't mean you get to ignore the shaping process. You need both. If you only generate, your story will be a mess. It won't be a story. It'll be a pile of ideas thrown in a heap. And if you only shape, nothing you write will feel fresh.
+
+Writing is codified spontaneity. You have to relax and allow yourself the freedom to surprise yourself, but then you have to record it, shape it, and codify it. 
+
+> *When Chris Mannix shows up and says he's the sheriff, is he or is he not? Well I don't know yet. I only what John Ruth knows about him. I only know what Major Warren knows about him. And even when they arrive at Minnie's haberdashery and there's four other people there, I didn't know who those four other people were. I let them reveal themselves to me. By the time we did the movie I had to know who all those characters really were and where they came from in order for me to talk to the actors about it, but in the first draft I didn't want to know any more than a viewer or one of the other characters would know.* 
 > 
-> William Zinsser, *[On Writing Well](https://bookshop.org/p/books/on-writing-well-the-classic-guide-to-writing-nonfiction-william-zinsser/8860186?ean=9780060891541)*
+> [Quentin Tarantino](https://www.youtube.com/watch?v=8MGGMmXeS6I)
 
-I lived in Marfa, Texas for a time. It's an art town, and often people passing through would ask if I was an artist. I'd say, "No, but I write." And they'd almost invariably say, "Well, that's art!"
+> *It doesn't do me much good to think too much past the middle. I mean, I write genre pieces, so you have an idea of what the third act's going to be. In* Kill Bill, *I guess she'll probably kill Bill at the end. So you have an idea of how you might want it to end, and you can kind of work out what's going to get you to the middle, but to think beyond that is kind of silly, because by the time you get to the middle it's a different story, because you know things about the characters that you could never have known before you started writing.
+> 
+> [Quentin Tarantino](https://youtu.be/8MGGMmXeS6I?si=Kfql4zaYJ095eaCB)
 
-I never liked that response. For one thing, it implied I was seeking permission to call myself an artist, which I wasn't. For another thing, writing, as Zinsser says, isn't an art. It's a craft.
+> *A good majority of movies that come out, you pretty much know everything you're going to see in the movie by the first ten or twenty minutes. That's not a story. A story is something that constantly unfolds.*
+> 
+> [Quentin Tarantino](https://youtu.be/8MGGMmXeS6I?si=HPT36jREqwkzVWix)
 
-Stories, or any written object, are built from the page up. And like any built object, this is done consciously, and with purpose. Stories are designed experiences.
+## Writing as performance
 
 > *What I'm about is playing the audience. I'm an orchestra conductor, and the audience is my orchestra, and the sounds they make and the feelings they have are my instruments."
 > 
@@ -58,20 +72,6 @@ To build a story, you have to understand people. The good news is that you're a 
 
 When we see a character going through it, our heart goes out to them. That's empathy.
 
-## Planning
-
-> *When Chris Mannix shows up and says he's the sheriff, is he is he not? Well I don't know yet. I only what John Ruth knows about him. I only know what Major Warren knows about him. And even when they arrive at Minnie's haberdashery and there's four other people there, I didn't know who those four other people were. I let them reveal themselves to me. By the time we did the movie I had to know who all those characters really were and where they came from in order for me to talk to the actors about it, but in the first draft I didn't want to know any more than a viewer or one of the other characters would know.* 
-> 
-> [Quentin Tarantino](https://www.youtube.com/watch?v=8MGGMmXeS6I)
-
-> *t doesn't do me much good to think too much past the middle i mean i might know where i want to go i mean i write genre pieces so you have an idea what the third act's going to be you know and kill bill i guess she'll probably kill bill at the end all right you know you know she's got a list she's going to work down the list all right so the big choice is well who's who on the list right um but you know a genre movie you think you know where you're going and you're probably right and you have an idea of how you might want the ending to end as for you know for both a movie and for an audience but for the most part you can kind of work out more or less what's going to get you to the middle but to think beyond that is kind of silly because um by the time you get to the middle when you've actually been writing it well it's a different story now it's a different thing now now you are the characters you know the characters things that you could never have known before you started writing are now they're in your blood it's like this entire month you know there is a mythology to my movies to some degree or another not mythology is delivered as as i write and i might have a checklist of things that i might want to do during the course of the time but some of them you know you know uh become irrelevant as you go on and when other ones take their place and some things that you thought could have been a big deal well they are a big deal and some things you about maybe half the reason you wanted to write it by the time you get to where that would happen it's for something else it's not for this um but by the time you get to the middle that's where you want to be you want to have the be this expert you want to be in the middle of the story you want to know who these people are and now with all this knowledge now you figure out where you want to go for the second half but i am trusting that i will know exactly what to do when i get there from having done the work one way or the other you know and uh but it's that trust you have to trust you have to trust you know that it's gonna be there yeah when you reach out*
-> 
-> [Quentin Tarantino](https://youtu.be/8MGGMmXeS6I?si=Kfql4zaYJ095eaCB)
-
-> *a good majority of movies that come out all right you pretty much know everything you're going to see in the movie by the first 10 or 20 minutes now that's not a story a story is something that constantly unfolds*
-> 
-> [Quentin Tarantino](https://youtu.be/8MGGMmXeS6I?si=HPT36jREqwkzVWix)
-
 ## Rules
 
 ### Don't bore them
@@ -103,6 +103,8 @@ Arousing confusion is not the same as arousing interest.
 ## Whiteboard
 
 But there has to an element of design when you’re writing entertainment. Whether you’re doing it consciously or subsconsciously, the design is there. Some people seem to be able to do this automatically. I’ve tried it. I’m also tried being a planner. There is a certain spontaneouty that happens when you get really sucked into a story, and when that happens it makes no sense to fight the current. But in general, I have a hard time working this way. I need a little more structure. In order to design a story, you have to know what you’re trying to get. It requires you to take the audience’s perspective. You aren’t just writing for you. You’re perofmring. And you want the performance to be successful. So you have to take pains to surprise the audience. To thrill them. To know what they want from you and what you want from them. 
+
+
 
 When you write entertainment, what you’re doing is designing an experience.
 
