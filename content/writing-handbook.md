@@ -12,29 +12,7 @@ draft: true
 
 This document is inspired, formally speaking, by *[Jewish Wisdom](https://bookshop.org/p/books/jewish-wisdom-ethical-spiritual-and-historical-lessons-from-the-great-works-and-thinkers-joseph-telushkin/10301330)*. It's a work in progress.
 
-## The two phases of writing
 
-When you're writing, you're either generating material or shaping material.
-
-These processes are intertwined, or they can be. When you're in shaping mode, your subsconscious might still be in generating mode. And so you get ideas as your shaping the ideas you already have. So it's not that only one of these processes can happen at a time. But they are distinct processes.
-
-When you're generating, that's the messy time. That's the time to be completely uninhibited and just write down whatever comes to mind with no thought to whether it makes any sense, or whether you like it, or whether it fits with the story, or whether you'll even use it. 
-
-And you continue to switch between these modes as you write. You have some ideas, and you jot them down, and then you start to shape them into a story, and then as you engage in the shaping process your brain in the background is still generating. So new ideas come to you, and you catch them as they fall, get them down, and keep going. And that's spontaneity. That's origiality. Because you didn't try to plan anything. You just took what came to you. But just because you respect the generation process doesn't mean you get to ignore the shaping process. You need both. If you only generate, your story will be a mess. It won't be a story. It'll be a pile of ideas thrown in a heap. And if you only shape, nothing you write will feel fresh.
-
-Writing is codified spontaneity. You have to relax and allow yourself the freedom to surprise yourself, but then you have to record it, shape it, and codify it. 
-
-> *When Chris Mannix shows up and says he's the sheriff, is he or is he not? Well I don't know yet. I only what John Ruth knows about him. I only know what Major Warren knows about him. And even when they arrive at Minnie's haberdashery and there's four other people there, I didn't know who those four other people were. I let them reveal themselves to me. By the time we did the movie I had to know who all those characters really were and where they came from in order for me to talk to the actors about it, but in the first draft I didn't want to know any more than a viewer or one of the other characters would know.* 
-> 
-> [Quentin Tarantino](https://www.youtube.com/watch?v=8MGGMmXeS6I)
-
-> *It doesn't do me much good to think too much past the middle. I mean, I write genre pieces, so you have an idea of what the third act's going to be. In* Kill Bill, *I guess she'll probably kill Bill at the end. So you have an idea of how you might want it to end, and you can kind of work out what's going to get you to the middle, but to think beyond that is kind of silly, because by the time you get to the middle it's a different story, because you know things about the characters that you could never have known before you started writing.
-> 
-> [Quentin Tarantino](https://youtu.be/8MGGMmXeS6I?si=Kfql4zaYJ095eaCB)
-
-> *A good majority of movies that come out, you pretty much know everything you're going to see in the movie by the first ten or twenty minutes. That's not a story. A story is something that constantly unfolds.*
-> 
-> [Quentin Tarantino](https://youtu.be/8MGGMmXeS6I?si=HPT36jREqwkzVWix)
 
 ## Writing as performance
 

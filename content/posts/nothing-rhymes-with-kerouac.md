@@ -8,12 +8,6 @@ tags:
 draft: false
 ---
 
-I wrote this poem when I lived in Marfa, Texas. A friend of a friend was hosting a beat poetry night in honor of what would have been Jack Kerouac's 100th birthday. When he found out I held a writing degree from the University of Iowa (the undergraduate program, not the Writers' Workshop), he invited me to write something to read at the party.
-
-To be clear, I know nothing about poetry or Jack Kerouac. But what the hell, anybody can write nonsense. The resulting poem turned out to be a pretty nice exercise in cadence. Note that it's meant to be performed, not read, so if there's no one around (or even if there is), feel free to shout it out.
-
----
-
 NOTHING RHYMES WITH KEROUAC
 
 Jack
@@ -175,3 +169,9 @@ cat on crack sulindac
 wisecrack get shellacked
 
 NOTHING RHYMES WITH KEROUAC
+
+## Notes
+
+I wrote this poem when I lived in Marfa, Texas. A friend of a friend was hosting a beat poetry night in honor of what would have been Jack Kerouac's 100th birthday. When he found out I held a writing degree from the University of Iowa (the undergraduate program, not the Writers' Workshop), he invited me to write something to read at the party.
+
+To be clear, I know nothing about poetry or Jack Kerouac. But what the hell, anybody can write nonsense. The resulting poem turned out to be a pretty nice exercise in cadence. Note that it's meant to be performed, not read, so if there's no one around (or even if there is), feel free to shout it out.
