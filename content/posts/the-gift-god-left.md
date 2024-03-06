@@ -4,6 +4,7 @@ date: 2024-03-05T08:25:16-06:00
 description: A poem about God abandoning His creations.
 deck: It's up to us.
 tags:
+  - fiction
   - judaism
   - poetry
 draft: false
