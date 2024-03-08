@@ -85,7 +85,7 @@ For context, I built my website with [Hugo](https://gohugo.io/) and [custom them
 8. Check for [broken links](https://marketplace.visualstudio.com/items?itemName=BillDietrich.linkcheckerhtml)
 9. Submit for publication
 
-### Publish on blog
+### Publish on Blog
 
 1. Add description
 2. Add deck
