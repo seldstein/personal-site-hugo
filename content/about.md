@@ -76,14 +76,13 @@ I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https:
 For context, I built my website with [Hugo](https://gohugo.io/) and [custom theme](https://github.com/seldstein/personal-website).
 
 1. Draft in [Obsidian](https://obsidian.md/)
-2. Run Obsidian spellcheck
-3. Run [LanguageTool](https://languagetool.org/)
-4. Run [Grammarly](https://www.grammarly.com/)
-5. Check readability with [Hemingway](https://hemingwayapp.com/)
-6. Paste draft to [VS Code](https://code.visualstudio.com/)
-7. Check Problems tab
-8. Check for [broken links](https://marketplace.visualstudio.com/items?itemName=BillDietrich.linkcheckerhtml)
-9. Submit for publication
+2. Paste into [Hemingway](https://hemingwayapp.com/)
+3. Run [LanguageTool](https://languagetool.org/) extension
+4. Run [Grammarly](https://www.grammarly.com/) extension
+5. Paste into [VS Code](https://code.visualstudio.com/)
+6. Check Problems tab
+7. Check for [broken links](https://marketplace.visualstudio.com/items?itemName=BillDietrich.linkcheckerhtml)
+8. Submit for publication
 
 ### Publish on Blog
 
