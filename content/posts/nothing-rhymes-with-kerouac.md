@@ -1,5 +1,5 @@
 ---
-title: Nothing Rhymes With Kerouac
+title: Nothing Rhymes with Kerouac
 date: 2024-02-13T09:16:25-06:00
 description: A nonsense poem consisting entirely of words that rhyme with Kerouac.
 deck: Not the dumbest thing I've ever done.
@@ -7,8 +7,6 @@ tags:
   - poetry
 draft: false
 ---
-
-NOTHING RHYMES WITH KEROUAC
 
 Jack
 stack
