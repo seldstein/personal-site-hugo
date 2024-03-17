@@ -1,5 +1,5 @@
 ---
-title: What is rain?
+title: What is Rain?
 date: 2024-03-16T08:54:20-05:00
 description: A short essay about how every idea has layers of meaning. Poetry is the art of cutting  through the noise.
 deck: Poetry as a way of thinking.
