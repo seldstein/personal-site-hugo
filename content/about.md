@@ -96,6 +96,7 @@ For context, I built my website with [Hugo](https://gohugo.io/) and [custom them
 8. Commit and push
 9. Send email
 10. Promote
+	1. New blog contests?
 
 ## Personality Tests
 
