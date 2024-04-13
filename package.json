@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@divriots/jampack": "^0.23.3",
     "cssnano": "^6.0.3",
     "postcss": "^8.4.33",
     "postcss-cli": "^11.0.0",

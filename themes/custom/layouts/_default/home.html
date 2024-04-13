@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{/*  {{ define "main" }}
 {{ .Content }}
 {{ range where site.RegularPages "Type" "posts" }}
 <article>
@@ -13,4 +13,23 @@
     {{ .Content }}
 </article>
 {{ end }}
+{{ end }}  */}}
+
+{{ define "main" }}
+{{ .Content }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+{{ range $paginator.Pages }}
+<article>
+    <header class="header-page">
+        {{ partial "date.html" . }}
+        <h2 class="h1">
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </h2>
+        <div class="deck">{{ .Params.Deck }}</div>
+        {{ partial "meta.html" . }}
+    </header>
+    {{ .Content }}
+</article>
+{{ end }}
+{{ template "_internal/pagination.html" $paginator }}
 {{ end }}

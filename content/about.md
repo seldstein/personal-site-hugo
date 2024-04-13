@@ -6,9 +6,9 @@ description: About Sam Feldstein.
 draft: false
 ---
 
-Hi, I’m **Sam Feldstein**. I used to want to be an [author](#published-writing), but lately I'm more interested in web design. I'm fond of [blogs](#blogroll), [books](https://www.goodreads.com/user/show/153965751-sam-feldstein), [movies](https://letterboxd.com/HoogoSteeglitz/), and [photography](https://www.instagram.com/seldstein/).
+Hi, I’m **Sam Feldstein**. I used to want to be an [author](#published-writing), but lately I'm more interested in web design. I'm fond of [blogs](about/#blogroll), [books](https://www.goodreads.com/user/show/153965751-sam-feldstein), [movies](https://letterboxd.com/HoogoSteeglitz/), and [photography](https://www.instagram.com/seldstein/).
 
-The best way to keep up with my work is to subscribe to my [RSS feed](/posts/index.xml). If you don't use RSS, I also have a [mailing list](https://samfeldstein.substack.com/). I only send emails about new posts or important updates (like if I get published somewhere). At this point, that probably averages to once a month.
+The best way to keep up with my work is to subscribe to my [RSS feed](/posts/index.xml). If you don't use RSS, I also have a [mailing list](https://samfeldstein.substack.com/).
 
 ## Things I Use
 
@@ -35,7 +35,7 @@ My go-to dictionaries are:
 
 I track RSS feeds with [NewsBlur](https://newsblur.com/). I used to read and annotate articles with [Readwise](https://readwise.io/) but recently switched to [Omnivore](https://omnivore.app/). Omnivore is open source, feels lighter, and so far doesn't include any annoying features you can't turn off (a la the blue bar to the left of paragraphs in Readwise). It doesn't support video transcription, so I'll keep using Readwise for that and also for its daily review feature. I store my notes and highlights in Obsidian using the plugins mentioned above.
 
-For memorizing facts, quotes, and other information, I use [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition) via [Mnemosyne](https://mnemosyne-proj.org/).
+For memorizing facts, quotes, and other information, I use [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition) via [Anki](https://apps.ankiweb.net/).
 
 For coding, I use [VS Code](https://code.visualstudio.com/).
 
@@ -96,7 +96,6 @@ For context, I built my website with [Hugo](https://gohugo.io/) and [custom them
 8. Commit and push
 9. Send email
 10. Promote
-	1. New blog contests?
 
 ## Personality Tests
 

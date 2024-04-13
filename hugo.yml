@@ -27,7 +27,7 @@ menu:
       url: /posts/index.xml
       weight: 7
     - name: Email
-      url: mailto:samfeldstein@proton.me
+      url: mailto:sam@samfeldstein.xyz
       weight: 8
 
 markup:
@@ -41,15 +41,15 @@ enableGitInfo: true
 frontmatter:
   # If lastmod isn't set in the frontmatter, Hugo uses the git Author Date by default. https://gohugo.io/getting-started/configuration/#configure-front-matter
   lastmod:
-    - lastmod 
+    - lastmod
 
 params:
   description: Sam Feldstein's personal website. Sam is a writer and web developer from Bondurant, IA.
-  email: samfeldstein@proton.me
+  email: sam@samfeldstein.xyz
 
-minify:
-  minifyOutput: true
-  disableXML: true
+# minify:
+#   minifyOutput: true
+#   disableXML: true
 
 # services:
 #   googleAnalytics:
