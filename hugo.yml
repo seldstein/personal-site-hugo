@@ -47,9 +47,9 @@ params:
   description: Sam Feldstein's personal website. Sam is a writer and web developer from Bondurant, IA.
   email: sam@samfeldstein.xyz
 
-# minify:
-#   minifyOutput: true
-#   disableXML: true
+minify:
+  minifyOutput: true
+  disableXML: true
 
 # services:
 #   googleAnalytics:
