@@ -1,4 +1,4 @@
-{{/*  {{ define "main" }}
+{{ define "main" }}
 {{ .Content }}
 {{ range where site.RegularPages "Type" "posts" }}
 <article>
@@ -13,9 +13,9 @@
     {{ .Content }}
 </article>
 {{ end }}
-{{ end }}  */}}
+{{ end }}
 
-{{ define "main" }}
+{{/*  {{ define "main" }}
 {{ .Content }}
 {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
 {{ range $paginator.Pages }}
@@ -32,4 +32,4 @@
 </article>
 {{ end }}
 {{ template "_internal/pagination.html" $paginator }}
-{{ end }}
+{{ end }}  */}}
