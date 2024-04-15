@@ -14,9 +14,6 @@ menu:
     - name: Archive
       url: /posts/
       weight: 3
-    - name: Tags
-      url: /tags/
-      weight: 4
     - name: Github
       url: https://github.com/seldstein/
       weight: 5
@@ -24,7 +21,7 @@ menu:
       url: https://samfeldstein.substack.com/
       weight: 6
     - name: RSS
-      url: /posts/index.xml
+      url: /index.xml
       weight: 7
     - name: Email
       url: mailto:sam@samfeldstein.xyz
