@@ -1,10 +1,17 @@
-<!--
-  - Instructions: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
-  - SVG generator: https://formito.com/tools/favicon
-  - Optimize with SVGO: https://github.com/svg/svgo
-  - Compress images with Squoosh: https://squoosh.app/
--->
-<link rel="icon" type="image/svg+xml" href="/favicon/icon.svg" />
-<link rel="icon" sizes="any" href="/favicon/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-<link rel="manifest" href="/favicon/site.webmanifest">
+{{/*   
+    - https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
+    - Favicon generator: https://realfavicongenerator.net/
+    - Image compressor: https://squoosh.app/
+    - SVG generator: https://formito.com/tools/favicon
+    - SVG optimizer: https://jakearchibald.github.io/svgomg/
+    - Favicon checker: https://realfavicongenerator.net/favicon_checker
+*/}}
+
+<link rel="apple-touch-icon" href="{{ "icons/apple-touch-icon.png" | relURL }}">
+<link rel="icon" type="image/svg+xml" href="{{"icons/favicon.svg" | relURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "icons/favicon-32x32.png" | relURL }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "icons/favicon-16x16.png" | relURL }}">
+<link rel="manifest" href="{{ "icons/site.webmanifest" | relURL }}">
+<link rel="mask-icon" href="{{ "icons/safari-pinned-tab.svg" | relURL }}" color="#000000">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">

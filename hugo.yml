@@ -24,7 +24,7 @@ menu:
       url: /index.xml
       weight: 7
     - name: Email
-      url: mailto:sam@samfeldstein.xyz
+      url: mailto:samfeld95@gmail.com
       weight: 8
 
 markup:
