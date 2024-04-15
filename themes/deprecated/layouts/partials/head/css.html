@@ -1,10 +1,10 @@
-{{- with resources.Get "css/main.css" | resources.Minify}}
-{{- if eq hugo.Environment "development" }}
-<style>{{ .Content | safeCSS }}</style>
-{{- else }}
-{{- with . | resources.Minify | fingerprint }}
-<!-- Load asynchronously: https://gomakethings.com/how-to-load-css-asynchronously/ (Most likely has no effect given inlining: https://www.filamentgroup.com/lab/load-css-simpler/)-->
-<style media="print" onload="this.media='all'; this.onload=null;" blocking="render">{{ .Content | safeCSS }}</style>
-{{- end }}
-{{- end }}
-{{- end }}
+{{ $css := resources.Get "css/styles.css" | minify | postCSS | fingerprint }}
+
+{{/*  {{- if eq hugo.Environment "development" }}  */}}
+{{/*  Include this line if you want to swap out the inlined styles for a link to the stylesheet. Note that you can't just put $css in there or it won't work. You need the .RelPermalink method. */}}
+    {{/*  <link rel="stylesheet" href="{{ $css.RelPermalink }}">  */}}
+    {{/*  {{- else }}  */}}
+
+<style id="css">{{ $css.Content | safeCSS }}</style>
+
+{{/*  {{- end }}  */}}

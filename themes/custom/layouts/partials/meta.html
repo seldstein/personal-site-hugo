@@ -1,9 +1,0 @@
-<div class="container-meta">
-    <ul class="list-meta">
-        {{ range .Params.tags }}
-        <li>
-            #<a href="{{ printf " /tags/%s" . | urlize }}">{{ . }}</a>
-        </li>
-        {{ end }}
-    </ul>
-</div>

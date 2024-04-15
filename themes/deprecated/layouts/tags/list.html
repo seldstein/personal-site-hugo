@@ -1,11 +1,11 @@
 {{ define "main" }}
-<h1 class="display post-title">{{ .Title }}</h1>
-{{ .Content }}
-<ol class="list-page tags-page">
-    {{ range .Pages }}
-    <li class="tags-page-item">
-        #<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-    </li>
+<article>
+<h1>Tags</h1>
+<!-- https://gohugo.io/templates/taxonomy-templates/#render-a-sites-taxonomies -->
+<ul class="tagcloud">
+    {{ range .Site.Taxonomies.tags }}
+    <li>#<a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>({{ .Count }})</li>
     {{ end }}
-</ol>
+</ul>
+</article>
 {{ end }}
