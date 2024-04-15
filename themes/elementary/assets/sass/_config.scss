@@ -1,0 +1,32 @@
+// Global variables
+:root {
+    //Fonts
+    --font-body: var(--font-monospace);
+    --font-display: var(--font-monospace);
+    // https://modernfontstacks.com/
+    --font-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+
+    // Colors
+    --bg-light: white;
+    --bg-dark: black;
+    --text-light: white;
+    --text-dark: black;
+    --accent-first-dark: #184DC9;
+    --accent-first-light: greenyellow;
+    --accent-second-dark: #575757;
+    --accent-second-light: #d4d9dd;
+
+    // Margins
+    --margin-small: 1rem;
+    --margin-medium: 2rem;
+    --margin-large: 3rem;
+
+    // Borders
+    --border-thin: 1px solid;
+
+    // Padding 
+    --padding-small: 1rem;
+}
+
+// Breakpoints
+$breakpoint-desktop: 50rem;

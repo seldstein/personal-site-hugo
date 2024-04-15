@@ -3,6 +3,7 @@ title: About Me
 date: 2023-12-31T17:43:11-06:00
 lastmod: 2024-01-20
 description: About Sam Feldstein.
+toc: true
 draft: false
 ---
 
@@ -73,7 +74,7 @@ I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https:
 
 ## Writing Checklist
 
-For context, I built my website with [Hugo](https://gohugo.io/) and [custom theme](https://github.com/seldstein/personal-website).
+For context, I built my website with [Hugo](https://gohugo.io/) and a [custom theme](https://seldstein.github.io/elementary-theme-demo/).
 
 1. Draft in [Obsidian](https://obsidian.md/)
 2. Paste into [Hemingway](https://hemingwayapp.com/)

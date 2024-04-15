@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article>
+  <header>
+    <h1>Oops!</h1>
+  </header>
+  <p>
+    It looks like this page doesn't exist. If you think this is a mistake,
+    please email me at
+    <a href="mailto:{{ site.Params.author.email }}"
+      >{{ site.Params.author.email }}</a
+    >.
+  </p>
+</article>
+{{ end }}

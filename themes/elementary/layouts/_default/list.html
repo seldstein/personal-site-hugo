@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article>
+  <header class="header-page">
+    <h1>{{ .Title }}</h1>
+  </header>
+  <ul class="tagcloud">
+    {{ range .Site.Taxonomies.tags }}
+    <li>
+      #<a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>({{ .Count }})
+    </li>
+    {{ end }}
+  </ul>
+  <hr>
+  <ol class="list-page">
+    {{ range .Pages }}
+    <li class="list-page-item">
+      {{ partial "date.html" . }}
+      <h2 class="list-page-title">
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      </h2>
+      <div class="deck">{{ .Params.Deck }}</div>
+      {{ partial "meta.html" . }}
+    </li>
+    {{ end }}
+  </ol>
+</article>
+{{ end }}

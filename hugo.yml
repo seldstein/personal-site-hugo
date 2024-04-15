@@ -1,7 +1,7 @@
 baseURL: https://samfeldstein.xyz/
 title: Sam Feldstein
 languageCode: en-us
-theme: custom
+theme: elementary
 
 menu:
   main:
@@ -36,14 +36,15 @@ markup:
       unsafe: true
       hardWraps: true
 
-params:
-  description: Sam Feldstein's personal website. Sam is a writer and web developer from Bondurant, IA.
-  email: sam@samfeldstein.xyz
+paginate: 5
 
 minify:
   minifyOutput: true
   disableXML: true
 
+params:
+  description: Sam Feldstein's personal website. Sam is a writer and web developer from Bondurant, IA.
+  email: sam@samfeldstein.xyz
 # services:
 #   googleAnalytics:
 #     id: G-ECY4M5C4Z8

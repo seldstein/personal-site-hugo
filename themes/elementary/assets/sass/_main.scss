@@ -1,0 +1,218 @@
+@use 'config';
+@use 'placeholders';
+@use 'mixins';
+
+body {
+  @extend %grid;
+  @extend %gap-medium;
+  grid-template-rows: auto 1fr auto;
+  font-family: var(--font-body);
+  max-width: config.$breakpoint-desktop;
+  margin: 1rem auto;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+  }
+}
+
+main {
+  @extend %grid;
+  @extend %gap-medium;
+  grid-template-rows: 1fr;
+
+  > * {
+    @extend %border-thin;
+    @extend %padding-small;
+  }
+
+  // Fixes overflow issue with pre blocks
+  > article {
+    @extend %overflow-auto;
+  }
+}
+
+// https://css-tricks.com/how-to-create-a-skip-to-content-link/
+#skiplink {
+  @extend %border-thin;
+  @extend %text-center;
+  @extend %padding-small;
+  @extend %no-decor;
+  @extend %accent-second-background;
+  position: absolute;
+  top: -100%;
+  text-transform: uppercase;
+
+  &:active,
+  &:focus {
+    top: unset;
+  }
+}
+
+//Header and Footer
+#header-main,
+#footer-main {
+  @extend %text-center;
+  @extend %border-thin;
+  @extend %text-center;
+  padding: 1rem 0;
+
+  ul {
+    @extend %list-flex;
+    @extend %justify-center;
+    gap: .5em 1em;
+  }
+}
+
+#footer-main {
+  @include mixins.intrinsic-size(50px, 300px);
+}
+
+.site-logo {
+  @extend %hover-color;
+  @extend %no-decor;
+  font-size: 1.8rem;
+  display: block;
+}
+
+article {
+  @include mixins.intrinsic-size(800px, 300px);
+}
+
+.table-of-contents {
+  @extend %accent-second-background;
+  @extend %border-thin;
+
+  summary {
+    // Padding applied here to increase click area
+    @extend %padding-small;
+    cursor: pointer;
+  }
+}
+
+// Also styles homepage post titles
+h1,
+.h1 {
+  @extend %text-left;
+  @extend %margin-none;
+  font-size: 2rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+h2,
+.h2 {
+  @extend %text-right;
+  @extend %border-bottom-thin;
+  @extend %margin-top-large;
+  font-size: 1.5rem;
+  padding-bottom: .5rem;
+
+  // Styles homepage post titles
+  > a {
+    @extend %hover-color;
+    @extend %no-decor;
+  }
+}
+
+h4 {
+  font-variant: small-caps;
+}
+
+.header-page {
+  @extend %margin-bottom-small;
+}
+
+p {
+  @media (min-width: config.$breakpoint-desktop) {
+    hyphens: auto;
+    text-align: justify;
+  }
+}
+
+//Links
+a {
+  color: currentColor;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.15em;
+
+  &:hover,
+  &:focus {
+    @extend %no-decor;
+  }
+}
+
+.link-more {
+  @extend %text-center;
+}
+
+.list-page {
+  @extend %list-unstyled;
+}
+
+.list-page-item {
+  @include mixins.intrinsic-size(50px, 300px);
+  margin-bottom: 1.25rem;
+}
+
+.list-page-title {
+  @extend %text-left;
+  @extend %margin-none;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+// Meta
+.container-meta {
+  @extend %meta;
+}
+
+.deck {
+  font-style: italic;
+  margin: 0.2rem auto;
+}
+
+.list-meta {
+  @extend %list-flex;
+  @extend %margin-none;
+  @extend %gap-small;
+}
+
+.tagcloud {
+  @extend %list-meta;
+  @extend %gap-medium;
+  font-size: 1rem;
+}
+
+.date {
+  @extend %accent-second;
+  font-size: .8rem;
+}
+
+// Codeblocks
+pre {
+  @extend %overflow-auto;
+  padding: 0 0.5rem;
+}
+
+code {
+  padding: 0 0.2rem;
+  border-radius: 0.2rem;
+}
+
+// Postnav
+.postnav {
+  @extend %flex;
+  @extend %space-between;
+  @extend %align-center;
+
+  .link-next {
+    @extend %text-right;
+    // Align right when "Prev Post" link doesn't exist
+    margin-inline-start: auto;
+  }
+
+  .title-post {
+    font-size: larger;
+  }
+}

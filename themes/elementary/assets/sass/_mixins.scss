@@ -1,0 +1,10 @@
+@use 'config';
+
+// Delay rendering until element is onscreen
+// https://web.dev/articles/content-visibility
+// Experimental, not widely supported
+@mixin intrinsic-size($height, $width) {
+    content-visibility: auto;
+    // Reserves space for the element
+    contain-intrinsic-size: auto $height auto $width;
+}

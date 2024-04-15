@@ -1,0 +1,5 @@
+{{/*  Grab the css and minify it  */}}
+{{ $css := resources.Get "css/styles.css" | minify | fingerprint }}
+
+{{/*  Inline the css  */}}
+<style id="css">{{ $css.Content | safeCSS }}</style>

@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<meta name="author" content="{{ site.Params.author.name }}">
+{{/*  If a frontmatter description exists, use that. If not, use the default description in hugo.yml.  */}}
+<meta name="description"
+  content="{{ if .IsHome }}{{ site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
+{{/*  Icons  */}}
+{{ partial "head/icons.html" . }}
+{{/*  RSS  */}}
+{{ with .OutputFormats.Get "rss" -}}
+{{ printf `
+<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+{{ end }}
+{{/*  Stylesheet  */}}
+{{ partialCached "head/css.html" . }}

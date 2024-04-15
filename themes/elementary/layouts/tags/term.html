@@ -1,0 +1,20 @@
+{{ define "main" }}
+<article>
+  <header class="header-page">
+    <h1>#{{ .Title | lower }}</h1>
+  </header>
+  {{ .Content }}
+  <ol class="list-page">
+    {{ range .Pages }}
+    <li class="list-page-item">
+      {{ partial "date.html" . }}
+      <h2 class="list-page-title">
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      </h2>
+      <div class="deck">{{ .Params.Deck }}</div>
+      {{ partial "meta.html" . }}
+    </li>
+    {{ end }}
+  </ol>
+</article>
+{{ end }}

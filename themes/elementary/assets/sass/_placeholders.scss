@@ -1,0 +1,157 @@
+@use 'config';
+@use 'mixins';
+
+// Typography
+%lower-case {
+    text-transform: lowercase;
+}
+
+%text-center {
+    text-align: center;
+}
+
+%text-left {
+    text-align: left;
+}
+
+%text-right {
+    text-align: right;
+}
+
+%no-decor {
+    text-decoration: none;
+}
+
+// Colors
+%accent-first {
+    color: var(--accent-first-dark);
+
+    @media (prefers-color-scheme: dark) {
+        color: var(--accent-first-light);
+    }
+}
+
+%accent-second {
+    color: var(--accent-second-dark);
+
+    @media (prefers-color-scheme: dark) {
+        color: var(--accent-second-light);
+    }
+}
+
+%accent-second-background {
+    background-color: var(--accent-second-light);
+
+    @media (prefers-color-scheme: dark) {
+        background-color: var(--accent-second-dark);
+      }
+}
+
+%hover-color {
+    &:hover {
+        @extend %accent-first;
+    }
+}
+
+// Margins
+%margin-none {
+    margin: 0;
+}
+
+%margin-small {
+    margin: var(--margin-small);
+}
+
+%margin-bottom-small {
+    margin-bottom: var(--margin-small);
+}
+
+%margin-bottom-large {
+    margin-bottom: var(--margin-large);
+}
+
+%margin-top-small {
+    margin-top: var(--margin-small);
+}
+
+%margin-top-large {
+    margin-top: var(--margin-large);
+}
+
+// Borders
+%border-thin {
+    border: var(--border-thin);
+}
+
+%border-bottom-thin {
+    border-bottom: var(--border-thin);
+}
+
+// Padding
+%padding-small {
+    padding: var(--padding-small);
+}
+
+// Overflow
+%overflow-auto {
+    overflow: auto;
+}
+
+// Lists
+%list-unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+%list-flex {
+    @extend %list-unstyled;
+    @extend %flex;
+    flex-wrap: wrap;
+}
+
+// Meta
+%meta {
+    @extend %accent-first;
+    @extend %lower-case;
+    font-size: .8rem;
+}
+
+%list-meta {
+    @extend %meta;
+    @extend %list-flex;
+}
+
+// Flexbox
+%flex {
+    display: flex;
+}
+
+%flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+%justify-center {
+    justify-content: center;
+}
+
+%space-between {
+    justify-content: space-between;
+}
+
+%align-center {
+    align-items: center;
+}
+
+%gap-small {
+    gap: .5rem;
+}
+
+%gap-medium {
+    gap: 1rem;
+}
+
+// Grid
+%grid {
+    display: grid;
+}
