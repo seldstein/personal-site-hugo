@@ -8,9 +8,6 @@ menu:
     - name: About
       url: /about/
       weight: 1
-    # - name: Writing Handbook
-    #   url: /writing-handbook/
-    #   weight: 2
     - name: Archive
       url: /posts/
       weight: 3

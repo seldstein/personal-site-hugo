@@ -319,6 +319,9 @@ code {
   border-radius: 0.2rem;
 }
 
+.postnav {
+  text-wrap: balance;
+}
 .postnav .link-next {
   margin-inline-start: auto;
 }
