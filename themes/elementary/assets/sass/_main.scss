@@ -203,12 +203,8 @@ code {
 // Postnav
 .postnav {
   @extend %flex;
-  @extend %space-between;
-  @extend %align-center;
-  text-wrap: balance;
 
   .link-next {
-    @extend %text-right;
     // Align right when "Prev Post" link doesn't exist
     margin-inline-start: auto;
   }

@@ -1,4 +1,4 @@
-{{/*  For blog posts  */}}
+{{/* For blog posts */}}
 
 {{ define "main" }}
 <article>
@@ -19,16 +19,18 @@
   {{ .Content }}
 </article>
 
-{{/*  Prev and Next links  */}}
+{{/* Prev and Next links */}}
 {{ $posts := where .Site.RegularPages.ByWeight "Section" "posts" }}
 {{ if or (.Prev) (.Next) }}
 <nav class="postnav" aria-label="Pagination">
-    {{ with $posts.Prev . }}
-    <a class="link-prev" href="{{ .RelPermalink }}" rel="prev">Previous<br><span class="title-post"><b>{{ .Title }}</b></span></a>
-    {{ end }}
-    {{ with $posts.Next . }}
-    <a class="link-next" href="{{ .RelPermalink }}" rel="next">Next<br><span class="title-post"><b>{{ .Title }}</b></span></a>
-    {{ end }}
+  {{ with $posts.Prev . }}
+  <a class="link-prev" href="{{ .RelPermalink }}" rel="prev">
+    <b>&lt;&lt; Previous</b>
+  </a>
+  {{ end }}
+  {{ with $posts.Next . }}
+  <a class="link-next" href="{{ .RelPermalink }}" rel="next"><b>Next >></b></a>
+  {{ end }}
 </nav>
 {{ end }}
 {{ end }}
