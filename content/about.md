@@ -74,7 +74,7 @@ I built this website with [Hugo](https://gohugo.io/) and a [custom theme](https:
 
 ## Writing Checklist
 
-For context, I built my website with [Hugo](https://gohugo.io/) and a [custom theme](https://seldstein.github.io/elementary-theme-demo/).
+For context, I built my website with [Hugo](https://gohugo.io/) and a [custom theme](https://github.com/seldstein/personal-website).
 
 1. Draft in [Obsidian](https://obsidian.md/)
 2. Paste into [Hemingway](https://hemingwayapp.com/)
