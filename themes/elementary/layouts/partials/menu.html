@@ -1,11 +1,11 @@
 {{ with site.Menus.main }}
-<nav class="menu">
-  {{ range . }}
-  <ul>
-    <a class="active" aria-current="page" href="{{ .URL }}">{{ .Name }}</a>
-    {{ else }}
-    <a href="{{ .URL }}">{{ .Name }}</a>
-    {{ end }}
-  </ul>
-</nav>
+  <nav class="menu">
+    <ul>
+      {{ range . }}
+      <li><a class="active" aria-current="page" href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ else }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
 {{ end }}

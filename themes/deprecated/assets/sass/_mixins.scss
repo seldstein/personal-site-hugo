@@ -1,7 +1,0 @@
-@use 'config';
-
-// https://web.dev/articles/content-visibility
-@mixin intrinsic-size($height, $width) {
-    content-visibility: auto;
-    contain-intrinsic-size: auto $height auto $width;
-}
