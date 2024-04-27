@@ -9,6 +9,7 @@ body {
   font-family: var(--font-body);
   max-width: config.$breakpoint-desktop;
   margin: 1rem auto;
+  padding: 0.5rem;
 
   @media (prefers-color-scheme: dark) {
     background-color: var(--bg-dark);
@@ -55,7 +56,7 @@ main {
   @extend %text-center;
   @extend %border-thin;
   @extend %text-center;
-  padding: 1rem 0;
+  @extend %padding-small;
 
   ul {
     @extend %list-flex;
