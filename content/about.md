@@ -7,7 +7,7 @@ toc: true
 draft: false
 ---
 
-Hi, I’m **Sam Feldstein**. I used to want to be an [author](#published-writing), but lately I'm more interested in web design. I'm fond of [blogs](about/#blogroll), [books](https://www.goodreads.com/user/show/153965751-sam-feldstein), [movies](https://letterboxd.com/HoogoSteeglitz/), and [photography](https://www.instagram.com/seldstein/).
+Hi, I’m **Sam Feldstein**. I used to want to be an [author](#published-writing), but lately I'm more interested in web design. I'm fond of [blogs](#blogroll), [books](https://www.goodreads.com/user/show/153965751-sam-feldstein), [movies](https://letterboxd.com/HoogoSteeglitz/), and [photography](https://www.instagram.com/seldstein/).
 
 The best way to keep up with my work is to subscribe to my [RSS feed](/posts/index.xml). If you don't use RSS, I also have a [mailing list](https://samfeldstein.substack.com/).
 
