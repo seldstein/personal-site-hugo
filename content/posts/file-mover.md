@@ -5,7 +5,7 @@ description: How I built an automatic file-moving tool in Python with ChatGPT.
 deck: Nothing special.
 tags:
   - ai
-  - coding
+  - programming
   - python
   - tools
 draft: false
