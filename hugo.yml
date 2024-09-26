@@ -11,15 +11,6 @@ menu:
     - name: Archive
       url: /posts/
       weight: 3
-    - name: Github
-      url: https://github.com/seldstein/
-      weight: 5
-    - name: Mailing List
-      url: https://samfeldstein.substack.com/
-      weight: 6
-    - name: RSS
-      url: /index.xml
-      weight: 7
     - name: Email
       url: mailto:sam@samfeldstein.xyz
       weight: 8
@@ -37,11 +28,7 @@ minify:
   disableXML: true
 
 params:
-  description: Sam Feldstein's personal website. Sam is a writer and web developer from Bondurant, IA.
+  description: An archived version of Sam Feldstein's personal website.
   author:
     name: Sam Feldstein
     email: sam@samfeldstein.xyz
-
-# services:
-#   googleAnalytics:
-#     id: G-ECY4M5C4Z8
